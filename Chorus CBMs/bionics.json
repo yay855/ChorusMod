@@ -4,8 +4,50 @@
     "name": { "str": "Joint Torsion Ratchet" },
     "description": "Your joints have been surgically equipped with torsion ratchets that slowly generate power when you move.  Whilst this is toggled, moving will require more effort, though more power will be generated.",
     "occupied_bodyparts": [ [ "arm_l", 4 ], [ "arm_r", 4 ], [ "leg_l", 6 ], [ "leg_r", 6 ] ],
-    "fuel_options": [ "muscle" ],
-    "fuel_efficiency": 1.0,
-    "passive_fuel_efficiency": 0.5,
+    "included_bionics": [ "bio_torsion_battery_2" ],
+    "fuel_options": [ "muscle", "c_joint_torsion_batt" ],
+    "fuel_efficiency": 0.05,
+    "passive_fuel_efficiency": 0.0025,
     "flags": [ "BIONIC_POWER_SOURCE", "BIONIC_NPC_USABLE", "BIONIC_TOGGLED" ]
+  },
+{
+    "type": "GENERIC",
+    "//": "pseudo item, used as fuel type for passive joint torsion ratchet.",
+    "id": "c_joint_torsion_batt",
+    "symbol": "?",
+    "color": "white",
+    "name": { "str": "Alphavoltaic Power", "str_pl": "none" },
+    "description": "seeing this is a bug",
+    "stackable": true,
+    "volume": "0 ml",
+    "flags": [ "PSEUDO", "PERPETUAL" ],
+    "fuel": { "energy": 1 }
+  },
+  {
+    "id": "bio_joint_torsion_battery",
+    "//": "This actually does nothing useful, see below.",
+    "type": "bionic",
+    "name": { "str": "Joint Torsion Ratchet" },
+    "description": "The Joint Torsion Ratchet allows one to jog in place or even just flex their muscles in exchange for bionic energy.",
+    "occupied_bodyparts": [ [ "torso", 10 ] ],
+    "flags": [ "BIONIC_SHOCKPROOF" ]
+  },
+  {
+    "id": "bio_torsion_battery_2",
+    "//": "This hides where the actual powergen is defined.  Toggling pure-passive powergen screws up the logic such that it'll only work when off, so of course turning it on needs to be disguised as a safety switch.  5 watts, closer to a bank of RHUs than an RTG, but it outputs ",
+    "type": "bionic",
+    "name": { "str": "Joint Torsion Ratchet Interrupter" },
+    "description": "A switch to shut off the passive power generation for the Joint Torsion Ratchet, should you need it.",
+    "fuel_options": [ "c_joint_torsion_batt", ],
+    "passive_fuel_efficiency": 0.005,
+    "time": 1,
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_POWER_SOURCE", "BIONIC_SHOCKPROOF" ]
+  },
+  {
+    "id": "bio_torsion_battery_2",
+    "//": "Never actually exists, only needed by bionic code for unknown reason to avoid load error.",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Joint Torsion Ratchet Interrupter" },
+    "description": "A system of power control and safety mechanisms normally built into an Atomic Battery system.  Removing it is almost certainly a bad idea."
   },
