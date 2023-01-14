@@ -7,7 +7,7 @@
     "maintainers": [ "ChorusSystem" ],
     "description": "Edits and additions to CBM content, mostly to personal preference and as a learning tool.",
     "category": "content",
-    "dependencies": [ "bn", "Cata++", "aftershock" ],
+    "dependencies": [ "bn", "aftershock" ],
     "obsolete": false
   }
 ]
