@@ -1,0 +1,14 @@
+[
+  {
+    "type": "recipe",
+    "result": "tonfa_wood",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_BASHING",
+    "skill_used": "fabrication",
+    "skills_required": [ "fabrication", 3 ],
+    "difficulty": 4,
+    "time": "30 m",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "2x4", 1 ], [ "stick", 2 ] ] ]
+  }
+]

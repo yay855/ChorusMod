@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "category": "weapons",
+    "id": "tonfa_wood",
+    "name": { "str": "wooden tonfa" },
+    "description": "A stout wooden truncheon of the sort commonly employed by police.  Originally an Okinawan weapon, it consists of a stick with a perpendicular handle attached a third of the way down its length.",
+    "weight": "921 g",
+    "to_hit": 2,
+    "price_postapoc": 750,
+    "color": "brown",
+    "symbol": "/",
+    "material": [ "wood" ],
+    "techniques": [ "WBLOCK_2", "RAPID" ],
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "BELT_CLIP", "NONCONDUCTIVE" ],
+    "volume": "2 L",
+    "bashing": 20,
+    "price": 19500
+  }
+]

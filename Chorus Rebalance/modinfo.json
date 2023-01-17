@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Chorus Rebalance",
+    "name": "Chorus's Rebalance",
+    "authors": [ "ChorusSystem" ],
+    "maintainers": [ "ChorusSystem" ],
+    "description": "Edits and additions to weaponry, mostly to personal preference and as a learning tool.",
+    "category": "content",
+    "dependencies": [ "bn" ],
+    "obsolete": false
+  }
+]
