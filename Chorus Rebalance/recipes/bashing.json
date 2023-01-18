@@ -34,6 +34,6 @@
     "time": "4 h",
     "autolearn": true,
     "using": [ [ "blacksmithing_standard", 12 ], [ "steel_standard", 3 ] ],
-    "components": [ [ [ "material_aluminium_ingot", 8 ] ] ]
+    "components": [ [ [ "material_aluminium_ingot", 3 ] ] ]
   }
 ]
