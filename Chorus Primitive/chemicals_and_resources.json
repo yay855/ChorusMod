@@ -1,0 +1,34 @@
+[
+  {	
+	"type": "GENERIC",
+    "id": "material_iron",
+    "symbol": "*",
+    "color": "light_red",
+    "name": { "str": "iron ore" },
+    "category": "spare_parts",
+    "description": "A small shard of iron ore rock.  Pretty flimsy and not much of a weapon, but it can be smelted.",
+    "price": 500,
+    "price_postapoc": 10,
+    "material": "stone",
+    "weight": "700 g",
+    "volume": "1 L",
+    "bashing": 2,
+    "to_hit": -2
+  },
+  {	
+	"type": "GENERIC",
+    "id": "material_copper",
+    "symbol": ",",
+    "color": "light_red",
+    "name": { "str": "copper ore" },
+    "category": "spare_parts",
+    "description": "A small shard of copper ore rock.  Pretty flimsy and not much of a weapon, but it can be smelted.",
+    "price": 500,
+    "price_postapoc": 10,
+    "material": "stone",
+    "weight": "800 g",
+    "volume": "1 L",
+    "bashing": 2,
+    "to_hit": -2
+  }
+]

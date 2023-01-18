@@ -1,0 +1,25 @@
+[
+  {
+    "id": "backpack_straw",
+    "type": "ARMOR",
+    "name": { "str": "Pack basket" },
+    "description": "A small belted basket.",
+    "weight": "818 g",
+    "volume": "2 L",
+    "price": 11900,
+    "price_postapoc": 500,
+    "material": [ "paper" ],
+    "symbol": "[",
+    "looks_like": "backpack",
+    "color": "brown",
+    "covers": [ "torso" ],
+    "coverage": 30,
+    "rigid": false,
+    "encumbrance": 10,
+    "max_encumbrance": 15,
+    "storage": "8 L",
+    "warmth": 1,
+    "material_thickness": 1,
+    "flags": [ "BELTED", "WATER_FRIENDLY" ]
+  }
+]

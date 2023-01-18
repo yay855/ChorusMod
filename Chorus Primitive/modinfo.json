@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Chorus Primitive",
+    "name": "Chorus's Primitive Living",
+    "authors": [ "ChorusSystem" ],
+    "maintainers": [ "ChorusSystem" ],
+    "description": "Things ripped from Wild Living, but without sacrificing preexisting structures and non-foraged loot.",
+    "category": "content",
+    "dependencies": [ "bn" ],
+    "obsolete": false
+  }
+]

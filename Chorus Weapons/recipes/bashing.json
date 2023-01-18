@@ -35,5 +35,40 @@
     "autolearn": true,
     "using": [ [ "blacksmithing_standard", 12 ], [ "steel_standard", 3 ] ],
     "components": [ [ [ "material_aluminium_ingot", 3 ] ], [ [ "fur", 2 ], [ "leather", 2 ] ] ]
+  },
+    {
+    "result": "wood_nunchuk",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_BASHING",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "36 m 40 s",
+    "reversible": false,
+    "autolearn": true,
+    "book_learn": [ [ "textbook_weapeast", 8 ] ],
+    "qualities": [
+      { "id": "CUT", "level": 1 }
+    ],
+    "using": [ [ "cordage", 1 ] ],
+    "components": [
+      [ [ "2x4", 1 ], [ "stick", 2] ]
+    ]
+  },
+  {
+    "result": "steel_nunchuk",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_BASHING",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "time": "36 m 40 s",
+    "reversible": false,
+    "autolearn": true,
+    "using": [ [ "blacksmithing_standard", 12 ], [ "steel_standard", 3 ] ],
+    "components": [
+      [ [ "chain", 1 ] ],
+      [ [ "fur", 2 ], [ "leather", 2 ] ]
+    ]
   }
 ]

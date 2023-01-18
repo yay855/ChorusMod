@@ -1,0 +1,15 @@
+[
+  {
+    "type": "construction",
+    "id": "constr_forge_clay",
+    "description": "Place Forge",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "1 m",
+    "components": [ [ [ "char_forge_clay", 1 ] ] ],
+    "pre_note": "Can be deconstructed without tools.",
+    "pre_special": "check_empty",
+    "dark_craftable": true,
+    "post_furniture": "f_forge_clay"
+  }
+]
