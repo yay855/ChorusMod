@@ -12,9 +12,126 @@
     "symbol": "/",
     "material": [ "wood" ],
     "techniques": [ "WBLOCK_2", "RAPID" ],
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "BELT_CLIP", "NONCONDUCTIVE" ],
+    "flags": [ "DURABLE_MELEE", "BELT_CLIP" ],
     "volume": "2 L",
     "bashing": 20,
-    "price": 19500
+    "price": 19500,
+    "use_action": {
+    "type": "transform",
+    "msg": "You shift your grip on the tonfa.",
+    "target": "tonfa_wood_unarmed"
+    }
+  },
+  {
+    "type": "GENERIC",
+    "category": "weapons",
+    "id": "tonfa_wood_unarmed",
+    "name": { "str": "wooden tonfa (punching grip)" },
+    "description": "A stout wooden truncheon held in a grip to serve more as protection and a minor blunt striking point, useful for martial artists.",
+    "weight": "921 g",
+    "to_hit": 2,
+    "price_postapoc": 750,
+    "color": "brown",
+    "symbol": "/",
+    "material": [ "wood" ],
+    "techniques": [ "WBLOCK_2", "RAPID" ],
+    "flags": [ "DURABLE_MELEE", "BELT_CLIP", "UNARMED_WEAPON" ],
+    "volume": "2 L",
+    "bashing": 2,
+    "price": 19500,
+    "use_action": {
+    "type": "transform",
+    "msg": "You shift your grip on the tonfa.",
+    "target": "tonfa_wood"
+    }
+  },
+  {
+	"type": "GENERIC",
+    "category": "weapons",
+    "id": "tonfa_capped",
+    "name": { "str": "iron-capped tonfa" },
+    "description": "A wooden tonfa with small bits of metal wrapped around the ends, meant to bash zombie skulls in that much harder.",
+    "weight": "946 g",
+    "to_hit": 2,
+    "price_postapoc": 900,
+    "color": "brown",
+    "symbol": "/",
+    "material": [ "wood", "iron" ],
+    "looks_like": "tonfa_wood",
+    "techniques": [ "WBLOCK_2", "RAPID" ],
+    "flags": [ "DURABLE_MELEE", "BELT_CLIP" ],
+    "volume": "2 L",
+    "bashing": 25,
+        "use_action": {
+    "type": "transform",
+    "msg": "You shift your grip on the tonfa.",
+    "target": "tonfa_capped_unarmed"
+    }
+  },
+  {
+    "type": "GENERIC",
+    "category": "weapons",
+    "id": "tonfa_capped_unarmed",
+    "name": { "str": "iron-capped tonfa (punching grip)" },
+    "description": "An iron-capped tonfa held in a grip to serve more as protection and a blunt striking point, useful for martial artists.",
+    "weight": "921 g",
+    "to_hit": 2,
+    "price_postapoc": 900,
+    "color": "brown",
+    "symbol": "/",
+    "material": [ "wood", "iron" ],
+    "looks_like": "tonfa_wood",
+    "techniques": [ "WBLOCK_2", "RAPID" ],
+    "flags": [ "DURABLE_MELEE", "BELT_CLIP", "UNARMED_WEAPON" ],
+    "volume": "2 L",
+    "bashing": 8,
+    "use_action": {
+    "type": "transform",
+    "msg": "You shift your grip on the tonfa.",
+    "target": "tonfa_capped"
+        }
+  },
+  {
+    "type": "GENERIC",
+    "category": "weapons",
+    "id": "tonfa_metal",
+    "name": { "str": "metal tonfa" },
+    "description": "A tonfa made out of an aluminum core with a steel outer plating, for something lightweight yet with a punch to it.",
+    "weight": "921 g",
+    "to_hit": 1,
+    "price_postapoc": 1500,
+    "color": "dark_gray",
+    "symbol": "/",
+    "material": [ "steel", "aluminum" ],
+    "techniques": [ "WBLOCK_2", "RAPID", "PRECISE" ],
+    "flags": [ "DURABLE_MELEE", "BELT_CLIP" ],
+    "volume": "2 L",
+    "bashing": 45,
+    "use_action": {
+    "type": "transform",
+    "msg": "You shift your grip on the tonfa.",
+    "target": "tonfa_metal_unarmed"
+        }
+  },  {
+    "type": "GENERIC",
+    "category": "weapons",
+    "id": "tonfa_metal_unarmed",
+    "name": { "str": "metal tonfa (punching grip)" },
+    "description": "A metal tonfa held in a grip to serve more as protection and a blunt striking point, useful for martial artists.",
+    "weight": "921 g",
+    "to_hit": 1,
+    "price_postapoc": 1500,
+    "color": "brown",
+    "symbol": "/",
+    "material": [ "steel", "aluminum" ],
+    "techniques": [ "WBLOCK_2", "RAPID", "PRECISE" ],
+    "flags": [ "DURABLE_MELEE", "BELT_CLIP", "UNARMED_WEAPON" ],
+    "volume": "2 L",
+    "bashing": 20,
+    "use_action": {
+    "type": "transform",
+    "msg": "You shift your grip on the tonfa.",
+    "target": "tonfa_metal"
+        }
   }
 ]

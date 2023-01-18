@@ -5,10 +5,35 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_BASHING",
     "skill_used": "fabrication",
-    "skills_required": [ "fabrication", 3 ],
     "difficulty": 4,
     "time": "30 m",
+    "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "2x4", 1 ], [ "stick", 2 ] ] ]
+  },
+    {
+    "type": "recipe",
+    "result": "tonfa_capped",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_BASHING",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "15 m",
+    "using": [ [ "steel_standard", 1 ] ],
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
+    "components": [ [ [ "tonfa_wood", 1 ] ] ]
+  },
+      {
+    "type": "recipe",
+    "result": "tonfa_metal",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_BASHING",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "time": "4 h",
+    "autolearn": true,
+    "using": [ [ "blacksmithing_standard", 12 ], [ "steel_standard", 3 ] ],
+    "components": [ [ [ "material_aluminium_ingot", 8 ] ] ]
   }
 ]
