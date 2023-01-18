@@ -1,0 +1,21 @@
+[
+  {
+    "type": "mutation",
+    "id": "WINGS_BAT",
+    "name": { "str": "Bat Wings" },
+    "points": 2,
+    "visibility": 9,
+    "ugliness": 4,
+    "description": "You have a pair of leathery wings sticking out of your back. They're too small for flight, but you can flap them to gain speed.",
+    "types": [ "WINGS" ],
+    "prereqs": [ "WINGS_STUB" ],
+    "dodge_modifier": 3,
+    "active": true,
+    "cost": 20,
+    "time": 10,
+    "fatigue": true,
+    "hunger": true,
+    "thirst": true,
+    "movecost_modifier": 0.75
+  }
+]
