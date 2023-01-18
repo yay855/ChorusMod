@@ -8,9 +8,9 @@
     "difficulty": 5,
     "time": "3 h",
     "autolearn": true,
-    "using": [ [ "earthenware_firing", 2 ], ["copper_scrap_equivalent", 30],  [ "forging_standard", 2 ], [ "steel_standard", 2 ]  ],
     "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "using": [ [ "steel_standard", 2 ], [  "earthenware_firing", 2 ] ],
     "components": [ [ [ "2x4", 2 ], [ "stick", 4 ] ] ]
   },
   {
