@@ -60,7 +60,7 @@
     "material": [ "wood", "steel" ],
     "looks_like": "tonfa_wood",
     "techniques": [ "WBLOCK_2", "RAPID" ],
-    "flags": [ "DURABLE_MELEE", "BELT_CLIP" ],
+    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "BELT_CLIP" ],
     "volume": "1500 ml",
     "bashing": 25,
         "use_action": {
@@ -83,7 +83,7 @@
     "material": [ "wood", "steel" ],
     "looks_like": "tonfa_wood",
     "techniques": [ "WBLOCK_2", "RAPID" ],
-    "flags": [ "DURABLE_MELEE", "BELT_CLIP", "UNARMED_WEAPON" ],
+    "flags": [ "DURABLE_MELEE", "BELT_CLIP", "NONCONDUCTIVE", "UNARMED_WEAPON" ],
     "volume": "1500 ml",
     "bashing": 8,
     "use_action": {
