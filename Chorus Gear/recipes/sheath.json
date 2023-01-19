@@ -1,0 +1,15 @@
+[
+  {
+    "result": "club_holster",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "skills_required": [ "melee", 1 ],
+    "time": "40 m",
+    "autolearn": true,
+    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "leather", 5 ], [ "fur", 5 ] ], [ [ "filament", 10, "LIST" ] ] ]
+  }
+]
