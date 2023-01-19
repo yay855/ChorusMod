@@ -1,0 +1,47 @@
+[
+  {
+    "result": "air_grinder",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "skills_required": [ [ "mechanics", 3 ] ],
+    "time": "5 h",
+    "autolearn": [ [ "mechanics", 3 ] ],
+    "book_learn": [
+      [ "manual_mechanics", 3 ],
+      [ "textbook_mechanics", 2 ],
+      [ "advanced_electronics", 4 ],
+      [ "textbook_electronics", 4 ],
+      [ "textbook_carpentry", 5 ]
+    ],
+    "using": [ [ "blacksmithing_standard", 8 ], [ "steel_standard", 2 ] ],
+    "components": [
+      [ [ "grinder_blade", 1 ] ]
+    ]
+  },
+  {
+	  "result": "scalpel",
+	  "type": "recipe",
+	  "category": "CC_OTHER",
+	  "subcategory": "CSC_OTHER_TOOLS",
+	  "skill_used": "fabrication",
+	  "difficulty": 8,
+	  "time": "3 h",
+	  "autolearn": [ [ "fabrication", 9 ] ],
+      "using": [ [ "blacksmithing_standard", 4 ], [ "steel_standard", 1 ] ],
+      "qualities": [ { "id": "GRIND", "level": 2 } ]
+  },
+  {
+	  "result": "xacto",
+	  "type": "recipe",
+	  "category": "CC_OTHER",
+	  "subcategory": "CSC_OTHER_TOOLS",
+	  "skill_used": "fabrication",
+	  "difficulty": 7,
+	  "time": "2 h 30 m",
+	  "autolearn": [ [ "fabrication", 7 ] ],
+      "using": [ [ "blacksmithing_standard", 4 ], [ "steel_standard", 1 ] ]
+  }
+]

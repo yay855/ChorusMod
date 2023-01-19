@@ -11,5 +11,26 @@
     "autolearn": true,
     "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "leather", 5 ], [ "fur", 5 ] ], [ [ "filament", 10, "LIST" ] ] ]
+  },
+  {
+    "result": "survbelt_chorus",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "tailor", 6 ],
+    "time": "1 m 40 s",
+    "reversible": false,
+    "autolearn": true,
+    "using": [ [ "filament", 10 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 } ],
+    "components": [
+      [ [ "survivor_belt", 1 ] ],
+      [ [ "e_tool", 1 ] ],
+      [ [ "crowbar", 1 ] ],
+      [ [ "butchering_kit", 1 ] ],
+      [ [ "scalpel", 1 ] ]
+    ]
   }
 ]

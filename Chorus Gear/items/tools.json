@@ -1,0 +1,21 @@
+[
+    {
+    "id": "air_grinder",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "air grinder" },
+    "description": "This widespread powertool is often used for removing excess material or polishing surfaces. This particular one is designed to run off of compressed air.",
+    "weight": "2780 g",
+    "volume": "1750 ml",
+    "price": 5000,
+    "price_postapoc": 250,
+    "to_hit": -3,
+    "bashing": 2,
+    "cutting": 2,
+    "material": [ "steel" ],
+    "looks_like": "angle_grinder",
+    "symbol": "/",
+    "color": "light_gray",
+    "qualities": [ [ "GRIND", 2 ] ]
+  }
+]
