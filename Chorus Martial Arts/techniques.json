@@ -1,4 +1,12 @@
  [
+    {
+    "type": "technique",
+    "id": "tec_shock_punch",
+    "name": "Shocking Punch",
+    "messages": [ "You electrically punch %s", "<npcname> throws a shocking punch at %s" ],
+    "unarmed_allowed": true,
+    "flat_bonuses": [ { "stat": "damage", "type": "electric", "scale": 2.0 }, { "stat": "damage", "type": "electric", "scaling-stat": "int", "scale": 0.5 } ]
+  },
   {
     "type": "technique",
     "id": "tec_shock_counter",
@@ -7,9 +15,9 @@
     "skill_requirements": [ { "name": "unarmed", "level": 4 } ],
     "unarmed_allowed": true,
     "dodge_counter": true,
-    "crit_tec": false,
     "stun_dur": 1,
-    "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 }, { "stat": "damage", "type": "electric", "scale": 1.25 } ]
+    "flat_bonuses": [ { "stat": "damage", "type": "electric", "scale": 2.0 }, { "stat": "damage", "type": "electric", "scaling-stat": "int", "scale": 1.0 } ],
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 } ]
   },
     {
     "type": "technique",
@@ -21,6 +29,7 @@
     "crit_tec": true,
     "stun_dur": 2,
     "down_dur": 2,
-    "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 }, { "stat": "damage", "type": "electric", "scale": 2.0 } ]
+    "flat_bonuses": [ { "stat": "damage", "type": "electric", "scale": 2.0 }, { "stat": "damage", "type": "electric", "scaling-stat": "int", "scale": 2.0 } ],
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 } ]
   }
  ]

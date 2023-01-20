@@ -3,7 +3,7 @@
     "type": "martial_art",
     "id": "style_ch_shocking",
     "name": { "str": "Peppercat's Claws" },
-    "description": "A martial arts style based on an old children's series about robots with military-grade armaments. This particular style hones your inner energy to shock your foes using your intelligence and dexterity.",
+    "description": "A martial arts style based on an old children's series about robots with military-grade armaments. This particular style is highly aggressive, relying on dodging and stunning enemies.",
     "initiate": [ "Your hands crackle with electricity.", "%s prepares to shock their enemies." ],
     "learn_difficulty": 6,
     "primary_skill": "electronics",
@@ -13,17 +13,10 @@
       {
         "id": "buff_shock_static",
         "name": "Electrical Claws",
-        "description": "Your energy runs through you, causing all attacks to deal electrical damage.",
+        "description": "Your energy runs through you, causing your attacks to become stronger with your ability to focus and making you move and dodge faster, but reducing your ability to block strikes.",
         "unarmed_allowed": true,
-        "flat_bonuses": [ { "stat": "block", "scale": -2 }, { "stat": "damage", "type": "electric", "scaling-stat": "int", "scale": 0.25 } ]
-      },
-      {
-        "id": "buff_shock_armor_speed",
-        "name": "Reduced Armor",
-        "description": "You have given up armor in favor of raw speed.",
-        "skill_requirements": [ { "name": "unarmed", "level": 3 } ],
-        "unarmed_allowed": true,
-        "flat_bonuses": [ { "stat": "dodge", "scaling-stat": "dex", "scale": 0.25 }, { "stat": "speed", "scaling-stat": "dex", "scale": 0.25 }, { "stat": "armor", "type": "bash", "scale": -3.0 }, 
+        "flat_bonuses": [ { "stat": "block", "scale": -2 }, { "stat": "dodge", "scaling-stat": "dex", "scale": 0.25 }, 
+        { "stat": "speed", "scaling-stat": "dex", "scale": 0.25 }, { "stat": "armor", "type": "bash", "scale": -3.0 }, 
       { "stat": "armor", "type": "cut", "scale": -3.0 }, { "stat": "armor", "type": "stab", "scale": -3.0 } ]
       }
     ],
@@ -31,7 +24,7 @@
       {
         "id": "buff_shock_ondodge",
         "name": "Counter Chance",
-        "description": "Your foe left an opening!\n\n+25% Electric damage.\nLasts for 1 turn.",
+        "description": "Your foe left an opening!\n\nMove into a better position.\nLasts for 1 turn.",
         "skill_requirements": [ { "name": "unarmed", "level": 5 } ],
         "unarmed_allowed": true,
         "buff_duration": 1,
@@ -45,9 +38,11 @@
         "name": "Feint",
         "description": "You  move, baiting your foe into striking.",
         "unarmed_allowed": true,
+        "buff_duration": 3,
+        "max_stacks": 3,
         "bonus_dodges": 1
       }
     ],
-    "techniques": [ "tec_shock_counter", "tec_shock_crit" ]
+    "techniques": [ "tec_shock_punch", "tec_shock_counter", "tec_shock_crit" ]
   }
 ]

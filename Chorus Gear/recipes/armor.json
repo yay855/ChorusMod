@@ -50,7 +50,7 @@
   {
 	"result": "mask_dust",
 	"type": "recipe",
-	"categor": "CC_ARMOR",
+	"category": "CC_ARMOR",
 	"subcategory": "CSC_ARMOR_HEAD",
 	"skill_used": "tailor",
 	"difficulty": 2,

@@ -2,7 +2,6 @@
   {
     "type": "construction",
     "id": "constr_forge_clay",
-    "description": "Place Forge",
     "category": "FURN",
     "required_skills": [ [ "fabrication", 0 ] ],
     "time": "1 m",

@@ -39,14 +39,14 @@
           "lsurvivor_suit",
           "gloves_fingerless",
           "socks",
-          "cargo_boots",
+          "boots",
           "backpack",
           "wristwatch",
           "tonfa_capped"
-        ],
-      "male": [ "boxer_shorts" ],
+          ]
+      },
+      "male": [ "boxer_briefs" ],
       "female": [ "unitard" ]
     }
   }
-}
 ]
