@@ -146,7 +146,46 @@
       [ [ "link_sheet", 2 ], [ "chainmail_feet", 1 ] ],
       [ [ "chain_link", 500 ] ],
       [ [ "wire", 5 ] ],
+      [ [ "rag", 26 ] ],
+      [ [ "cable", 5 ] ]
+    ]
+  },
+    {
+    "result": "chainmail_skin",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ "tailor", 3 ],
+    "time": "14 m",
+    "reversible": false,
+    "autolearn": true,
+    "book_learn": [ [ "textbook_fabrication", 6 ], [ "advanced_electronics", 6 ], [ "textbook_electronics", 6 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "chain_link", 10000 ] ],
+      [ [ "wire", 20 ] ],
       [ [ "rag", 26 ] ]
+    ]
+  },
+      {
+    "result": "chainmail_skin_faraday",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ "tailor", 3 ],
+    "time": "14 m",
+    "reversible": false,
+    "autolearn": true,
+    "book_learn": [ [ "textbook_fabrication", 6 ], [ "advanced_electronics", 6 ], [ "textbook_electronics", 6 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "chainmail_skin", 1 ] ],
+      [ [ "wire", 10 ] ],
+      [ [ "cable", 20 ] ]
     ]
   }
 ]
