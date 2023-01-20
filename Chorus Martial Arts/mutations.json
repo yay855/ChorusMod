@@ -1,0 +1,12 @@
+[
+  {
+    "type": "mutation",
+    "id": "MARTIAL_ARTS_CH",
+    "name": { "str": "Obscure Martial Art" },
+    "points": 2,
+    "description": "You have, somehow, learned a martial art that is downright bizarre in nature. How did anyone even come up with these? You start with Peppercat's Claws.",
+    "starting_trait": true,
+    "initial_ma_styles": [ "style_ch_shocking" ],
+    "valid": false
+  }
+]

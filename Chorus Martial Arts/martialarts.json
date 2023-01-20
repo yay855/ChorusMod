@@ -1,0 +1,53 @@
+ [
+   {
+    "type": "martial_art",
+    "id": "style_ch_shocking",
+    "name": { "str": "Peppercat's Claws" },
+    "description": "A martial arts style based on an old children's series about robots with military-grade armaments. This particular style hones your inner energy to shock your foes using your intelligence and dexterity.",
+    "initiate": [ "Your hands crackle with electricity.", "%s prepares to shock their enemies." ],
+    "learn_difficulty": 6,
+    "primary_skill": "electronics",
+    "arm_block_with_bio_armor_arms": true,
+    "leg_block_with_bio_armor_legs": true,
+    "static_buffs": [
+      {
+        "id": "buff_shock_static",
+        "name": "Electrical Claws",
+        "description": "Your energy runs through you, causing all attacks to deal electrical damage.",
+        "unarmed_allowed": true,
+        "flat_bonuses": [ { "stat": "block", "scale": -2 }, { "stat": "damage", "type": "electric", "scaling-stat": "int", "scale": 0.25 } ]
+      },
+      {
+        "id": "buff_shock_armor_speed",
+        "name": "Reduced Armor",
+        "description": "You have given up armor in favor of raw speed.",
+        "skill_requirements": [ { "name": "unarmed", "level": 3 } ],
+        "unarmed_allowed": true,
+        "flat_bonuses": [ { "stat": "dodge", "scaling-stat": "dex", "scale": 0.25 }, { "stat": "speed", "scaling-stat": "dex", "scale": 0.25 }, { "stat": "armor", "type": "bash", "scale": -3.0 }, 
+      { "stat": "armor", "type": "cut", "scale": -3.0 }, { "stat": "armor", "type": "stab", "scale": -3.0 } ]
+      }
+    ],
+    "ondodge_buffs": [
+      {
+        "id": "buff_shock_ondodge",
+        "name": "Counter Chance",
+        "description": "Your foe left an opening!\n\n+25% Electric damage.\nLasts for 1 turn.",
+        "skill_requirements": [ { "name": "unarmed", "level": 5 } ],
+        "unarmed_allowed": true,
+        "buff_duration": 1,
+        "max_stacks": 2,
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.5 } ]
+      }
+    ],
+    "onmove_buffs": [
+      {
+        "id": "buff_shock_onmove",
+        "name": "Feint",
+        "description": "You  move, baiting your foe into striking.",
+        "unarmed_allowed": true,
+        "bonus_dodges": 1
+      }
+    ],
+    "techniques": [ "tec_shock_counter", "tec_shock_crit" ]
+  }
+]

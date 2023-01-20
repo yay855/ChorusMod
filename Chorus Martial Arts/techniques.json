@@ -1,0 +1,26 @@
+ [
+  {
+    "type": "technique",
+    "id": "tec_shock_counter",
+    "name": "Lightning Counter",
+    "messages": [ "You cross-counter %s", "<npcname> throws a perfect counter at %s" ],
+    "skill_requirements": [ { "name": "unarmed", "level": 4 } ],
+    "unarmed_allowed": true,
+    "dodge_counter": true,
+    "crit_tec": false,
+    "stun_dur": 1,
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 }, { "stat": "damage", "type": "electric", "scale": 1.25 } ]
+  },
+    {
+    "type": "technique",
+    "id": "tec_shock_crit",
+    "name": "Lightning Jump",
+    "messages": [ "You jump on top of and shock %s", "<npcname> jumps on top of and shocks %s" ],
+    "skill_requirements": [ { "name": "unarmed", "level": 6 } ],
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "stun_dur": 2,
+    "down_dur": 2,
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 }, { "stat": "damage", "type": "electric", "scale": 2.0 } ]
+  }
+ ]

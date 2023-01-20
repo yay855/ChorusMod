@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Chorus_MA",
+    "name": "Chorus's Martial Arts",
+    "authors": [ "ChorusSystem" ],
+    "maintainers": [ "ChorusSystem" ],
+    "description": "Custom martial arts styles. Perhaps not the most realistic!",
+    "category": "content",
+    "dependencies": [ "bn" ],
+    "obsolete": false
+  }
+]

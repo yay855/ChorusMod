@@ -1,0 +1,29 @@
+[
+  {
+    "id": "exotic_books",
+    "type": "item_group",
+    "//": "These are books that are hard to find or esoteric, mostly.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "manual_ch_peppercat", "prob": 24 }
+    ]
+  },
+   {
+    "id": "rare_martial_arts_books",
+    "type": "item_group",
+    "//": "These are exceptionally rare martial arts books that should only spawn very rarely.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "manual_ch_peppercat", "prob": 24 }
+    ]
+  },
+    {
+    "type": "item_group",
+    "id": "book_martial",
+    "//": "Books about martial arts",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "manual_ch_peppercat", "prob": 24 }
+    ]
+  }
+]
