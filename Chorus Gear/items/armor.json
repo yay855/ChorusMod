@@ -1,0 +1,26 @@
+[
+  {
+    "id": "tinted_goggles",
+    "repairs_like": "goggles_swim",
+    "type": "ARMOR",
+    "name": { "str": "pair of tinted goggles", "str_pl": "pairs of tinted goggles" },
+    "description": "A pair of thick plastic glasses, used in workshops, sports, chemistry labs, and many other places.  Provides great protection from damage and from bright lights.",
+    "weight": "60 g",
+    "volume": "250 ml",
+    "price": 1000,
+    "price_postapoc": 350,
+    "to_hit": -2,
+    "material": [ "plastic", "glass" ],
+    "symbol": "[",
+    "looks_like": "glasses_eye",
+    "color": "dark_gray",
+    "covers": [ "eyes" ],
+    "coverage": 95,
+    "encumbrance": 6,
+    "warmth": 0,
+    "material_thickness": 3,
+    "environmental_protection": 1,
+    "qualities": [ [ "GLARE", 1 ] ],
+    "flags": [ "WATER_FRIENDLY", "OUTER", "SUN_GLASSES" ]
+  }
+]

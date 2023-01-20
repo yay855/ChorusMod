@@ -1,0 +1,9 @@
+[
+  {
+    "result": "tinted_goggles",
+    "type": "uncraft",
+    "time": "30 m",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "plastic_chunk", 2 ] ], [ [ "cordage_superior", 1, "LIST" ] ], [ [ "glass_tinted", 1 ] ] ]
+  }
+]
