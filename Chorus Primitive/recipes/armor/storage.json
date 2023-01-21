@@ -4,8 +4,9 @@
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_STORAGE",
-    "skill_used": "tailor",
-    "difficulty": 3,
+    "skill_used": "survival",
+    "difficulty": 1,
+    "skills_required": [ "tailoring", 3 ],
     "time": "50 m",
     "autolearn": true,
     "components": [ [ [ "straw_pile", 30 ], [ "birchbark", 30 ] ] ]
