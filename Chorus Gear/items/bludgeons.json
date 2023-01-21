@@ -169,5 +169,25 @@
     "symbol": "v",
     "color": "black",
     "flags": [ "DURABLE_MELEE", "UNARMED_WEAPON", "REACH_ATTACK", "BELT_CLIP" ]
+  },
+      {
+	"type": "GENERIC",
+    "id": "flanged_mace",
+    "category": "weapons",
+    "name": { "str": "flanged mace" },
+    "description": "A type of mace with prongs on the side of the ball, making it puncture armor.",
+    "weight": "630 g",
+    "volume": "1 L",
+    "price": 10000,
+    "to_hit": -2,
+    "bashing": 25,
+    "cutting": 25,
+    "armor_penetration": 25,
+    "material": [ "steel" ],
+    "looks_like": "mace",
+    "symbol": "v",
+    "color": "dark_gray",
+    "techniques": [ "SWEEP" ],
+    "flags": [ "DURABLE_MELEE", "BELT_CLIP", "NONCONDUCTIVE" ]
   }
 ]
