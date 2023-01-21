@@ -1,0 +1,20 @@
+[
+  {
+    "type": "recipe",
+    "result": "spear_stone",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_PIERCING",
+    "skill_used": "fabrication",
+    "skills_required": [ "survival", 4 ],
+    "difficulty": 2,
+    "time": "2 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "stick_long", 1 ] ],
+      [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+      [ [ "cordage_short", 1, "LIST" ], [ "filament", 50, "LIST" ], [ "duct_tape", 15 ] ],
+      [ [ "rock", 1 ], [ "ceramic_shard", 1 ], [ "sharp_rock", 1 ] ]
+    ]
+  }
+]

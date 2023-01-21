@@ -1,0 +1,22 @@
+[
+  {
+    "id": "spear_stone",
+    "type": "GENERIC",
+    "category": "weapons",
+    "name": { "str": "stone spear" },
+    "description": "A stout wooden pole with a sharp stone spearhead.",
+    "weight": "1098 g",
+    "volume": "1250 ml",
+    "price": 1300,
+    "price_postapoc": 50,
+    "to_hit": 2,
+    "bashing": 5,
+    "cutting": 20,
+    "material": [ "wood", "stone" ],
+    "symbol": "/",
+    "color": "light_gray",
+    "techniques": [ "WBLOCK_1" ],
+    "qualities": [ [ "COOK", 1 ] ],
+    "flags": [ "SPEAR", "DURABLE_MELEE", "REACH_ATTACK", "SHEATH_SPEAR" ]
+  }
+]
