@@ -1,0 +1,17 @@
+ [
+    {
+    "type": "recipe",
+    "result": "wristrocket",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ "throw", 3 ],
+    "time": "1 h 30 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ], 
+    "tools": [ [ "mold_plastic" ] ],
+    "using": [ [ "blacksmithing_standard", 1 ] ],
+    "components": [ [ [ "hose", 2 ] ], [ [ "plastic_chunk", 3 ] ] ]
+  }
+]

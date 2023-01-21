@@ -43,5 +43,17 @@
 	  "time": "2 h 30 m",
 	  "autolearn": [ [ "fabrication", 7 ] ],
       "using": [ [ "blacksmithing_standard", 4 ], [ "steel_standard", 1 ] ]
+  },
+    {
+    "result": "hose",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "autolearn": true,
+    "time": "4 h",
+    "tools": [ [ "mold_plastic" ] ],
+    "components": [ [ [ "plastic_chunk", 10 ] ] ]
   }
 ]
