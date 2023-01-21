@@ -6,7 +6,7 @@
     "subcategory": "CSC_ARMOR_STORAGE",
     "skill_used": "survival",
     "difficulty": 1,
-    "skills_required": [ "tailoring", 3 ],
+    "skills_required": [ "tailor", 3 ],
     "time": "50 m",
     "autolearn": true,
     "components": [ [ [ "straw_pile", 30 ], [ "birchbark", 30 ] ] ]

@@ -6,7 +6,7 @@
     "subcategory": "CSC_ARMOR_TORSO",
     "skill_used": "survival",
     "difficulty": 1,
-    "skills_required": [ "tailoring", 3 ],
+    "skills_required": [ "tailor", 3 ],
     "time": "28 m",
     "reversible": true,
     "autolearn": true,
