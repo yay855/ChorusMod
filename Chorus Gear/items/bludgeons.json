@@ -128,7 +128,7 @@
     "symbol": "/",
     "material": [ "steel", "aluminum" ],
     "looks_like": "tonfa_wood",
-    "techniques": [ "WBLOCK_2", ],
+    "techniques": [ "WBLOCK_2" ],
     "flags": [ "DURABLE_MELEE", "BELT_CLIP", "UNARMED_WEAPON" ],
     "volume": "1500 ml",
     "bashing": 20,

@@ -12,7 +12,6 @@
     "id": "tec_shock_counter",
     "name": "Lightning Counter",
     "messages": [ "You cross-counter %s", "<npcname> throws a perfect counter at %s" ],
-    "skill_requirements": [ { "name": "unarmed", "level": 4 } ],
     "unarmed_allowed": true,
     "dodge_counter": true,
     "stun_dur": 1,

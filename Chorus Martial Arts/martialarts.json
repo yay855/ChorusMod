@@ -15,17 +15,24 @@
         "name": "Electrical Claws",
         "description": "Your energy runs through you, causing your attacks to become stronger with your ability to focus and making you move and dodge faster, but reducing your ability to block strikes.",
         "unarmed_allowed": true,
-        "flat_bonuses": [ { "stat": "block", "scale": -2 }, { "stat": "dodge", "scaling-stat": "dex", "scale": 0.25 }, 
-        { "stat": "speed", "scaling-stat": "dex", "scale": 0.25 }, { "stat": "armor", "type": "bash", "scale": -3.0 }, 
+        "flat_bonuses": [ { "stat": "block", "scale": -2 }, { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }, 
+        { "stat": "speed", "scaling-stat": "dex", "scale": 0.5 }, { "stat": "armor", "type": "bash", "scale": -3.0 }, 
       { "stat": "armor", "type": "cut", "scale": -3.0 }, { "stat": "armor", "type": "stab", "scale": -3.0 } ]
-      }
+      },
+      {
+		  "id": "buff_shock_armpen_static",
+		  "name": "Rending Claws",
+		  "description": "Your fingers have become able to part through armor and bone alike thanks to your inner focus.",
+		  "unarmed_allowed": true,
+		  "skill_requirements": [ { "name": "unarmed", "level": 4 } ],
+		  "flat_bonuses": [ { "stat": "arpen", "type": "bash", "scale": 10 }, { "stat": "arpen", "type": "cut", "scale": 10 } ]
+	  }
     ],
     "ondodge_buffs": [
       {
         "id": "buff_shock_ondodge",
         "name": "Counter Chance",
         "description": "Your foe left an opening!\n\nMove into a better position.\nLasts for 1 turn.",
-        "skill_requirements": [ { "name": "unarmed", "level": 5 } ],
         "unarmed_allowed": true,
         "buff_duration": 1,
         "max_stacks": 2,
