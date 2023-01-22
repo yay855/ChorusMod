@@ -48,5 +48,48 @@
       "male": [ "boxer_briefs" ],
       "female": [ "unitard" ]
     }
+  },
+   {
+    "type": "profession",
+    "id": "robo_maid",
+    "name": "Cyborg Maid",
+    "description": "You were a cybernetically augmented personal assistant and maid working for a brilliant but eccentric scientist. The cataclysm struck not long after your training and surgery, but hopefully those will help you survive.",
+    "points": 10,
+    "CBMs": [
+      "bn_bio_solar",
+      "bio_cable",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_tools",
+      "bio_sunglasses",
+      "bio_flashlight",
+      "bio_watch",
+      "bio_ears",
+      "bio_purifier",
+      "bio_surgical_razor",
+      "bio_ups"
+    ],
+    "skills": [
+      { "level": 1, "name": "firstaid" },
+      { "level": 2, "name": "cooking" },
+      { "level": 2, "name": "tailor" },
+      { "level": 1, "name": "mechanics" },
+      { "level": 1, "name": "electronics" },
+      { "level": 1, "name": "fabrication" },
+      { "level": 1, "name": "computer" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "maid_dress",
+          "maid_hat",
+          "corset_cloth_pockets",
+          "stockings",
+          "dress_shoes"
+          ]
+      },
+      "male": [ "boxer_briefs" ],
+      "female": [ "panties" ]
+    }
   }
 ]
