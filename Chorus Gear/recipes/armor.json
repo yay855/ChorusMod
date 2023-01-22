@@ -253,5 +253,22 @@
 	[ [ "chunk_rubber", 20 ] ],
 	[ [ "plastic_chunk", 16 ] ]
 	]
+  },
+  {
+    "result": "roller_shoes_off",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "1 h 30 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 8 ] ],
+    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 15, "LIST" ] ] ],
+    "components": [
+	[ [ "rag", 5 ] ],
+	[ [ "chunk_rubber", 2 ] ],
+	[ [ "plastic_chunk", 2 ] ]
+	]
   }
 ]

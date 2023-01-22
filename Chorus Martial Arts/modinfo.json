@@ -5,7 +5,7 @@
     "name": "Chorus's Martial Arts",
     "authors": [ "ChorusSystem" ],
     "maintainers": [ "ChorusSystem" ],
-    "description": "Custom martial arts styles. Perhaps not the most realistic!",
+    "description": "Custom martial arts styles. Perhaps not the most realistic! DO NOT USE YET, HIGHLY UNBALANCED.",
     "category": "content",
     "dependencies": [ "bn" ],
     "obsolete": false

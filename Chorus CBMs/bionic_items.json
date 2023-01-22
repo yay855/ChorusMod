@@ -1,0 +1,14 @@
+[
+  {
+    "id": "bio_skates_chorus",
+    "copy-from": "bionic_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Bionic Rollerskates CBM" },
+    "looks_like": "bio_int_enhancer",
+    "description": "An implant for the feet that allows you to pop out motorized wheels, increasing your speed..",
+    "price": "8500 USD",
+    "price_postapoc": "55 USD",
+    "weight": "500 g",
+    "difficulty": 3
+  }
+]

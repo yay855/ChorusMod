@@ -1,0 +1,10 @@
+[
+  {
+    "type": "effect_type",
+    "id": "cbm_wheel_effect",
+    "name": [ "Bionic Rollerskates" ],
+    "base_mods": {
+      "speed_mod": [ 500 ]
+    }
+  }
+]

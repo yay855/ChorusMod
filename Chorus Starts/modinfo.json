@@ -7,7 +7,7 @@
     "maintainers": [ "ChorusSystem" ],
     "description": "New starts, mostly based around characters I like from other series. Probably OP.",
     "category": "content",
-    "dependencies": [ "bn", "aftershock", "Chorus_Weapons" ],
+    "dependencies": [ "bn", "aftershock", "Chorus_Weapons", "Chorus CBMs" ],
     "obsolete": false
   }
 ]

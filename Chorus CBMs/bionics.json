@@ -30,5 +30,27 @@
     "occupied_bodyparts": [ [ "hand_l", 2 ], [ "hand_r", 2 ] ],
     "fake_item": "finger_razors",
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "bio_skates_chorus",
+    "type": "bionic",
+    "name": { "str": "Bionic Rollerskates" },
+    "description": "Your feet have been surgically removed and replaced with armored boots with pop-out motorized wheels, allowing you to move faster across all terrains while draining power.",
+    "occupied_bodyparts": [ [ "foot_l", 2 ], [ "foot_r", 2 ] ],
+    "enchantments": [ "CBM_WHEELS" ],
+    "flags": [ "BIONIC_NPC_USABLE", "BIONIC_TOGGLED", "BIONIC_SHOCKPROOF" ],
+    "act_cost": "1 kJ",
+    "react_cost": "1 kJ",
+    "time": 1
+  },
+    {
+    "id": "bio_railgun",
+    "type": "bionic",
+    "name": { "str": "Bionic Tihar" },
+    "description": "Concealed in your left arm is a pneumatic gun designed to fire ball bearings. Activate the bionic to fire and reload it.",
+    "occupied_bodyparts": [ [ "arm_l", 10 ] ],
+    "act_cost": "50 J",
+    "fake_item": "bio_railgun_gun",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "NO_UNWIELD" ]
   }
 ]

@@ -91,5 +91,42 @@
       "male": [ "boxer_briefs" ],
       "female": [ "panties" ]
     }
+  },
+     {
+    "type": "profession",
+    "id": "robo_teen",
+    "name": "Teenage Cyborg",
+    "description": "Your mother was a scientist, and when she developed all kinds of neat toys, you wanted to have them all. Now she's gone, and you have to survive.",
+    "points": 10,
+    "CBMs": [
+      "bio_batteries",
+      "bio_cable",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_tools",
+      "bio_sunglasses",
+      "bio_flashlight",
+      "bio_watch",
+      "bio_ears",
+      "bio_purifier",
+      "bio_ups",
+      "bio_skates_chorus",
+      "bio_railgun"
+    ],
+    "skills": [
+      { "level": 1, "name": "gun" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "tshirt",
+          "socks",
+          "sneakers",
+          "backpack"
+          ]
+      },
+      "male": [ "boxer_shorts", "jeans" ],
+      "female": [ "panties", "bra", "skirt" ]
+    }
   }
 ]
