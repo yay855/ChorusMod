@@ -235,5 +235,23 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "components": [ [ [ "filament", 60, "LIST" ] ], [ [ "rag", 17 ] ] ]
+  },
+    {
+    "result": "chorus_rubber_skintight",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "skills_required": [ "fabrication", 4 ],
+    "difficulty": 5,
+    "time": "3 h 30 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 40 ] ],
+    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 15, "LIST" ] ] ],
+    "components": [
+	[ [ "rag", 7 ] ],
+	[ [ "chunk_rubber", 20 ] ],
+	[ [ "plastic_chunk", 16 ] ]
+	]
   }
 ]

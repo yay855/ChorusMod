@@ -140,7 +140,7 @@
     "id": "corset_cloth_pockets",
     "repairs_like": "jacket_leather",
     "type": "ARMOR",
-    "name": { "str": "pocketed leather corset" },
+    "name": { "str": "pocketed corset" },
     "description": "A snug, white cotton corset, now with pockets.",
     "weight": "640 g",
     "volume": "1250 ml",
@@ -160,5 +160,26 @@
     "material_thickness": 2,
     "environmental_protection": 1,
     "flags": [ "VARSIZE", "FANCY", "SKINTIGHT", "WATER_FRIENDLY" ]
+  },
+      {
+    "id": "chorus_rubber_skintight",
+    "type": "ARMOR",
+    "name": { "str": "skintight rubber suit" },
+    "description": "A custom-made skintight rubber and plastic suit with a cotton lining, designed to insulate the user from electrical shocks. It also resembles pre-cataclysm latex bodysuits.",
+    "weight": "60 g",
+    "volume": "500 ml",
+    "price_postapoc": 2000,
+    "material": [ "rubber", "plastic", "cotton" ],
+    "symbol": "m",
+    "looks_like": "touring_suit",
+    "color": "black",
+    "covers": [ "torso", "arms", "legs", "feet", "hands", "head" ],
+    "coverage": 90,
+    "encumbrance": 6,
+    "storage": "0 ml",
+    "warmth": 2,
+    "material_thickness": 2,
+    "environmental_protection": 8,
+    "flags": [ "VARSIZE", "STURDY", "FANCY", "SKINTIGHT", "WATER_FRIENDLY", "ELECTRIC_IMMUNE" ]
   }
 ]
