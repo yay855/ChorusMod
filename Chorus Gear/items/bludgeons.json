@@ -152,7 +152,7 @@
     "material": [ "wood", "cotton" ],
     "symbol": "v",
     "color": "brown",
-    "flags": [ "DURABLE_MELEE", "UNARMED_WEAPON", "REACH_ATTACK", "BELT_CLIP" ]
+    "flags": [ "DURABLE_MELEE", "UNARMED_WEAPON", "BELT_CLIP" ]
   },
     {
 	"type": "GENERIC",
@@ -168,7 +168,7 @@
     "material": [ "steel" ],
     "symbol": "v",
     "color": "black",
-    "flags": [ "DURABLE_MELEE", "UNARMED_WEAPON", "REACH_ATTACK", "BELT_CLIP" ]
+    "flags": [ "DURABLE_MELEE", "UNARMED_WEAPON", "BELT_CLIP" ]
   },
       {
 	"type": "GENERIC",

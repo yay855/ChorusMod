@@ -120,7 +120,7 @@
     "recoil": 50,
     "durability": 10,
     "clip_size": 15,
-    "reload": 100,
+    "reload": 200,
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "grip", 1 ],
