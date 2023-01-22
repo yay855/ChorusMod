@@ -23,7 +23,6 @@
     "using": [ [ "blacksmithing_standard", 2 ], [ "steel_tiny", 2 ] ],
     "autolearn": true,
     "book_learn": [ [ "textbook_weapeast", 3 ] , [ "recipe_melee", 4 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2 } ],
     "components": [ [ [ "tonfa_wood", 1 ] ] ]
   },
       {
