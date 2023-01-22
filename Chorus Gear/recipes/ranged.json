@@ -11,7 +11,37 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ], 
     "tools": [ [ "mold_plastic" ] ],
-    "using": [ [ "blacksmithing_standard", 1 ] ],
+    "using": [ [ "blacksmithing_standard", 1 ], [ "steel_tiny", 1 ] ],
     "components": [ [ [ "hose", 2 ] ], [ [ "plastic_chunk", 3 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "rep_bulletbow",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "skills_required": [ "rifle", 3 ],
+    "time": "4 h",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ], 
+    "tools": [ [ "mold_plastic" ] ],
+    "using": [ [ "blacksmithing_standard", 4 ], [ "steel_standard", 1 ] ],
+    "components": [ [ [ "hose", 2 ] ], [ [ "plastic_chunk", 5 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "rep_hand_bulletbow",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "skills_required": [ "rifle", 3 ],
+    "time": "2 h 15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ], 
+    "tools": [ [ "mold_plastic" ] ],
+    "using": [ [ "blacksmithing_standard", 1 ], [ "steel_tiny", 2 ] ],
+    "components": [ [ [ "hose", 2 ] ], [ [ "plastic_chunk", 2 ] ] ]
   }
 ]

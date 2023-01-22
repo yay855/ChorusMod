@@ -44,5 +44,16 @@
     "copy-from": "style_sojutsu",
     "name": { "str": "Sōjutsu" },
     "extend": { "weapons": [ "spear_stone" ] }
+  },
+   {
+    "type": "martial_art",
+    "id": "style_barbaran",
+    "copy-from": "style_barbaran",
+    "name": { "str": "Barbaran Montante" },
+    "extend": { 
+	 "weapons": [ 
+       "flanged_mace"
+       ]
+   }
   }
 ]
