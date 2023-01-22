@@ -111,7 +111,8 @@
       "bio_purifier",
       "bio_ups",
       "bio_skates_chorus",
-      "bio_railgun"
+      "bio_railgun",
+      "bio_fists"
     ],
     "skills": [
       { "level": 1, "name": "gun" }
