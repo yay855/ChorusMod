@@ -51,7 +51,7 @@
     "category": "weapons",
     "id": "tonfa_capped",
     "name": { "str": "steel-capped tonfa" },
-    "description": "A wooden tonfa with small bits of metal studded into the ends, meant to bash zombie skulls in that much harder.",
+    "description": "A wooden tonfa with bits of metal studded into the ends, meant to bash zombie skulls in that much harder.",
     "weight": "1000 g",
     "to_hit": 2,
     "price_postapoc": 1000,
