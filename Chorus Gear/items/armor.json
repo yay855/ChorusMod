@@ -129,7 +129,6 @@
     "coverage": 90,
     "rigid": false,
     "encumbrance": 3,
-    "max_encumbrance": 6,
     "storage": "3 L",
     "warmth": 25,
     "material_thickness": 2,
@@ -154,7 +153,6 @@
     "coverage": 90,
     "rigid": false,
     "encumbrance": 2,
-    "max_encumbrance": 5,
     "storage": "3 L",
     "warmth": 5,
     "material_thickness": 2,
@@ -229,7 +227,7 @@
     "id": "leather_dress",
     "type": "ARMOR",
     "name": { "str": "padded dress", "str_pl": "armored dresses" },
-    "description": "A long cotton dress reinforced with leather padding. Breathes surprisingly well.",
+    "description": "A long cotton dress with pockets reinforced with leather padding. Breathes surprisingly well.",
     "weight": "680 g",
     "volume": "3500 ml",
     "price": 18000,
@@ -242,15 +240,16 @@
     "covers": [ "legs", "arms", "torso" ],
     "coverage": 85,
     "encumbrance": 10,
+    "storage": "4 L",
     "warmth": 5,
     "material_thickness": 4,
-    "flags": [ "VARSIZE", "STURDY", "FANCY" ]
+    "flags": [ "VARSIZE", "STURDY", "FANCY", "POCKETS" ]
   },
   {
     "id": "leather_dress_blue",
     "type": "ARMOR",
     "name": { "str": "padded denim dress", "str_pl": "armored dresses" },
-    "description": "A long denim dress reinforced with leather padding. Breathes surprisingly well.",
+    "description": "A long denim dress with pockets and reinforced with leather padding. Breathes surprisingly well.",
     "weight": "680 g",
     "volume": "3500 ml",
     "price": 18000,
@@ -263,9 +262,10 @@
     "covers": [ "legs", "arms", "torso" ],
     "coverage": 85,
     "encumbrance": 10,
+    "storage": "4 L",
     "warmth": 5,
     "material_thickness": 4,
-    "flags": [ "VARSIZE", "STURDY", "FANCY" ]
+    "flags": [ "VARSIZE", "STURDY", "FANCY", "POCKETS" ]
   },
   {
     "id": "armor_dress",
@@ -284,9 +284,10 @@
     "covers": [ "legs", "arms", "torso" ],
     "coverage": 95,
     "encumbrance": 15,
+    "storage": "4 L",
     "warmth": 5,
     "material_thickness": 5,
-    "flags": [ "VARSIZE", "STURDY", "FANCY" ]
+    "flags": [ "VARSIZE", "STURDY", "FANCY", "POCKETS" ]
   },
   {
     "id": "armor_dress_blue",
@@ -305,8 +306,9 @@
     "covers": [ "legs", "arms", "torso" ],
     "coverage": 95,
     "encumbrance": 15,
+    "storage": "4 L",
     "warmth": 5,
     "material_thickness": 5,
-    "flags": [ "VARSIZE", "STURDY", "FANCY" ]
+    "flags": [ "VARSIZE", "STURDY", "FANCY", "POCKETS" ]
   }
 ]
