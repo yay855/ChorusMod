@@ -317,7 +317,7 @@
     "time": "5 h",
     "autolearn": true,
     "using": [ [ "sewing_standard", 24 ] ],
-    "components": [ [ [ "kevlar_plate", 10 ] ], [ [ "leather", 10 ] ] ]
+    "components": [ [ [ "kevlar_plate", 10 ] ], [ [ "rag", 10 ] ] ]
   },
   {
     "result": "armor_dress_blue",
@@ -329,6 +329,6 @@
     "time": "5 h",
     "autolearn": true,
     "using": [ [ "sewing_standard", 24 ] ],
-    "components": [ [ [ "kevlar_plate", 10 ] ], [ [ "leather", 10 ] ] ]
+    "components": [ [ [ "kevlar_plate", 10 ] ], [ [ "rag", 10 ] ] ]
   }
 ]
