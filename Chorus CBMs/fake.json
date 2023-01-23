@@ -41,7 +41,7 @@
   {
     "type": "GENERIC",
     "category": "weapons",
-    "id": "bio_fists_weap",
+    "id": "bio_fist_weap",
     "name": { "str_sp": "Hammerfists" },
     "description": "Steel plating has been surgically implanted onto your fists, making your punches strike much harder.",
     "to_hit": 3,
@@ -50,7 +50,7 @@
     "material": [ "superalloy" ],
     "volume": "200 ml",
     "bashing": 12,
-    "flags": [ "UNARMED_WEAPON", "NO_DROP", "NO_UNWIELD", "UNBREAKABLE_MELEE", "TRADER_AVOID" ],
+    "flags": [ "NO_DROP", "NO_UNWIELD", "UNBREAKABLE_MELEE", "UNARMED_WEAPON", "REACH_ATTACK", "REACH3", "TRADER_AVOID" ],
     "qualities": [ [ "HAMMER", 2 ] ]
   }
 ]

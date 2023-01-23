@@ -12,15 +12,15 @@
     "difficulty": 3
   },
     {
-    "id": "bio_fists",
+    "id": "bio_fist_ranged",
     "copy-from": "bionic_general_npc_usable",
     "type": "BIONIC_ITEM",
-    "name": { "str": "Bionic Hammerfists CBM" },
+    "name": { "str": "Bionic Extendo-Arms CBM" },
     "looks_like": "bio_int_enhancer",
-    "description": "Steel plating can be surgically implanted onto your fists, making your punches strike much harder.",
+    "description": "A replacement for your arms and fists that lets you extend them out to smack foes. They can't do much else at a distance, though.",
     "price": "8500 USD",
     "price_postapoc": "55 USD",
     "weight": "500 g",
-    "difficulty": 5
+    "difficulty": 6
   }
 ]

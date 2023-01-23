@@ -39,8 +39,8 @@
     "occupied_bodyparts": [ [ "foot_l", 2 ], [ "foot_r", 2 ] ],
     "enchantments": [ "CBM_WHEELS" ],
     "flags": [ "BIONIC_NPC_USABLE", "BIONIC_TOGGLED", "BIONIC_SHOCKPROOF" ],
-    "act_cost": "1 kJ",
-    "react_cost": "1 kJ",
+    "act_cost": "5 kJ",
+    "react_cost": "5 kJ",
     "time": 1
   },
     {
@@ -54,12 +54,13 @@
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "NO_UNWIELD" ]
   },
   {
-    "id": "bio_fists",
+    "id": "bio_fist_ranged",
     "type": "bionic",
-    "name": { "str": "Hammerfists" },
-    "description": "Steel plating has been surgically implanted onto your fists, making your punches strike much harder.",
-    "occupied_bodyparts": [ [ "hand_l", 2 ], [ "hand_r", 2 ] ],
-    "fake_item": "bio_fists_weap",
-    "flags": [ "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
+    "name": { "str": "Extendo-Arms" },
+    "description": "Your arms have been replaced with highly modular mechanical equivalents capable of extending outwards to smack your foes with steel fists at the ends. They can't do much else from that distance, though.",
+    "occupied_bodyparts": [ [ "hand_l", 2 ], [ "hand_r", 2 ], [ "arm_l", 5 ], [ "arm_r", 5 ] ],
+    "act_cost": "50 J",
+    "fake_item": "bio_fist_weap",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
   }
 ]

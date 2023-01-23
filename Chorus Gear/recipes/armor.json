@@ -198,7 +198,7 @@
     "time": "2 h",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "filament", 60, "LIST" ] ], [ [ "leather", 14 ] ] ]
+    "components": [ [ [ "filament", 32, "LIST" ] ], [ [ "leather", 8 ] ] ]
   },
   {
     "result": "corset_leather_pockets",
@@ -210,7 +210,7 @@
     "time": "2 h 30 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "filament", 120, "LIST" ] ], [ [ "leather", 17 ] ] ]
+    "components": [ [ [ "filament", 40, "LIST" ] ], [ [ "leather", 10 ] ] ]
   },
   {
     "result": "corset_cloth",
@@ -222,9 +222,9 @@
     "time": "1 h 30 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "filament", 60, "LIST" ] ], [ [ "rag", 14 ] ] ]
+    "components": [ [ [ "filament", 32, "LIST" ] ], [ [ "rag", 8 ] ] ]
   },
-    {
+  {
     "result": "corset_cloth_pockets",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -234,7 +234,7 @@
     "time": "2 h",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "filament", 60, "LIST" ] ], [ [ "rag", 17 ] ] ]
+    "components": [ [ [ "filament", 40, "LIST" ] ], [ [ "rag", 10 ] ] ]
   },
     {
     "result": "chorus_rubber_skintight",
@@ -270,5 +270,65 @@
 	[ [ "chunk_rubber", 2 ] ],
 	[ [ "plastic_chunk", 2 ] ]
 	]
+  },
+  {
+    "result": "dress",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "time": "2 h",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 24 ] ],
+    "components": [ [ [ "rag", 12 ] ] ]
+  },
+    {
+    "result": "leather_dress",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "3 h 30 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 24 ] ],
+    "components": [ [ [ "rag", 6 ] ], [ [ "leather", 6 ] ] ]
+  },
+  {
+    "result": "leather_dress_blue",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "3 h 30 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 24 ] ],
+    "components": [ [ [ "rag", 6 ] ], [ [ "leather", 6 ] ] ]
+  },
+  {
+    "result": "armor_dress",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 6,
+    "time": "5 h",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 24 ] ],
+    "components": [ [ [ "kevlar_plate", 10 ] ], [ [ "leather", 10 ] ] ]
+  },
+  {
+    "result": "armor_dress_blue",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 6,
+    "time": "5 h",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 24 ] ],
+    "components": [ [ [ "kevlar_plate", 10 ] ], [ [ "leather", 10 ] ] ]
   }
 ]
