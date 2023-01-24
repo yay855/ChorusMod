@@ -31,7 +31,7 @@
     "looks_like": "bio_int_enhancer",
     "description": "A surgically implanted railgun in your arm, allowing you to launch ball bearings at high speeds.",
     "price": "8500 USD",
-    "price_postapoc": "55 USD",
+    "price_postapoc": "200 USD",
     "weight": "500 g",
     "difficulty": 6
   },
@@ -43,7 +43,19 @@
     "looks_like": "bio_int_enhancer",
     "description": "A surgically implanted flechette launcher in your arm, illegally made from a nailgun and bionic parts. Not that the law matters much anymore.",
     "price": "8500 USD",
-    "price_postapoc": "55 USD",
+    "price_postapoc": "200 USD",
+    "weight": "500 g",
+    "difficulty": 6
+  },
+  {
+    "id": "bio_smg_chorus",
+    "copy-from": "bionic_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Bionic Submachine Gun CBM" },
+    "looks_like": "bio_int_enhancer",
+    "description": "A surgically implanted SMG in your arm, typically used by law enforcement and gangsters, and can chamber just about any pistol or SMG round.",
+    "price": "8500 USD",
+    "price_postapoc": "200 USD",
     "weight": "500 g",
     "difficulty": 6
   }

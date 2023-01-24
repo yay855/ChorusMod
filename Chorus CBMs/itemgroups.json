@@ -1,0 +1,67 @@
+[
+  {
+    "id": "bionics",
+    "type": "item_group",
+    "entries": [
+      { "item": "bio_skates_chorus", "prob": 10 },
+      { "item": "bio_fist_ranged_chorus", "prob": 10 },
+      { "item": "bio_railgun_chorus", "prob": 10 },
+      { "item": "bio_nailgun_chorus", "prob": 10 },
+      { "item": "bio_smg_chorus", "prob": 10 }
+    ]
+  },
+    {
+    "type": "item_group",
+    "id": "bionics_common",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "bio_skates_chorus", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "bionics_mil",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "bio_railgun_chorus", "prob": 10 },
+      { "item": "bio_smg_chorus", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "bionics_op",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "bio_railgun_chorus", "prob": 10 },
+      { "item": "bio_smg_chorus", "prob": 10 }
+    ]
+  },
+    {
+    "type": "item_group",
+    "id": "bionics_op2_off",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "bio_railgun_chorus", "prob": 10 },
+      { "item": "bio_smg_chorus", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "bionics_op2_utl",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "bio_skates_chorus", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "bionics_bank_vault",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "bio_railgun_chorus", "prob": 10 },
+      { "item": "bio_skates_chorus", "prob": 10 },
+      { "item": "bio_fist_ranged_chorus", "prob": 10 },
+      { "item": "bio_smg_chorus", "prob": 10 }
+    ]
+  }
+]
