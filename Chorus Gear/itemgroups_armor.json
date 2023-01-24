@@ -1,0 +1,137 @@
+[
+  {
+    "id": "clothing_outdoor_set",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "leather_dress_chorus", "prob": 10 }
+    ]
+  },
+  {
+    "id": "clothing_work_glasses",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "tinted_goggles_chorus", "prob": 10 }
+    ]
+  },
+  {
+    "id": "hardware_clothing",
+    "type": "item_group",
+    "entries": [
+      { "item": "tinted_goggles_chorus", "prob": 10 }
+    ]
+  },
+  {
+    "id": "donated_clothes",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "leather_dress_chorus", "prob": 10 }
+    ]
+  },
+  {
+    "id": "dress_shop",
+    "type": "item_group",
+    "entries": [
+      { "item": "leather_dress_chorus", "prob": 10 }
+    ]
+  },
+  {
+    "id": "dresser",
+    "type": "item_group",
+    "entries": [
+      { "item": "leather_dress_chorus", "prob": 10 },
+      { "item": "corset_cloth_chorus", "prob": 10 },
+      { "item": "corset_leather_pockets_chorus", "prob": 10 },
+      { "item": "corset_cloth_pockets_chorus", "prob": 10 },
+      { "item": "rubber_skintight_chorus", "prob": 1 }
+    ]
+  },
+  {
+    "id": "dresses",
+    "type": "item_group",
+    "entries": [
+      { "item": "leather_dress_chorus", "prob": 10 }
+    ]
+  },
+  {
+    "id": "female_underwear_top",
+    "type": "item_group",
+    "entries": [
+      { "item": "corset_cloth_chorus", "prob": 5 },
+      { "item": "corset_leather_pockets_chorus", "prob": 5 },
+      { "item": "corset_cloth_pockets_chorus", "prob": 5 }
+    ]
+  },
+  {
+    "id": "allclothes",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "leather_dress_chorus", "prob": 10 },
+      { "item": "corset_cloth_chorus", "prob": 10 },
+      { "item": "corset_leather_pockets_chorus", "prob": 10 },
+      { "item": "corset_cloth_pockets_chorus", "prob": 10 },
+      { "item": "rubber_skintight_chorus", "prob": 1 }
+    ]
+  },
+  {
+    "id": "survivorzed_extra",
+    "type": "item_group",
+    "entries": [
+      { "item": "rubber_skintight_chorus", "prob": 1 }
+    ]
+  },
+  {
+    "id": "museum_armor",
+    "type": "item_group",
+    "entries": [
+      { "item": "chainmail_skin_chorus", "prob": 1 }
+    ]
+  },
+  {
+    "id": "laundry",
+    "type": "item_group",
+    "entries": [
+      { "item": "leather_dress_chorus", "prob": 10 },
+      { "item": "corset_cloth_chorus", "prob": 10 },
+      { "item": "corset_leather_pockets_chorus", "prob": 10 },
+      { "item": "corset_cloth_pockets_chorus", "prob": 10 }
+    ]
+  },
+  {
+    "id": "underwear_womens",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "corset_cloth_chorus", "prob": 5 },
+      { "item": "corset_leather_pockets_chorus", "prob": 5 },
+      { "item": "corset_cloth_pockets_chorus", "prob": 5 }
+    ]
+  },
+  {
+    "id": "dresses_womens",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "leather_dress_chorus", "prob": 10 }
+    ]
+  },
+  {
+    "id": "suits_unisex",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "rubber_skintight_chorus", "prob": 1 }
+    ]
+  },
+  {
+    "id": "suits_womens",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "leather_dress_chorus", "prob": 10 }
+    ]
+  }
+]

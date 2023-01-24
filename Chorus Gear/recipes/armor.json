@@ -296,31 +296,7 @@
     "components": [ [ [ "rag", 6 ] ], [ [ "leather", 6 ] ] ]
   },
   {
-    "result": "leather_dress_blue_chorus",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "difficulty": 4,
-    "time": "3 h 30 m",
-    "autolearn": true,
-    "using": [ [ "sewing_standard", 24 ] ],
-    "components": [ [ [ "rag", 6 ] ], [ [ "leather", 6 ] ] ]
-  },
-  {
     "result": "armor_dress_chorus",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "difficulty": 6,
-    "time": "5 h",
-    "autolearn": true,
-    "using": [ [ "sewing_standard", 24 ] ],
-    "components": [ [ [ "kevlar_plate", 10 ] ], [ [ "rag", 10 ] ] ]
-  },
-  {
-    "result": "armor_dress_blue_chorus",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
