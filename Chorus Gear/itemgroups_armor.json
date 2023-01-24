@@ -18,9 +18,7 @@
   {
     "id": "hardware_clothing",
     "type": "item_group",
-    "entries": [
-      { "item": "tinted_goggles_chorus", "prob": 10 }
-    ]
+    "items": [ [ "tinted_goggles_chorus", 20 ] ]
   },
   {
     "id": "donated_clothes",
@@ -33,35 +31,15 @@
   {
     "id": "dress_shop",
     "type": "item_group",
-    "entries": [
-      { "item": "leather_dress_chorus", "prob": 10 }
-    ]
-  },
-  {
-    "id": "dresser",
-    "type": "item_group",
-    "entries": [
-      { "item": "leather_dress_chorus", "prob": 10 },
-      { "item": "corset_cloth_chorus", "prob": 10 },
-      { "item": "corset_leather_pockets_chorus", "prob": 10 },
-      { "item": "corset_cloth_pockets_chorus", "prob": 10 },
-      { "item": "rubber_skintight_chorus", "prob": 1 }
-    ]
-  },
-  {
-    "id": "dresses",
-    "type": "item_group",
-    "entries": [
-      { "item": "leather_dress_chorus", "prob": 10 }
-    ]
+    "items": [ [ "leather_dress_chorus", 10 ] ]
   },
   {
     "id": "female_underwear_top",
     "type": "item_group",
-    "entries": [
-      { "item": "corset_cloth_chorus", "prob": 5 },
-      { "item": "corset_leather_pockets_chorus", "prob": 5 },
-      { "item": "corset_cloth_pockets_chorus", "prob": 5 }
+    "items": [
+      ["corset_cloth_chorus", 5 ],
+      ["corset_leather_pockets_chorus", 5 ],
+      ["corset_cloth_pockets_chorus", 5 ]
     ]
   },
   {
@@ -77,30 +55,6 @@
     ]
   },
   {
-    "id": "survivorzed_extra",
-    "type": "item_group",
-    "entries": [
-      { "item": "rubber_skintight_chorus", "prob": 1 }
-    ]
-  },
-  {
-    "id": "museum_armor",
-    "type": "item_group",
-    "entries": [
-      { "item": "chainmail_skin_chorus", "prob": 1 }
-    ]
-  },
-  {
-    "id": "laundry",
-    "type": "item_group",
-    "entries": [
-      { "item": "leather_dress_chorus", "prob": 10 },
-      { "item": "corset_cloth_chorus", "prob": 10 },
-      { "item": "corset_leather_pockets_chorus", "prob": 10 },
-      { "item": "corset_cloth_pockets_chorus", "prob": 10 }
-    ]
-  },
-  {
     "id": "underwear_womens",
     "type": "item_group",
     "subtype": "distribution",
@@ -111,27 +65,11 @@
     ]
   },
   {
-    "id": "dresses_womens",
-    "type": "item_group",
-    "subtype": "distribution",
-    "entries": [
-      { "item": "leather_dress_chorus", "prob": 10 }
-    ]
-  },
-  {
     "id": "suits_unisex",
     "type": "item_group",
     "subtype": "distribution",
     "entries": [
       { "item": "rubber_skintight_chorus", "prob": 1 }
-    ]
-  },
-  {
-    "id": "suits_womens",
-    "type": "item_group",
-    "subtype": "distribution",
-    "entries": [
-      { "item": "leather_dress_chorus", "prob": 10 }
     ]
   }
 ]

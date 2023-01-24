@@ -6,8 +6,8 @@
     "name": { "str": "Eskrima" },
     "extend": { 
 	 "weapons": [ 
-       "tonfa_capped",
-       "tonfa_metal"
+       "tonfa_capped_chorus",
+       "tonfa_metal_chorus"
        ]
    }
   },
@@ -18,9 +18,8 @@
     "name": { "str": "Krav Maga" },
     "extend": { 
 	 "weapons": [ 
-       "tonfa_capped",
-       "tonfa_metal",
-       "spear_stone"
+       "tonfa_capped_chorus",
+       "tonfa_metal_chorus"
   ]
   }
   },
@@ -32,8 +31,8 @@
     "techniques": [ "tec_silat_hamstring", "tec_silat_precise", "tec_silat_brutal", "tec_silat_dirty" ],
     "extend": { 
 	 "weapons": [ 
-       "tonfa_capped",
-       "tonfa_metal",
+       "tonfa_capped_chorus",
+       "tonfa_metal_chorus",
        "spear_stone"
        ]
    }
@@ -52,7 +51,7 @@
     "name": { "str": "Barbaran Montante" },
     "extend": { 
 	 "weapons": [ 
-       "flanged_mace"
+       "flanged_mace_chorus"
        ]
    }
   }

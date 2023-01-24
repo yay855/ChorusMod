@@ -2,12 +2,12 @@
    {
     "id": "weapons",
     "type": "item_group",
-    "entries": [
-      { "item": "tonfa_capped_chorus", "prob": 10 },
-      { "item": "tonfa_metal_chorus", "prob": 10 },
-      { "item": "steel_nunchuk_chorus", "prob": 10 },
-      { "item": "flanged_mace_chorus", "prob": 10 },
-      { "item": "wood_nunchuk_chorus", "prob": 10 }
+    "items": [
+      [ "tonfa_capped_chorus", 10 ],
+      [ "tonfa_metal_chorus", 10 ],
+      [ "steel_nunchuk_chorus", 10 ],
+      [ "flanged_mace_chorus", 10 ],
+      [ "wood_nunchuk_chorus", 10 ]
     ]
   },
   {
