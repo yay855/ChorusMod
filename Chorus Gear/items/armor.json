@@ -1,6 +1,6 @@
 [
   {
-    "id": "tinted_goggles",
+    "id": "tinted_goggles_chorus",
     "repairs_like": "goggles_swim",
     "type": "ARMOR",
     "name": { "str": "pair of tinted goggles", "str_pl": "pairs of tinted goggles" },
@@ -24,7 +24,7 @@
     "flags": [ "WATER_FRIENDLY", "OUTER", "SUN_GLASSES" ]
   },
     {
-    "id": "chainmail_skin",
+    "id": "chainmail_skin_chorus",
     "type": "ARMOR",
     "name": { "str": "skintight chainmail" },
     "description": "A special thin form of chainmail with minor padding underneath, designed to be hidden underneath other clothing. Not as protective as regular chainmail, but far less encumbering.",
@@ -45,7 +45,7 @@
     "flags": [ "VARSIZE", "STURDY", "SKINTIGHT" ]
   },
       {
-    "id": "chainmail_skin_faraday",
+    "id": "chainmail_skin_faraday_chorus",
     "type": "ARMOR",
     "name": { "str": "faraday skintight chainmail" },
     "description": "A special thin form of chainmail with minor padding underneath, designed to be hidden underneath other clothing. This version has copper wiring along it to channel electricity away from you.",
@@ -89,7 +89,7 @@
     "flags": [ "VARSIZE", "FANCY", "SKINTIGHT", "WATER_FRIENDLY" ]
   },
     {
-    "id": "corset_cloth",
+    "id": "corset_cloth_chorus",
     "repairs_like": "jeans",
     "type": "ARMOR",
     "name": { "str": "corset" },
@@ -112,7 +112,7 @@
     "flags": [ "VARSIZE", "FANCY", "SKINTIGHT" ]
   },
     {
-    "id": "corset_leather_pockets",
+    "id": "corset_leather_pockets_chorus",
     "repairs_like": "jacket_leather",
     "type": "ARMOR",
     "name": { "str": "pocketed leather corset" },
@@ -136,7 +136,7 @@
     "flags": [ "VARSIZE", "FANCY", "SKINTIGHT", "WATERPROOF" ]
   },
     {
-    "id": "corset_cloth_pockets",
+    "id": "corset_cloth_pockets_chorus",
     "repairs_like": "jacket_leather",
     "type": "ARMOR",
     "name": { "str": "pocketed corset" },
@@ -160,7 +160,7 @@
     "flags": [ "VARSIZE", "FANCY", "SKINTIGHT" ]
   },
       {
-    "id": "chorus_rubber_skintight",
+    "id": "rubber_skintight_chorus",
     "type": "ARMOR",
     "name": { "str": "skintight rubber suit" },
     "description": "A custom-made skintight rubber and plastic suit with a cotton lining, designed to insulate the user from electrical shocks. It also resembles pre-cataclysm latex bodysuits.",
@@ -224,7 +224,7 @@
     "flags": [ "VARSIZE", "ROLLER_ONE", "REQUIRES_BALANCE" ]
   },
     {
-    "id": "leather_dress",
+    "id": "leather_dress_chorus",
     "type": "ARMOR",
     "name": { "str": "padded dress", "str_pl": "armored dresses" },
     "description": "A long cotton dress with pockets reinforced with leather padding. Breathes surprisingly well.",
@@ -235,7 +235,7 @@
     "to_hit": -5,
     "material": [ "cotton", "leather" ],
     "symbol": "[",
-    "looks_like": "robe",
+    "looks_like": "dress",
     "color": "red",
     "covers": [ "legs", "arms", "torso" ],
     "coverage": 85,
@@ -246,7 +246,7 @@
     "flags": [ "VARSIZE", "STURDY", "FANCY", "POCKETS" ]
   },
   {
-    "id": "leather_dress_blue",
+    "id": "leather_dress_blue_chorus",
     "type": "ARMOR",
     "name": { "str": "padded denim dress", "str_pl": "armored dresses" },
     "description": "A long denim dress with pockets and reinforced with leather padding. Breathes surprisingly well.",
@@ -257,7 +257,7 @@
     "to_hit": -5,
     "material": [ "cotton", "leather" ],
     "symbol": "[",
-    "looks_like": "robe",
+    "looks_like": "dress",
     "color": "blue",
     "covers": [ "legs", "arms", "torso" ],
     "coverage": 85,
@@ -268,7 +268,7 @@
     "flags": [ "VARSIZE", "STURDY", "FANCY", "POCKETS" ]
   },
   {
-    "id": "armor_dress",
+    "id": "armor_dress_chorus",
     "type": "ARMOR",
     "name": { "str": "armored dress", "str_pl": "armored dresses" },
     "description": "A custom-made dress designed to look as fashionable as possible while still being highly protective. Breathes surprisingly well.",
@@ -279,7 +279,7 @@
     "to_hit": -5,
     "material": [ "kevlar", "cotton" ],
     "symbol": "[",
-    "looks_like": "robe",
+    "looks_like": "dress",
     "color": "red",
     "covers": [ "legs", "arms", "torso" ],
     "coverage": 95,
@@ -290,7 +290,7 @@
     "flags": [ "VARSIZE", "STURDY", "FANCY", "POCKETS" ]
   },
   {
-    "id": "armor_dress_blue",
+    "id": "armor_dress_blue_chorus",
     "type": "ARMOR",
     "name": { "str": "armored denim dress", "str_pl": "armored dresses" },
     "description": "A custom-made dress designed to look as fashionable as possible while still being highly protective, now in blue. Breathes surprisingly well.",
@@ -301,7 +301,7 @@
     "to_hit": -5,
     "material": [ "kevlar", "cotton" ],
     "symbol": "[",
-    "looks_like": "robe",
+    "looks_like": "dress",
     "color": "blue",
     "covers": [ "legs", "arms", "torso" ],
     "coverage": 95,
@@ -310,5 +310,107 @@
     "warmth": 5,
     "material_thickness": 5,
     "flags": [ "VARSIZE", "STURDY", "FANCY", "POCKETS" ]
+  },
+   {
+    "id": "survbelt_chorus",
+    "type": "ARMOR",
+    "name": "survivor toolkit belt",
+    "description": "A custom-built leather utility belt covered with straps and pouches containing a variety of tools that every survivor needs, but no longer has a holster or sheath.",
+    "weight": 3400,
+    "volume": 16,
+    "price": "500 USD",
+    "bashing": 1,
+    "material": [ "leather", "iron" ],
+    "symbol": "[",
+    "color": "brown",
+    "covers": [ "torso" ],
+    "coverage": 15,
+    "encumbrance": 0,
+    "material_thickness": 2,
+    "qualities": [ [ "HAMMER", 3 ], [ "SAW_M", 2 ], [ "SAW_W", 2 ], [ "WRENCH", 2 ], [ "SCREW", 1 ], [ "HAMMER_FINE", 1 ], [ "SAW_M_FINE", 1 ], [ "WRENCH_FINE", 1 ], [ "SCREW_FINE", 1 ], [ "CUT", 1 ], [ "CUT_FINE", 3 ], [ "DIG", 3 ], [ "BUTCHER", -8 ], [ "PRY", 3 ] ],
+    "use_action": [
+      "HAMMER",
+      "HACKSAW",
+      "LUMBER",
+      "REMOVE_ALL_MODS",
+      "CROWBAR"
+    ],
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "STURDY", "WAIST", "OVERSIZE" ]
+  },
+    {
+    "id": "ammo_pouch",
+    "type": "ARMOR",
+    "name": { "str": "ammo pouch", "str_pl": "ammo pouches" },
+    "description": "A small pouch that can be used to store most types of small ammunition, rockets will not fit.  Activate to store ammunition.",
+    "weight": "490 g",
+    "rigid": false,
+    "volume": "500 ml",
+    "price": 1000,
+    "price_postapoc": 1000,
+    "to_hit": 1,
+    "bashing": 1,
+    "material": [ "leather" ],
+    "symbol": "[",
+    "looks_like": "leather_pouch",
+    "color": "brown",
+    "covers": [ "torso" ],
+    "coverage": 10,
+    "encumbrance": 5,
+    "material_thickness": 1,
+    "use_action": {
+      "type": "bandolier",
+      "capacity": 60,
+      "ammo": [
+        "pebble",
+        "700nx",
+        "50",
+        "4570",
+        "BB",
+        "410shot",
+        "22",
+        "shot",
+        "9mm",
+        "357sig",
+        "357mag",
+        "9x18",
+        "380",
+        "38",
+        "40",
+        "10mm",
+        "44",
+        "45",
+        "460",
+        "454",
+        "45colt",
+        "500",
+        "57",
+        "46",
+        "762",
+        "545x39",
+        "223",
+        "3006",
+        "270win",
+        "308",
+        "12mm",
+        "8x40mm",
+        "20x66mm",
+        "5x50",
+        "metal_rail",
+        "stimpack_ammo",
+        "ampoule",
+        "300",
+        "32",
+        "762x25",
+        "flintlock",
+        "36paper",
+        "44paper",
+        "762R",
+        "paintball",
+        "nail",
+        "cbma_em_rail"
+      ],
+      "draw_cost": 35
+    },
+    "flags": [ "WAIST", "OVERSIZE", "WATER_FRIENDLY" ]
   }
 ]

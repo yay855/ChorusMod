@@ -59,7 +59,7 @@
     "durability": 7
   },
     {
-    "id": "rep_bulletbow",
+    "id": "rep_bulletbow_chorus",
     "looks_like": "crossbow",
     "type": "GUN",
     "reload_noise_volume": 10,
@@ -96,7 +96,7 @@
     ]
   },
     {
-    "id": "rep_hand_bulletbow",
+    "id": "rep_hand_bulletbow_chorus",
     "looks_like": "crossbow",
     "type": "GUN",
     "reload_noise_volume": 10,

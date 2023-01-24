@@ -1,0 +1,23 @@
+[
+  {
+    "type": "recipe",
+    "result": "bio_nailgun_chorus",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_CBMS",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 6,
+    "time": 50000,
+    "reversible": true,
+    "decomp_learn": 5,
+    "book_learn": [ [ "recipe_augs", 6 ], [ "recipe_lab_elec", 6 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
+    "components": [
+      [ [ "power_supply", 6 ], [ "UPS_off", 1 ] ],
+      [ [ "amplifier", 4 ] ],
+      [ [ "nailgun", 1 ] ],
+      [ [ "burnt_out_bionic", 1 ], [ "processor", 2 ] ]
+    ]
+  }
+]

@@ -42,7 +42,7 @@
           "boots",
           "backpack",
           "wristwatch",
-          "tonfa_capped"
+          "tonfa_capped_chorus"
           ]
       },
       "male": [ "boxer_briefs" ],
@@ -83,7 +83,7 @@
         "items": [
           "maid_dress",
           "maid_hat",
-          "corset_cloth_pockets",
+          "corset_cloth_pockets_chorus",
           "stockings",
           "dress_shoes"
           ]
@@ -113,7 +113,7 @@
       "bio_ups",
       "bio_skates_chorus",
       "bio_hydraulics",
-      "bio_fist_ranged"
+      "bio_fist_ranged_chorus"
     ],
     "skills": [
       { "level": 1, "name": "melee" },
@@ -134,7 +134,7 @@
       "female": [ "panties", "bra", "skirt" ]
     }
   },
-       {
+    {
     "type": "profession",
     "id": "robo_paintball",
     "name": "Cyber Paintball Professional",
@@ -149,7 +149,7 @@
       "bio_skates_chorus",
       "bio_dex_enhancer",
       "bio_eye_enhancer",
-      "bio_railgun"
+      "bio_railgun_chorus"
     ],
     "skills": [
       { "level": 2, "name": "gun" },
@@ -164,10 +164,50 @@
           "socks",
           "sneakers",
           "backpack"
+          ],
+          "entries": [
+          { "item": "bearing", "container-item": "ammo_pouch" }
           ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "panties", "sports_bra" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "robo_carpenter",
+    "name": "Bionic Carpenter",
+    "description": "You were always ahead of the trends when it came to your job, and when they released commercial cybernetics, that was no different. Now, outfitted with various workplace cybernetics, including a modified nailgun CBM, you just might survive the cataclysm.",
+    "points": 8,
+    "CBMs": [
+      "bio_batteries",
+      "bio_power_storage_mkII",
+      "bio_flashlight",
+      "bio_watch",
+      "bio_sunglasses",
+      "bio_tools",
+      "bio_nailgun_chorus"
+    ],
+    "skills": [
+      { "level": 2, "name": "fabrication" },
+      { "level": 2, "name": "electronics" },
+      { "level": 2, "name": "mechanics" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "longshirt",
+          "jeans",
+          "socks",
+          "boots",
+          "glasses_safety"
+          ],
+          "entries": [
+          { "item": "combatnail", "container-item": "ammo_pouch" }
+          ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "panties", "bra" ]
     }
   }
 ]

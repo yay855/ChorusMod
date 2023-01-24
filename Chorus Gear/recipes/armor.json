@@ -36,7 +36,7 @@
     "components": [ [ [ "plastic_chunk", 2 ] ], [ [ "glass_tinted", 1 ] ] ]
   },
    {
-    "result": "tinted_goggles",
+    "result": "tinted_goggles_chorus",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
@@ -151,7 +151,7 @@
     ]
   },
     {
-    "result": "chainmail_skin",
+    "result": "chainmail_skin_chorus",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
@@ -170,7 +170,7 @@
     ]
   },
       {
-    "result": "chainmail_skin_faraday",
+    "result": "chainmail_skin_faraday_chorus",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
@@ -183,7 +183,7 @@
     "book_learn": [ [ "textbook_fabrication", 6 ], [ "advanced_electronics", 6 ], [ "textbook_electronics", 6 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [
-      [ [ "chainmail_skin", 1 ] ],
+      [ [ "chainmail_skin_chorus", 1 ] ],
       [ [ "wire", 10 ] ],
       [ [ "cable", 20 ] ]
     ]
@@ -201,7 +201,7 @@
     "components": [ [ [ "filament", 32, "LIST" ] ], [ [ "leather", 8 ] ] ]
   },
   {
-    "result": "corset_leather_pockets",
+    "result": "corset_leather_pockets_chorus",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
@@ -213,7 +213,7 @@
     "components": [ [ [ "filament", 40, "LIST" ] ], [ [ "leather", 10 ] ] ]
   },
   {
-    "result": "corset_cloth",
+    "result": "corset_cloth_chorus",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
@@ -225,7 +225,7 @@
     "components": [ [ [ "filament", 32, "LIST" ] ], [ [ "rag", 8 ] ] ]
   },
   {
-    "result": "corset_cloth_pockets",
+    "result": "corset_cloth_pockets_chorus",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
@@ -237,7 +237,7 @@
     "components": [ [ [ "filament", 40, "LIST" ] ], [ [ "rag", 10 ] ] ]
   },
     {
-    "result": "chorus_rubber_skintight",
+    "result": "rubber_skintight_chorus",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
@@ -284,7 +284,7 @@
     "components": [ [ [ "rag", 12 ] ] ]
   },
     {
-    "result": "leather_dress",
+    "result": "leather_dress_chorus",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
@@ -296,7 +296,7 @@
     "components": [ [ [ "rag", 6 ] ], [ [ "leather", 6 ] ] ]
   },
   {
-    "result": "leather_dress_blue",
+    "result": "leather_dress_blue_chorus",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
@@ -308,7 +308,7 @@
     "components": [ [ [ "rag", 6 ] ], [ [ "leather", 6 ] ] ]
   },
   {
-    "result": "armor_dress",
+    "result": "armor_dress_chorus",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
@@ -320,7 +320,7 @@
     "components": [ [ [ "kevlar_plate", 10 ] ], [ [ "rag", 10 ] ] ]
   },
   {
-    "result": "armor_dress_blue",
+    "result": "armor_dress_blue_chorus",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",

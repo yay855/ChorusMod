@@ -14,7 +14,7 @@
   },
     {
     "type": "recipe",
-    "result": "tonfa_capped",
+    "result": "tonfa_capped_chorus",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_BASHING",
     "skill_used": "fabrication",
@@ -28,7 +28,7 @@
   },
       {
     "type": "recipe",
-    "result": "tonfa_metal",
+    "result": "tonfa_metal_chorus",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_BASHING",
     "skill_used": "fabrication",
@@ -37,10 +37,10 @@
     "autolearn": true,
     "book_learn": [ [ "textbook_weapeast", 3 ] , [ "recipe_melee", 4 ] ],
     "using": [ [ "blacksmithing_standard", 12 ], [ "steel_standard", 3 ] ],
-    "components": [ [ [ "material_aluminium_ingot", 3 ] ], [ [ "fur", 2 ], [ "leather", 2 ] ] ]
+    "components": [ [ [ "fur", 2 ], [ "leather", 2 ] ] ]
   },
     {
-    "result": "wood_nunchuk",
+    "result": "wood_nunchuk_chorus",
     "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_BASHING",
@@ -59,7 +59,7 @@
     ]
   },
   {
-    "result": "steel_nunchuk",
+    "result": "steel_nunchuk_chorus",
     "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_BASHING",
@@ -91,7 +91,7 @@
   },
     {
     "type": "recipe",
-    "result": "flanged_mace",
+    "result": "flanged_mace_chorus",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_BASHING",
     "skill_used": "fabrication",

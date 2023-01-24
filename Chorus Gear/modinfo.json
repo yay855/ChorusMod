@@ -5,7 +5,7 @@
     "name": "Chorus's Gear",
     "authors": [ "ChorusSystem" ],
     "maintainers": [ "ChorusSystem" ],
-    "description": "Edits and additions to weaponry, mostly to personal preference and as a learning tool.",
+    "description": "Edits and additions to weaponry, mostly to personal preference and as a learning tool. Lone's Tweaks suggested but not required.",
     "category": "content",
     "dependencies": [ "bn" ],
     "obsolete": false
