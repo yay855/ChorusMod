@@ -14,9 +14,9 @@
     "count": 10,
     "stack_size": 10,
     "ammo_type": "cbma_em_rail",
-    "range": 25,
-    "damage": { "damage_type": "stab", "amount": 30, "armor_penetration": 0 },
-    "dispersion": 50,
+    "range": 6,
+    "damage": { "damage_type": "stab", "amount": 15, "armor_penetration": 0 },
+    "dispersion": 120,
     "recoil": 0,
     "loudness": 25,
     "effects": [ "NEVER_MISFIRES" ]

@@ -177,7 +177,7 @@
     "type": "profession",
     "id": "robo_carpenter",
     "name": "Bionic Carpenter",
-    "description": "You were always ahead of the trends when it came to your job, and when they released commercial cybernetics, that was no different. Now, outfitted with various workplace cybernetics, including a modified nailgun CBM, you just might survive the cataclysm.",
+    "description": "You were always ahead of the trends when it came to your job, and when they released commercial cybernetics, that was no different. Now, outfitted with various workplace cybernetics, including a slightly illegal railgun CBM, you just might survive the cataclysm.",
     "points": 8,
     "CBMs": [
       "bio_batteries",
@@ -187,7 +187,7 @@
       "bio_watch",
       "bio_sunglasses",
       "bio_tools",
-      "bio_nailgun_chorus"
+      "bio_railgun_chorus"
     ],
     "skills": [
       { "level": 2, "name": "fabrication" },
@@ -204,7 +204,7 @@
           "glasses_safety"
           ],
           "entries": [
-          { "item": "combatnail", "container-item": "ammo_pouch" }
+          { "item": "nail", "container-item": "ammo_pouch" }
           ]
       },
       "male": [ "boxer_shorts" ],

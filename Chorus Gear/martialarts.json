@@ -51,7 +51,8 @@
     "name": { "str": "Barbaran Montante" },
     "extend": { 
 	 "weapons": [ 
-       "flanged_mace_chorus"
+       "flanged_mace_chorus",
+       "hatchet"
        ]
    }
   }
