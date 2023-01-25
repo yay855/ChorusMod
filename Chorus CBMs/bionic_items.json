@@ -27,7 +27,7 @@
     "id": "bio_railgun_chorus",
     "copy-from": "bionic_general_npc_usable",
     "type": "BIONIC_ITEM",
-    "name": { "str": "Bionic Extendo-Arms CBM" },
+    "name": { "str": "Bionic Railgun CBM" },
     "looks_like": "bio_int_enhancer",
     "description": "A surgically implanted railgun in your arm, allowing you to launch ball bearings at high speeds.",
     "price": "8500 USD",

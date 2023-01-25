@@ -49,7 +49,7 @@
     "name": { "str": "Bionic Railgun" },
     "description": "Concealed in your left arm is a railgun gun designed to fire ball bearings and electromagnetic projectiles. Activate the bionic to fire and reload it.",
     "occupied_bodyparts": [ [ "arm_l", 10 ] ],
-    "act_cost": "50 kJ",
+    "act_cost": "50 J",
     "fake_item": "bio_railgun_gun_chorus",
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "NO_UNWIELD" ]
   },
@@ -69,7 +69,7 @@
     "name": { "str": "Bionic submachine gun" },
     "description": "Concealed in your left arm is a submachine gun designed to use a variety of handgun ammunition types. Activate the bionic to fire and reload it.",
     "occupied_bodyparts": [ [ "arm_l", 10 ] ],
-    "act_cost": "5 kJ",
+    "act_cost": "50 J",
     "fake_item": "bio_smg_gun_chorus",
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "NO_UNWIELD" ]
   }
