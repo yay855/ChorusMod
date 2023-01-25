@@ -1,8 +1,0 @@
-[
-  {
-    "type": "ammunition_type",
-    "id": "cbma_em_rail",
-    "name": "electromagnetic projectiles",
-    "default": "cbma_em_rail_makeshift_chorus"
-  }
-]

@@ -19,7 +19,7 @@
     "looks_like": "glock_19",
     "type": "GUN",
     "name": { "str": "bionic railgun" },
-    "description": "Bionic retracting railgun integrated with your arm. Reloads via collapsible hopper.",
+    "description": "Bionic retracting railgun integrated with your arm.",
     "volume": "103 ml",
     "price": 0,
     "to_hit": -2,
@@ -28,15 +28,15 @@
     "symbol": "(",
     "color": "cyan",
     "skill": "smg",
-    "ammo": [ "pebble", "cbma_em_rail", "nail" ],
-    "ranged_damage": { "damage_type": "bash", "amount": 22 },
+    "ammo": [ "pebble", "nail" ],
+    "ranged_damage": { "damage_type": "stab", "amount": 22 },
     "range": 10,
     "dispersion": 10,
     "durability": 10,
     "clip_size": 18,
     "modes": [ [ "DEFAULT", "single shot", 1 ], [ "burst", "triple shot", 3  ], [ "AUTO", "auto", 6 ] ],
-    "reload": 500,
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
+    "reload": 50,
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
   },
   {
     "type": "GENERIC",
