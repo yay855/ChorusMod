@@ -20,6 +20,7 @@
       "type": "holster",
       "holster_prompt": "holster club",
       "holster_msg": "You holster your %s",
+      "min_volume": "100 ml",
       "max_volume": "1500 ml",
       "draw_cost": 3,
       "flags": [ "BELT_CLIP" ]
