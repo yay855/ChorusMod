@@ -183,7 +183,6 @@
     "symbol": "b",
     "color": "red",
     "looks_like": "cestus",
-    "techniques": [ "WBLOCK_1" ],
     "flags": [ "DURABLE_MELEE", "UNARMED_WEAPON", "BELT_CLIP", "NONCONDUCTIVE", "STAB" ]
   },
   {
@@ -201,7 +200,6 @@
     "symbol": "b",
     "color": "red",
     "looks_like": "cestus",
-    "techniques": [ "WBLOCK_1" ],
     "flags": [ "DURABLE_MELEE", "UNARMED_WEAPON", "BELT_CLIP", "NONCONDUCTIVE" ]
   },
   {

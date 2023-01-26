@@ -55,5 +55,18 @@
        "hatchet"
        ]
    }
+  },
+  {
+    "type": "martial_art",
+    "id": "style_ninjutsu",
+    "copy-from": "style_ninjutsu",
+    "name": { "str": "Ninjutsu" },
+    "extend": { 
+	 "weapons": [ 
+       "tonfa_wood",
+       "tonfa_capped_chorus",
+       "tonfa_metal_chorus"
+       ]
+   }
   }
 ]
