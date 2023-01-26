@@ -136,6 +136,7 @@
 	"subcategory": "CSC_WEAPON_BASHING",
 	"time": "2 m",
 	"autolearn": true,
+	"reversible": true,
     "components": [ [ [ "cordage_short", 2, "LIST" ] ], [ [ "rock", 2 ] ] ]
   }
 ]
