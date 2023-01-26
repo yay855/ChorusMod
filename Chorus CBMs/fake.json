@@ -43,12 +43,12 @@
     "category": "weapons",
     "id": "bio_fist_weap_chorus",
     "name": { "str_sp": "Hammerfists" },
-    "description": "Steel plating has been surgically implanted onto your fists, making your punches strike much harder.",
+    "description": "Your arms extend outwards, allowing you to smack your foes with steel fists from a distance.",
     "to_hit": 3,
     "color": "light_gray",
     "symbol": "{",
     "material": [ "superalloy" ],
-    "volume": "200 ml",
+    "volume": "1000 ml",
     "bashing": 12,
     "flags": [ "NO_DROP", "NO_UNWIELD", "UNBREAKABLE_MELEE", "UNARMED_WEAPON", "REACH_ATTACK", "REACH3", "TRADER_AVOID" ],
     "qualities": [ [ "HAMMER", 2 ] ]
@@ -79,5 +79,22 @@
     "modes": [ [ "DEFAULT", "single shot", 1 ], [ "burst", "triple shot", 3  ], [ "AUTO", "auto", 6 ] ],
     "reload": 100,
     "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
+  },
+  {
+    "type": "GENERIC",
+    "category": "weapons",
+    "id": "bio_drill_weap_chorus",
+    "looks_like": "cordless_drill",
+    "name": { "str_sp": "Drill Hands" },
+    "description": "Your hands have been replaced with large drills, capable of boring through dirt, stone, metal, and flesh easily.",
+    "to_hit": 1,
+    "color": "light_gray",
+    "symbol": "{",
+    "material": [ "superalloy" ],
+    "volume": "750 ml",
+    "cutting": 50,
+    "use_action": "JACKHAMMER",
+    "flags": [ "STAB", "NO_DROP", "NO_UNWIELD", "UNBREAKABLE_MELEE", "UNARMED_WEAPON", "TRADER_AVOID" ],
+    "qualities": [ [ "AXE", 1 ], ["DIG", 3 ], [ "DRILL", 3 ] ]
   }
 ]

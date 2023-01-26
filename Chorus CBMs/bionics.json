@@ -66,11 +66,21 @@
       {
     "id": "bio_smg_chorus",
     "type": "bionic",
-    "name": { "str": "Bionic submachine gun" },
+    "name": { "str": "Bionic Submachine Gun" },
     "description": "Concealed in your left arm is a submachine gun designed to use a variety of handgun ammunition types. Activate the bionic to fire and reload it.",
     "occupied_bodyparts": [ [ "arm_l", 10 ] ],
     "act_cost": "50 J",
     "fake_item": "bio_smg_gun_chorus",
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "NO_UNWIELD" ]
+  },
+  {
+    "id": "bio_drill_chorus",
+    "type": "bionic",
+    "name": { "str": "Bionic Drill Hands" },
+    "description": "Your hands have been replaced with a mechanical equivalent similar to modern prosthetics, but these particular cybernetics can merge together to create two large drills each, capable of tunneling through rock and soil easily.",
+    "occupied_bodyparts": [ [ "hand_l", 4 ], [ "hand_r", 4 ] ],
+    "act_cost": "25 kJ",
+    "fake_item": "bio_drill_weap_chorus",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
   }
 ]

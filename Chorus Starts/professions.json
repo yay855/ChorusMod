@@ -1,7 +1,7 @@
 [
  {
     "type": "profession",
-    "id": "bat_burglar",
+    "id": "bat_burglar_chorus",
     "name": "Bat Burglar",
     "description": " You were an infamous jewel thief before the end, famous for stealing things no one else could... and also for being a bat mutant. Here's hoping you can survive the cataclysm.",
     "points": 8,
@@ -51,7 +51,7 @@
   },
    {
     "type": "profession",
-    "id": "robo_maid",
+    "id": "robo_maid_chorus",
     "name": "Cyborg Maid",
     "description": "You were a cybernetically augmented personal assistant and maid working for a brilliant but eccentric scientist. The cataclysm struck not long after your training and surgery, but hopefully those will help you survive.",
     "points": 10,
@@ -94,7 +94,7 @@
   },
      {
     "type": "profession",
-    "id": "robo_teen",
+    "id": "robo_teen_chorus",
     "name": "Teenage Cyborg",
     "description": "Your mother was a scientist, and when she developed all kinds of neat toys, you wanted to have them all. Now she's gone, and you have to survive.",
     "points": 10,
@@ -136,7 +136,7 @@
   },
     {
     "type": "profession",
-    "id": "robo_paintball",
+    "id": "robo_paintball_chorus",
     "name": "Cyber Paintball Professional",
     "description": "You were one of the first pros at a new sport: cyber paintball, a form of paintball where the players were bionically agumented. You may no longer have the league, but with any luck, you'll still have your life.",
     "points": 10,
@@ -175,7 +175,7 @@
   },
   {
     "type": "profession",
-    "id": "robo_carpenter",
+    "id": "robo_carpenter_chorus",
     "name": "Bionic Carpenter",
     "description": "You were always ahead of the trends when it came to your job, and when they released commercial cybernetics, that was no different. Now, outfitted with various workplace cybernetics, including a slightly illegal railgun CBM, you just might survive the cataclysm.",
     "points": 8,
@@ -253,6 +253,47 @@
       },
       "male": [ "boxer_shorts" ],
       "female": [ "panties", "bra" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "robo_miner_chorus",
+    "name": "Bionic Miner",
+    "description": "You had been cybernetically augmented for your job, meant to survive working conditions no other human could. Now you just have to survive the undead.",
+    "points": 10,
+    "CBMs": [
+      "bn_bio_solar",
+      "bio_cable",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_flashlight",
+      "bio_watch",
+      "bio_sunglasses",
+      "bio_ears",
+      "bio_tools",
+      "bio_purifier",
+      "bio_weight",
+      "bio_ground_sonar",
+      "bio_carbon",
+      "bio_drill_chorus"
+    ],
+    "skills": [
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "unarmed" },
+      { "level": 2, "name": "mechanics" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "jumpsuit",
+          "socks",
+          "boots",
+          "glasses_safety",
+          "hat_hard"
+          ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "panties", "sports_bra" ]
     }
   }
 ]

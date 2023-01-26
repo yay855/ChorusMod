@@ -6,7 +6,8 @@
       [ "bio_skates_chorus", 10 ],
       [ "bio_fist_ranged_chorus", 10 ],
       [ "bio_railgun_chorus", 10 ],
-      [ "bio_smg_chorus", 10 ]
+      [ "bio_smg_chorus", 10 ],
+      [ "bio_drill_chorus", 10 ]
     ]
   },
     {
@@ -61,6 +62,15 @@
       { "item": "bio_skates_chorus", "prob": 10 },
       { "item": "bio_fist_ranged_chorus", "prob": 10 },
       { "item": "bio_smg_chorus", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "bionics_tech",
+    "subtype": "distribution",
+    "//": "Bionics used by technicians.",
+    "items": [
+      [ "bio_drill_chorus", 10 ]
     ]
   }
 ]

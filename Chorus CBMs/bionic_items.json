@@ -39,13 +39,13 @@
     "id": "bio_nailgun_chorus",
     "copy-from": "bionic_general_npc_usable",
     "type": "BIONIC_ITEM",
-    "name": { "str": "Bionic Extendo-Arms CBM" },
+    "name": { "str": "Dummied Out" },
     "looks_like": "bio_int_enhancer",
     "description": "A surgically implanted flechette launcher in your arm, illegally made from a nailgun and bionic parts. Not that the law matters much anymore.",
     "price": "8500 USD",
     "price_postapoc": "200 USD",
     "weight": "500 g",
-    "difficulty": 6
+    "difficulty": 7
   },
   {
     "id": "bio_smg_chorus",
@@ -53,10 +53,22 @@
     "type": "BIONIC_ITEM",
     "name": { "str": "Bionic Submachine Gun CBM" },
     "looks_like": "bio_int_enhancer",
-    "description": "A surgically implanted SMG in your arm, typically used by law enforcement and gangsters, and can chamber just about any pistol or SMG round.",
+    "description": "A surgically implanted SMG in your arm, typically used by law enforcement and gangsters, and can chamber most common pistol or SMG rounds.",
     "price": "8500 USD",
     "price_postapoc": "200 USD",
     "weight": "500 g",
     "difficulty": 6
+  },
+  {
+    "id": "bio_drill_chorus",
+    "copy-from": "bionic_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Bionic Drill Arms CBM" },
+    "looks_like": "bio_int_enhancer",
+    "description": "A pair of prosthetic hands that transform into drills, meant for digging and mining but quite passable as weapons.",
+    "price": "8500 USD",
+    "price_postapoc": "200 USD",
+    "weight": "500 g",
+    "difficulty": 7
   }
 ]
