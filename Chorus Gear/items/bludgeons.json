@@ -83,7 +83,7 @@
     "techniques": [ "WBLOCK_2", "BRUTAL" ],
     "flags": [ "DURABLE_MELEE", "BELT_CLIP" ],
     "volume": "1500 ml",
-    "bashing": 45,
+    "bashing": 35,
     "use_action": {
     "type": "transform",
     "msg": "You shift your grip on the tonfa.",
@@ -105,7 +105,7 @@
     "techniques": [ "WBLOCK_2" ],
     "flags": [ "DURABLE_MELEE", "BELT_CLIP", "UNARMED_WEAPON" ],
     "volume": "1500 ml",
-    "bashing": 16,
+    "bashing": 12,
     "use_action": {
     "type": "transform",
     "msg": "You shift your grip on the tonfa.",
@@ -150,8 +150,8 @@
     "category": "weapons",
     "name": { "str": "flanged mace" },
     "description": "A type of mace with prongs on the side of the ball, making it puncture armor but harder to swing.",
-    "weight": "1525 g",
-    "volume": "1500 ml",
+    "weight": "1600 g",
+    "volume": "1725 ml",
     "price": 15000,
     "price_postapoc": 6500,
     "to_hit": 0,
