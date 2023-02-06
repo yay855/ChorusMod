@@ -14,7 +14,7 @@
     "techniques": [ "WBLOCK_2" ],
     "flags": [ "DURABLE_MELEE", "BELT_CLIP", "UNARMED_WEAPON" ],
     "volume": "1500 ml",
-    "bashing": 2,
+    "bashing": 4,
     "price": 19500,
     "use_action": {
     "type": "transform",
