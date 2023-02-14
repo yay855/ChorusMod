@@ -3,7 +3,7 @@
     "id": "club_holster",
     "type": "ARMOR",
     "name": { "str": "club holster", "str_pl": "club holsters" },
-    "description": "A leather holster for holding smaller blunt weapons, little more than a leather belt loop.  Activate to sheathe/draw a weapon.",
+    "description": "A makeshift holster for holding smaller blunt weapons, little more than a large belt loop.  Activate to sheathe/draw a weapon.",
     "weight": "500 g",
     "volume": "1500 ml",
     "price": 6000,

@@ -14,8 +14,8 @@
     "description": "A piece of wood with holes.",
     "item": "wheel_mount_wood_light",
     "requirements": {
-      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "10 m", "using": [ ] },
-      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "10 m", "using": [ ] },
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "10 m", "using": [ ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "10 m", "using": [ ] },
       "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "10 m", "using": [ ] }
     },
     "flags": [ "WHEEL_MOUNT_LIGHT", "NEEDS_JACKING", "FOLDABLE" ],

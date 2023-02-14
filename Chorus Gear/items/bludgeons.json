@@ -173,7 +173,7 @@
     "weight": "464 g",
     "volume": "1 L",
     "price": 4500,
-    "bashing": 3,
+    "bashing": 4,
     "cutting": 4,
     "material": [ "cotton", "steel" ],
     "symbol": "b",
