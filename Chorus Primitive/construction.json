@@ -21,7 +21,8 @@
     "pre_note": "Can be deconstructed without tools.",
     "pre_special": "check_empty",
     "dark_craftable": true,
-    "post_furniture": "b_kiln_empty_chorus"
+    "post_furniture": "b_kiln_empty_chorus",
+    "group": "build_forge_brick"
   },
   {
     "type": "construction",
@@ -33,6 +34,7 @@
     "pre_note": "Can be deconstructed without tools.",
     "pre_special": "check_empty",
     "dark_craftable": true,
-    "post_furniture": "f_forge_brick_chorus"
+    "post_furniture": "f_forge_brick_chorus",
+    "group": "build_kiln_brick"
   }
 ]

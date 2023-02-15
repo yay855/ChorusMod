@@ -1,0 +1,12 @@
+[
+  {
+    "type": "construction_group",
+    "id": "build_forge_brick",
+    "name": "Build Brick Forge"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_kiln_brick",
+    "name": "Build Brick Charcoal Kiln"
+  }
+]
