@@ -8,7 +8,7 @@
     "volume": "1500 ml",
     "price": 6000,
     "price_postapoc": 500,
-    "material": [ "leather" ],
+    "material": [ "leather", "cotton" ],
     "symbol": "|",
     "looks_like": "scabbard",
     "color": "brown",
