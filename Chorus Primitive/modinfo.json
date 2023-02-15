@@ -5,7 +5,7 @@
     "name": "Chorus's Primitive Living",
     "authors": [ "ChorusSystem" ],
     "maintainers": [ "ChorusSystem" ],
-    "description": "Things ripped from Primal World, but without sacrificing preexisting structures and non-foraged loot. Do not use with Primal World.",
+    "description": "Mostly things ripped from Primal World, but without sacrificing preexisting structures and non-foraged loot. Do not use with Primal World.",
     "category": "content",
     "dependencies": [ "bn" ],
     "obsolete": false

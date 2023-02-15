@@ -1,0 +1,15 @@
+[
+	{
+    "type": "construction",
+    "id": "constr_f_floor_lamp",
+    "group": "build_floor_lamp",
+    "category": "WORKSHOP",
+    "required_skills": [ [ "fabrication", 2 ], [ "electronics", 0 ] ],
+    "time": "20 m",
+    "qualities": [ [ { "id": "SCREW", "level": 1 } ] ],
+    "components": [ [ [ "cable", 2 ] ], [ [ "power_supply", 1 ] ], [ [ "light_bulb", 1 ], [ "lightstrip", 1 ] ], [ [ "steel_lump", 1 ] ], [ [ "pipe", 1 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "post_furniture": "f_floor_lamp_off"
+  }
+]
