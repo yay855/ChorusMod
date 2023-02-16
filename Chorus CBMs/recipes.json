@@ -43,7 +43,7 @@
   },
   {
     "type": "recipe",
-    "result": "bio_railgun_chorus",
+    "result": "bio_crossbow_chorus",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
     "skill_used": "electronics",
