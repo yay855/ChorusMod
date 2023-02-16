@@ -47,7 +47,7 @@
     "id": "bio_railgun_chorus",
     "type": "bionic",
     "name": { "str": "Bionic Railgun" },
-    "description": "Concealed in your left arm is a railgun gun designed to fire ball bearings and electromagnetic projectiles. Activate the bionic to fire and reload it.",
+    "description": "Concealed in your left arm is a railgun designed to fire ball bearings and electromagnetic projectiles. Activate the bionic to fire and reload it.",
     "occupied_bodyparts": [ [ "arm_l", 10 ] ],
     "act_cost": "50 J",
     "fake_item": "bio_railgun_gun_chorus",
@@ -82,5 +82,15 @@
     "act_cost": "25 kJ",
     "fake_item": "bio_drill_weap_chorus",
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "bio_crossbow_chorus",
+    "type": "bionic",
+    "name": { "str": "Bionic Crossbow" },
+    "description": "Concealed in your left arm is a repeating pneumatic crossbow able to fire bolts and arrows alike, used by extreme hunter enthusiasts. Activate the bionic to fire and reload it.",
+    "occupied_bodyparts": [ [ "arm_l", 10 ] ],
+    "act_cost": "50 J",
+    "fake_item": "bio_crossbow_gun_chorus",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "NO_UNWIELD" ]
   }
 ]

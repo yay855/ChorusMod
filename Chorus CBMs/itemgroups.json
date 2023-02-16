@@ -7,7 +7,8 @@
       [ "bio_fist_ranged_chorus", 10 ],
       [ "bio_railgun_chorus", 10 ],
       [ "bio_smg_chorus", 10 ],
-      [ "bio_drill_chorus", 10 ]
+      [ "bio_drill_chorus", 10 ],
+      [ "bio_crossbow_chorus", 10 ]
     ]
   },
     {
@@ -15,7 +16,8 @@
     "id": "bionics_common",
     "subtype": "distribution",
     "entries": [
-      { "item": "bio_skates_chorus", "prob": 10 }
+      { "item": "bio_skates_chorus", "prob": 10 },
+      { "item": "bio_crossbow_chorus", "prob": 10 }
     ]
   },
   {
@@ -61,7 +63,8 @@
       { "item": "bio_railgun_chorus", "prob": 10 },
       { "item": "bio_skates_chorus", "prob": 10 },
       { "item": "bio_fist_ranged_chorus", "prob": 10 },
-      { "item": "bio_smg_chorus", "prob": 10 }
+      { "item": "bio_smg_chorus", "prob": 10 },
+      { "item": "bio_crossbow_chorus", "prob": 10 }
     ]
   },
   {

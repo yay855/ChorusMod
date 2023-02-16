@@ -70,5 +70,17 @@
     "price_postapoc": "200 USD",
     "weight": "500 g",
     "difficulty": 7
+  },
+  {
+    "id": "bio_crossbow_chorus",
+    "copy-from": "bionic_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Bionic Bolt Launcher CBM" },
+    "looks_like": "bio_int_enhancer",
+    "description": "A surgically implanted pneumatic bolt launcher in your arm, allowing you to launch bolts and arrows at high speeds.",
+    "price": "8500 USD",
+    "price_postapoc": "200 USD",
+    "weight": "500 g",
+    "difficulty": 6
   }
 ]

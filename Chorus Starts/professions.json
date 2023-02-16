@@ -295,5 +295,53 @@
       "male": [ "boxer_shorts" ],
       "female": [ "panties", "sports_bra" ]
     }
+  },
+  {
+    "type": "profession",
+    "id": "bio_crossbow_hunter_chorus",
+    "name": "Bionic Survivalist",
+    "description": "Ever since you were a child you loved the outdoors, and you eventually upgraded your body to suit your needs as a hunter and survivalist. Now the world has ended, but you're equipped with all you need.",
+    "points": 10,
+    "CBMs": [
+      "bio_metabolics",
+      "bio_crossbow_chorus",
+      "bio_power_storage_mkII",
+      "bio_sunglasses",
+      "bio_night_vision",
+      "bio_ears",
+      "bio_surgical_razor",
+      "bio_hydraulics",
+      "bio_evap",
+      "bio_carbon",
+      "bio_recycler",
+      "bio_lighter",
+      "bio_nanobots",
+      "bio_scent_mask",
+      "bio_targeting"
+    ],
+    "skills": [ 
+    { "level": 2, "name": "rifle" }, 
+    { "level": 2, "name": "survival" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "army_top",
+          "knit_scarf",
+          "socks",
+          "boots",
+          "pants_cargo",
+          "jacket_flannel",
+          "hat_hunting",
+          "wristwatch"
+        ],
+        "entries": [
+          { "item": "quiver", "contents-group": "quiver_crossbow_hunter" },
+          { "item": "quiver", "contents-group": "quiver_crossbow_hunter" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
   }
 ]
