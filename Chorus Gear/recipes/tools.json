@@ -54,6 +54,7 @@
     "autolearn": true,
     "time": "4 h",
     "tools": [ [ "mold_plastic" ] ],
+    "using": [ [ "surface_heat", 100 ] ],
     "components": [ [ [ "plastic_chunk", 10 ] ] ]
   }
 ]
