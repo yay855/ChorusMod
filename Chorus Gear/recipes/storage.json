@@ -1,0 +1,14 @@
+[
+{
+    "result": "armrig_chorus",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "20 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 15 ] ],
+    "components": [ [ [ "rag", 10 ] ], [ [ "rag", 24 ], [ "ragpouch", 4 ] ] ]
+  }
+]

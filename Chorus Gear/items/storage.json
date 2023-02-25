@@ -1,0 +1,22 @@
+[
+{
+    "id": "armrig_chorus",
+    "type": "ARMOR",
+    "name": { "str": "cargo sleeves" },
+    "description": "A set of pouch-lined sleeves that can be worn on the arms. Cumbersome, but useful.",
+    "weight": "205 g",
+    "volume": "500 ml",
+    "price": 3000,
+    "price_postapoc": 250,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "color": "brown",
+    "covers": [ "arms" ],
+    "coverage": 20,
+    "rigid": false,
+    "encumbrance": 10,
+    "storage": "10 L",
+    "material_thickness": 2,
+    "flags": [ "WATER_FRIENDLY", "BELTED" ]
+  }
+]
