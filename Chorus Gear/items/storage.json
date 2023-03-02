@@ -10,13 +10,14 @@
     "price_postapoc": 250,
     "material": [ "cotton" ],
     "symbol": "[",
-    "color": "brown",
+    "color": "white",
     "covers": [ "arms" ],
-    "coverage": 20,
+    "coverage": 100,
     "rigid": false,
-    "encumbrance": 10,
+    "encumbrance": 1,
+    "max_encumbrance": 10,
     "storage": "10 L",
     "material_thickness": 2,
-    "flags": [ "WATER_FRIENDLY", "BELTED" ]
+    "flags": [ "BELTED", "VARSIZE", "SKINTIGHT" ]
   }
 ]
