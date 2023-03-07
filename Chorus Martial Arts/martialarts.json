@@ -15,8 +15,8 @@
         "name": "Electrical Claws",
         "description": "Your energy runs through you, causing your attacks to become stronger with your ability to focus and making you move and dodge faster, but reducing your ability to block strikes.",
         "unarmed_allowed": true,
-        "flat_bonuses": [ { "stat": "block", "scale": -2 }, { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }, 
-        { "stat": "speed", "scaling-stat": "dex", "scale": 0.5 }, { "stat": "armor", "type": "bash", "scale": -3.0 }, 
+        "flat_bonuses": [ { "stat": "block", "scale": -2 }, { "stat": "dodge", "scaling-stat": "dex", "scale": 0.75 }, 
+        { "stat": "speed", "scaling-stat": "dex", "scale": 0.75 }, { "stat": "armor", "type": "bash", "scale": -3.0 }, 
       { "stat": "armor", "type": "cut", "scale": -3.0 }, { "stat": "armor", "type": "stab", "scale": -3.0 } ]
       },
       {
