@@ -161,7 +161,7 @@
     "id": "leather_dress_chorus",
     "type": "ARMOR",
     "name": { "str": "padded dress", "str_pl": "armored dresses" },
-    "description": "A long cotton dress with pockets reinforced with leather padding. Breathes surprisingly well.",
+    "description": "A long, thick cotton dress with pockets reinforced with leather padding. Looks ridiculously poofy, but breathes surprisingly well.",
     "weight": "680 g",
     "volume": "3500 ml",
     "price": 18000,
@@ -172,11 +172,11 @@
     "looks_like": "dress",
     "color": "red",
     "covers": [ "legs", "arms", "torso" ],
-    "coverage": 85,
+    "coverage": 90,
     "encumbrance": 10,
     "storage": "4 L",
-    "warmth": 5,
-    "material_thickness": 4,
+    "warmth": 8,
+    "material_thickness": 6,
     "flags": [ "VARSIZE", "STURDY", "FANCY", "POCKETS" ]
   },
   {

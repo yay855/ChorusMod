@@ -293,7 +293,7 @@
     "time": "3 h 30 m",
     "autolearn": true,
     "using": [ [ "sewing_standard", 24 ] ],
-    "components": [ [ [ "rag", 6 ] ], [ [ "leather", 6 ] ] ]
+    "components": [ [ [ "rag", 12 ] ], [ [ "leather", 6 ] ] ]
   },
   {
     "result": "armor_dress_chorus",
