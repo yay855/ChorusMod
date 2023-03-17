@@ -1,0 +1,118 @@
+[
+  {
+    "id": "mask_gas_half_elec_chorus",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "name": { "str": "electronic half gas mask" },
+    "description": "A half gas mask that covers the face.  Provides excellent protection from smoke, teargas, and other contaminants.  This variety utilizes an electronic dual filter system, clearing the other filter with each exhale.",
+    "flags": [ "SLEEP_IGNORE", "OVERSIZE" ],
+    "looks_like": "mask_filter",
+    "weight": "897 g",
+    "volume": "1 L",
+    "price_postapoc": 750,
+    "to_hit": -3,
+    "material": [ "plastic" ],
+    "symbol": "[",
+    "color": "dark_gray",
+    "covers": [ "mouth" ],
+    "coverage": 100,
+    "encumbrance": 30,
+    "warmth": 10,
+    "material_thickness": 2,
+    "environmental_protection": 1,
+    "charges_per_use": 1,
+    "ammo": "battery",
+    "use_action": {
+      "target": "mask_gas_half_elec_chorus_on",
+      "msg": "You activate the gas mask.",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The mask's batteries need more charge.",
+      "type": "transform"
+    },
+    "magazines": [
+      [
+        "battery",
+        [
+          "light_plus_battery_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell",
+          "light_minus_disposable_cell",
+          "light_disposable_cell"
+        ]
+      ]
+    ],
+    "magazine_well": "250 ml"
+  },
+  {
+    "id": "mask_gas_half_elec_chorus_on",
+    "copy-from": "mask_gas_half_elec_chorus",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "electronic half gas mask - active" },
+    "power_draw": 6000000,
+    "environmental_protection": 16,
+    "revert_to": "mask_gas_half_elec_chorus",
+    "use_action": { "target": "mask_gas_half_elec_chorus", "msg": "You turn off the gas mask.", "menu_text": "Turn off", "type": "transform" },
+    "flags": [ "TRADER_AVOID" ]
+  },
+  {
+    "id": "mask_gas_elec_chorus",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "name": { "str": "electronic gas mask" },
+    "description": "A gas mask that covers the face and eyes.  Provides excellent protection from smoke, teargas, and other contaminants.  This variety utilizes an electronic dual filter system, clearing the other filter with each exhale.",
+    "flags": [ "SLEEP_IGNORE", "OVERSIZE" ],
+    "looks_like": "mask_filter",
+    "weight": "897 g",
+    "volume": "1 L",
+    "price_postapoc": 750,
+    "to_hit": -3,
+    "material": [ "plastic" ],
+    "symbol": "[",
+    "color": "dark_gray",
+    "covers": [ "mouth", "eyes" ],
+    "coverage": 100,
+    "encumbrance": 30,
+    "warmth": 10,
+    "material_thickness": 2,
+    "environmental_protection": 1,
+    "charges_per_use": 1,
+    "ammo": "battery",
+    "use_action": {
+      "target": "mask_gas_elec_chorus_on",
+      "msg": "You activate the gas mask.",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The mask's batteries need more charge.",
+      "type": "transform"
+    },
+    "magazines": [
+      [
+        "battery",
+        [
+          "light_plus_battery_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell",
+          "light_minus_disposable_cell",
+          "light_disposable_cell"
+        ]
+      ]
+    ],
+    "magazine_well": "250 ml"
+  },
+  {
+    "id": "mask_gas_elec_chorus_on",
+    "copy-from": "mask_gas_elec_chorus",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "electronic gas mask - active" },
+    "power_draw": 6000000,
+    "environmental_protection": 16,
+    "revert_to": "mask_gas_elec_chorus",
+    "use_action": { "target": "mask_gas_half_elec_chorus", "msg": "You turn off the gas mask.", "menu_text": "Turn off", "type": "transform" },
+    "flags": [ "TRADER_AVOID" ]
+  }
+]
