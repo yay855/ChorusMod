@@ -172,7 +172,7 @@
     "looks_like": "dress",
     "color": "red",
     "covers": [ "legs", "arms", "torso" ],
-    "coverage": 90,
+    "coverage": 95,
     "encumbrance": 10,
     "storage": "4 L",
     "warmth": 8,

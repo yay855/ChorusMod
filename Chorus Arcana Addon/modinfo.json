@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Chorus Arcana Addon",
+    "name": "Chorus's Arcana Addon",
+    "authors": [ "ChorusSystem" ],
+    "maintainers": [ "ChorusSystem" ],
+    "description": "Various things added to Arcana, some pulled from other mods.",
+    "category": "content",
+    "dependencies": [ "bn", "Arcana" ],
+    "obsolete": false
+  }
+]
