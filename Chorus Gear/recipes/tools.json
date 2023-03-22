@@ -29,7 +29,7 @@
 	  "skill_used": "fabrication",
 	  "difficulty": 8,
 	  "time": "3 h",
-	  "autolearn": [ [ "fabrication", 9 ] ],
+	  "autolearn": true,
       "using": [ [ "blacksmithing_standard", 4 ], [ "steel_standard", 1 ] ],
       "qualities": [ { "id": "GRIND", "level": 2 } ]
   },
@@ -41,7 +41,7 @@
 	  "skill_used": "fabrication",
 	  "difficulty": 7,
 	  "time": "2 h 30 m",
-	  "autolearn": [ [ "fabrication", 7 ] ],
+	  "autolearn": true,
       "using": [ [ "blacksmithing_standard", 4 ], [ "steel_standard", 1 ] ]
   },
     {
@@ -56,5 +56,29 @@
     "tools": [ [ "mold_plastic" ] ],
     "using": [ [ "surface_heat", 100 ] ],
     "components": [ [ [ "plastic_chunk", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "safecracker_chorus",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "mechanics",
+    "skills_required": [ "fabrication", 4 ],
+    "difficulty": 5,
+    "time": "40 m",
+    "reversible": true,
+    "book_learn": [ [ "textbook_mechanics", 5 ], [ "manual_mechanics", 5 ], [ "textbook_fabrication", 5 ], [ "textbook_anarch", 7 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 1 },
+      { "id": "CUT_FINE", "level": 1 },
+      { "id": "DRILL", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
+    ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ] ] ],
+    "components": [
+      [ [ "clockworks", 5 ] ],
+      [ [ "chunk_rubber", 5 ] ],
+      [ [ "scrap", 10 ] ]
+    ]
   }
 ]

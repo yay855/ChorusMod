@@ -17,5 +17,19 @@
     "symbol": "/",
     "color": "light_gray",
     "qualities": [ [ "GRIND", 2 ] ]
+  },
+  {
+    "id": "safecracker_chorus",
+    "type": "TOOL",
+    "name": { "str": "mechanical safecracker" },
+    "description": "A mechanical device used to open safes, typically used by locksmiths.",
+    "weight": "350 g",
+    "volume": "125 ml",
+    "price": "15 USD",
+    "price_postapoc": "31 USD",
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "flags": [ "SAFECRACK" ]
   }
 ]
