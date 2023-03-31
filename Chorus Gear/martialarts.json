@@ -1,72 +1,11 @@
 [
- {
-    "type": "martial_art",
-    "id": "style_eskrima",
-    "copy-from": "style_eskrima",
-    "name": { "str": "Eskrima" },
-    "extend": { 
-	 "weapons": [ 
-       "tonfa_capped_chorus",
-       "tonfa_metal_chorus"
-       ]
-   }
-  },
-   {
-    "type": "martial_art",
-    "id": "style_krav_maga",
-    "copy-from": "style_krav_maga",
-    "name": { "str": "Krav Maga" },
-    "extend": { 
-	 "weapons": [ 
-       "tonfa_capped_chorus",
-       "tonfa_metal_chorus"
-  ]
-  }
-  },
-  {
-    "type": "martial_art",
-    "id": "style_silat",
-    "copy-from": "style_silat",
-    "name": { "str": "Silat" },
-    "techniques": [ "tec_silat_hamstring", "tec_silat_precise", "tec_silat_brutal", "tec_silat_dirty" ],
-    "extend": { 
-	 "weapons": [ 
-       "tonfa_capped_chorus",
-       "tonfa_metal_chorus",
-       "spear_stone"
-       ]
-   }
-  },
-    {
-    "type": "martial_art",
-    "id": "style_sojutsu",
-    "copy-from": "style_sojutsu",
-    "name": { "str": "Sōjutsu" },
-    "extend": { "weapons": [ "spear_stone" ] }
-  },
-   {
-    "type": "martial_art",
-    "id": "style_barbaran",
-    "copy-from": "style_barbaran",
-    "name": { "str": "Barbaran Montante" },
-    "extend": { 
-	 "weapons": [ 
-       "flanged_mace_chorus",
-       "hatchet"
-       ]
-   }
-  },
   {
     "type": "martial_art",
     "id": "style_ninjutsu",
     "copy-from": "style_ninjutsu",
     "name": { "str": "Ninjutsu" },
     "extend": { 
-	 "weapons": [ 
-       "tonfa_wood",
-       "tonfa_capped_chorus",
-       "tonfa_metal_chorus"
-       ]
+	"weapon_category": [ "TONFAS" ]
    }
   }
 ]

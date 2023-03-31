@@ -4,6 +4,7 @@
     "type": "GENERIC",
     "category": "weapons",
     "name": { "str": "stone spear" },
+    "weapon_category": [ "SPEARS" ],
     "description": "A stout wooden pole with a sharp stone spearhead.",
     "weight": "1098 g",
     "volume": "1250 ml",
