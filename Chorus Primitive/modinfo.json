@@ -3,7 +3,7 @@
     "type": "MOD_INFO",
     "id": "Chorus Primitive",
     "name": "Chorus's Primitive Living",
-    "authors": [ "ChorusSystem" ],
+    "authors": [ "Tyzegt", "ChorusSystem" ],
     "maintainers": [ "ChorusSystem" ],
     "description": "Mostly things ripped from Primal World, but without sacrificing preexisting structures and non-foraged loot. Do not use with Primal World.",
     "category": "content",
