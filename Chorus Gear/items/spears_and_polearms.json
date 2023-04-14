@@ -30,7 +30,7 @@
     "price": "220 USD",
     "to_hit": 2,
     "bashing": 2,
-    "cutting": 8,
+    "cutting": 10,
     "material": [ "steel" ],
     "looks_like": "tanto",
     "symbol": "/",
