@@ -206,5 +206,23 @@
     "color": "red",
     "looks_like": "cestus",
     "flags": [ "UNARMED_WEAPON", "BELT_CLIP" ]
+  },
+  {
+	"type": "GENERIC",
+    "id": "kusari-fundo_chorus",
+    "category": "weapons",
+    "weapon_category": [ "FLAILS", "WHIPS" ],
+    "name": { "str": "Kusari-funo" },
+    "description": "A length of chain with a weighted tip, used by ninja and other historical people seeking to hide their weapons from the authorities. Unwieldy due to its construction, but it packs a punch at a distance.",
+    "looks_like": "2h_flail_steel",
+    "weight": "4550 g",
+    "volume": "2 L",
+    "price": 10000,
+    "to_hit": -1,
+    "bashing": 45,
+    "material": [ "steel" ],
+    "symbol": "v",
+    "color": "black",
+    "flags": [ "DURABLE_MELEE", "REACH_ATTACK", "BELT_CLIP" ]
   }
 ]

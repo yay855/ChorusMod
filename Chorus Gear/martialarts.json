@@ -5,6 +5,7 @@
     "copy-from": "style_ninjutsu",
     "name": { "str": "Ninjutsu" },
     "extend": { 
+	"weapons": [ "kusari-fundo_chorus" ],
 	"weapon_category": [ "TONFAS" ]
    }
   },

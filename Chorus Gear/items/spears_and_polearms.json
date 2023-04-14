@@ -28,6 +28,7 @@
     "weight": 775,
     "volume": "750 ml",
     "price": "220 USD",
+    "weapon_category": [ "FIST_WEAPONS", "KNIVES" ],
     "to_hit": 2,
     "bashing": 2,
     "cutting": 10,
