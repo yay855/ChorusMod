@@ -7,5 +7,11 @@
     "extend": { 
 	"weapon_category": [ "TONFAS" ]
    }
+  },
+  {
+  "type": "martial_art",
+  "id": "style_sojutsu",
+  "copy-from": "style_sojutsu",
+  "extend": { "weapon_category": [ "QUARTERSTAVES" ] }
   }
 ]

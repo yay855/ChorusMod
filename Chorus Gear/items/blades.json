@@ -1,0 +1,12 @@
+[
+   {
+	 "id": "dual_katana_chorus",
+	 "copy-from": "katana",
+	 "name": "dual katana",
+	 "type": "GENERIC",
+     "category": "weapons",
+     "volume": "4 L",
+	 "bashing": 5,
+     "cutting": 56
+   }
+]

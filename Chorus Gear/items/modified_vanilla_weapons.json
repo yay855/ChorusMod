@@ -26,6 +26,7 @@
     "name": { "str": "wooden tonfa" },
     "type": "GENERIC",
     "bashing": 15,
+    "techniques": [ "WBLOCK_1", "BRUTAL" ],
     "use_action": {
     "type": "transform",
     "msg": "You shift your grip on the tonfa.",
@@ -51,5 +52,32 @@
     "name": { "str": "cestus", "str_pl": "cestuses" },
     "bashing": 7,
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "BELT_CLIP" ]
+  },
+  {
+	"type": "GENERIC",
+	"id": "q_staff",
+	"copy-from": "q_staff",
+	"category": "weapons",
+	"name": { "str": "quarterstaff", "str_pl": "quarterstaves" },
+	"techniques": [ "WBLOCK_2", "RAPID", "SWEEP" ],
+	"flags": [ "DURABLE_MELEE", "SHEATH_SPEAR", "ALWAYS_TWOHAND", "REACH_ATTACK" ]
+  },
+  {
+	"type": "GENERIC",
+	"id": "i_staff",
+	"copy-from": "i_staff",
+	"category": "weapons",
+	"name": { "str": "ironshod quarterstaff", "str_pl": "ironshod quarterstaves" },
+	"techniques": [ "WBLOCK_2", "RAPID", "SWEEP" ],
+	"flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "SHEATH_SPEAR", "ALWAYS_TWOHAND", "REACH_ATTACK" ]
+  },
+  {
+	"type": "GENERIC",
+	"id": "shock_staff",
+	"copy-from": "shock_staff",
+	"category": "weapons",
+	"name": { "str": "powered quarterstaff", "str_pl": "powered quarterstaves" },
+	"techniques": [ "WBLOCK_2", "RAPID", "SWEEP" ],
+	"flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "SHEATH_SPEAR", "ALWAYS_TWOHAND", "REACH_ATTACK" ]
   }
 ]
