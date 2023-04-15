@@ -58,5 +58,55 @@
     "tools": [ [ "mold_plastic" ] ],
     "using": [ [ "blacksmithing_standard", 1 ], [ "steel_tiny", 1 ] ],
     "components": [ [ [ "plastic_chunk", 8 ] ], [ [ "e_scrap", 3 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "dual_hand_crossbow_chorus",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "autolearn": true,
+    "time": "1 m",
+    "reversible": true,
+    "components": [ [ [ "hand_crossbow", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "hand_repbow_chorus",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "30 m",
+    "reversible": true,
+    "autolearn": [ [ "fabrication", 6 ] ],
+    "book_learn": [ [ "recipe_bows", 3 ], [ "manual_archery", 5 ], [ "book_archery", 4 ] ],
+    "qualities": [
+      { "id": "CUT", "level": 1 },
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "SAW_W", "level": 1 }
+    ],
+    "components": [
+      [ [ "2x4", 2 ], [ "stick", 3 ] ],
+      [ [ "cordage_superior_short", 1, "LIST" ] ],
+      [ [ "spring", 1 ] ],
+      [ [ "scrap", 4 ] ],
+      [ [ "nail", 10 ] ],
+      [ [ "spring", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "dual_hand_repbow_chorus",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "autolearn": true,
+    "time": "1 m",
+    "reversible": true,
+    "components": [ [ [ "hand_repbow_chorus", 2 ] ] ]
   }
 ]

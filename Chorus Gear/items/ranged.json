@@ -70,5 +70,32 @@
       [ "rail", 1 ],
       [ "sights", 1 ]
     ]
+  },
+  {
+  "id": "dual_hand_crossbow_chorus",
+  "copy-from": "hand_crossbow",
+  "name": "dual pistol crossbows",
+  "type": "GUN",
+  "volume": "1000 ml",
+  "clip_size": 2,
+  "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ]
+  },
+  {
+  "id": "hand_repbow_chorus",
+  "copy-from": "hand_crossbow",
+  "name": "repeating pistol crossbow",
+  "type": "GUN",
+  "clip_size": 5,
+  "ranged_damage": { "damage_type": "stab", "amount": 30 }
+  },
+  {
+  "id": "dual_hand_repbow_chorus",
+  "copy-from": "hand_crossbow",
+  "name": "dual repeating pistol crossbows",
+  "type": "GUN",
+  "volume": "1000 ml",
+  "clip_size": 10,
+  "ranged_damage": { "damage_type": "stab", "amount": 30 },
+  "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ]
   }
 ]
