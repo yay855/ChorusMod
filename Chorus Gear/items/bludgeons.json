@@ -212,7 +212,7 @@
     "id": "kusari-fundo_chorus",
     "category": "weapons",
     "weapon_category": [ "FLAILS", "WHIPS" ],
-    "name": { "str": "Kusari-funo" },
+    "name": { "str": "Kusari-fundo" },
     "description": "A length of chain with a weighted tip, used by ninja and other historical people seeking to hide their weapons from the authorities. Unwieldy due to its construction, but it packs a punch at a distance.",
     "looks_like": "2h_flail_steel",
     "weight": "4550 g",

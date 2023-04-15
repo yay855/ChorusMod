@@ -43,7 +43,7 @@
       {
         "id": "buff_shock_onmove",
         "name": "Feint",
-        "description": "You  move, baiting your foe into striking.",
+        "description": "You move, baiting your foe into striking.",
         "unarmed_allowed": true,
         "buff_duration": 3,
         "max_stacks": 3,
@@ -51,5 +51,37 @@
       }
     ],
     "techniques": [ "tec_shock_punch", "tec_shock_counter", "tec_shock_crit" ]
+  },
+  {
+	"type": "martial_art",
+    "id": "style_ch_amazon",
+    "name": { "str": "Amazonian Bludgeoning" },
+    "description": "A rather esoteric style of fighting said to be primarily practiced by a tribe of Chinese Amazons, Amazonian Bludgeoning is an extremely offensive style focused on hitting hard and charging your opponent at the cost of defense.",
+    "initiate": [ "You ready your weapon and prepare to lunge.", "%s readies their weapon." ],
+    "learn_difficulty": 4,
+    "primary_skill": "bashing",
+    "strictly_melee": true,
+    "static_buffs": [ 
+    {
+        "id": "buff_blunt_static",
+        "name": "Raging Strikes",
+        "description": "You dedicate your entire body to offense and charging forwards, refusing to stop until either you or your enemy is dead.",
+        "unarmed_allowed": false,
+        "flat_bonuses": [ { "stat": "dodge", "scaling-stat": "str", "scale": -0.5 }, { "stat": "damage", "type": "bash", "scale": 5.0 }, { "stat": "speed", "scale": 10.0 } ]
+      }
+    ],
+    "onmove_buffs": [
+      {
+        "id": "buff_blunt_onmove",
+        "name": "Charge",
+        "description": "You charge forwards, seeking to end the fight as quickly as possible.",
+        "unarmed_allowed": false,
+        "buff_duration": 3,
+        "max_stacks": 3,
+        "flat_bonuses": [ { "stat": "dodge", "scaling-stat": "str", "scale": -0.5 }, { "stat": "damage", "type": "bash", "scale": 5.0 } ]
+      }
+    ],
+    "techniques": [ "BRUTAL" ],
+    "weapon_category": [ "BATONS", "TONFAS", "CLUBS", "QUARTERSTAVES", "MACES", "MORNINGSTARS", "FLAILS", "1H_HAMMERS", "2H_HAMMERS" ]
   }
 ]

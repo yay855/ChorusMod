@@ -31,4 +31,4 @@
     "flat_bonuses": [ { "stat": "damage", "type": "electric", "scale": 3.0 }, { "stat": "damage", "type": "electric", "scaling-stat": "int", "scale": 2.0 } ],
     "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 } ]
   }
- ]
+]
