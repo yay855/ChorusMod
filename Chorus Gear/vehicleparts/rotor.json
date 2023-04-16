@@ -1,0 +1,20 @@
+[
+  {
+    "id": "balloon_vehicle_chorus",
+    "copy-from": "helicopter_rotors",
+    "type": "vehicle_part",
+    "name": "hot air balloon",
+    "item": "balloon_chorus",
+    "//": "rotor diameter is in meters",
+    "rotor_diameter": 22,
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "2 h" },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "2 h" },
+      "repair": { "skills": [ [ "tailor", 6 ] ], "time": "2 h", "using": [ [ "filament", 100, "LIST" ] ] }
+    },
+    "durability": 20,
+    "description": "A hot air balloon envelope.",
+    "damage_modifier": 80,
+    "breaks_into": [ { "item": "rag", "count": [ 8, 15 ] } ]
+  }
+]

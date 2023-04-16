@@ -1,0 +1,17 @@
+[
+	{
+    "id": "balloon_chorus",
+    "type": "GENERIC",
+    "category": "veh_parts",
+    "name": { "str": "hot air balloon" },
+    "description": "A cloth balloon that you can inflate and deflate to lift you up or down. Allows for aerial transport at very, very slow speeds.",
+    "price": 1200,
+    "price_postapoc": 250,
+    "weight": "20000 g",
+    "volume": "251000 ml",
+    "looks_like": "inflatable_section",
+    "material": "cotton",
+    "symbol": "X",
+    "color": "blue"
+  }
+]
