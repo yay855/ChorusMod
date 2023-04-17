@@ -76,7 +76,7 @@
     "id": "tonfa_metal_chorus",
     "name": { "str": "metal tonfa" },
     "weapon_category": [ "TONFAS" ],
-    "description": "A tonfa made out of an aluminum core with a steel outer plating, for something lightweight yet with a punch to it.",
+    "description": "A metal tonfa made using modern forging techniques. Packs a punch.",
     "weight": "800 g",
     "to_hit": 2,
     "price_postapoc": 1500,
