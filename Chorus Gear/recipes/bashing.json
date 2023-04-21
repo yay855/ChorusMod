@@ -71,8 +71,7 @@
     "book_learn": [ [ "textbook_weapeast", 3 ] , [ "recipe_melee", 4 ] ],
     "using": [ [ "blacksmithing_standard", 12 ], [ "steel_standard", 3 ] ],
     "components": [
-      [ [ "chain", 1 ] ],
-      [ [ "fur", 2 ], [ "leather", 2 ] ]
+      [ [ "chain", 1 ] ]
     ]
   },
     {

@@ -1,12 +1,20 @@
 [
    {
-	 "id": "dual_katana_chorus",
-	 "copy-from": "katana",
-	 "name": "dual katana",
-	 "type": "GENERIC",
-     "category": "weapons",
-     "volume": "4 L",
-	 "bashing": 5,
-     "cutting": 46
-   }
+    "id": "katar_chorus",
+    "type": "GENERIC",
+    "category": "weapons",
+    "weapon_category": [ "FIST_WEAPONS" ],
+    "symbol": "!",
+    "color": "dark_gray",
+    "name": { "str": "katar" },
+    "looks_like": "knuckle_katar",
+    "description": "A steel brace with a metal blade at the end, designed to allow the user to stab and slash with the same motions as a punch.",
+    "material": "steel",
+    "volume": "750 ml",
+    "weight": "1000 g",
+    "cutting": 20,
+    "price_postapoc": 500,
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 12 ] ],
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "SHEATH_KNIFE" ]
+  }
 ]
