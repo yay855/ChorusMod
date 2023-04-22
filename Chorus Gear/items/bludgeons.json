@@ -218,11 +218,30 @@
     "weight": "4550 g",
     "volume": "2 L",
     "price": 10000,
-    "to_hit": -1,
+    "to_hit": 0,
     "bashing": 45,
     "material": [ "steel" ],
     "symbol": "v",
     "color": "black",
     "flags": [ "DURABLE_MELEE", "REACH_ATTACK", "BELT_CLIP" ]
+  },
+  {
+    "id": "kanabo_chorus",
+    "type": "GENERIC",
+    "category": "weapons",
+    "weapon_category": [ "CLUBS" ],
+    "name": { "str": "kanabo" },
+    "description": "A sturdy wooden bat with iron studs driven into it. Packs a punch.",
+    "weight": "1133 g",
+    "to_hit": 3,
+    "color": "brown",
+    "symbol": "/",
+    "material": [ "wood", "iron" ],
+    "techniques": [ "WBLOCK_1", "BRUTAL" ],
+    "flags": [ "DURABLE_MELEE" ],
+    "volume": "1750 ml",
+    "bashing": 30,
+    "price": 16000,
+    "price_postapoc": 1000
   }
 ]
