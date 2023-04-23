@@ -79,5 +79,14 @@
 	"name": { "str": "powered quarterstaff", "str_pl": "powered quarterstaves" },
 	"techniques": [ "WBLOCK_2", "RAPID", "SWEEP" ],
 	"flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "SHEATH_SPEAR", "ALWAYS_TWOHAND", "REACH_ATTACK" ]
+  },
+  {
+    "copy-from": "knife_trench",
+    "type": "GENERIC",
+    "category": "weapons",
+    "name": { "str": "trench knife", "str_pl": "trench knives" },
+    "bashing": 6,
+    "cutting": 8,
+    "flags": [ "DURABLE_MELEE", "STAB", "SHEATH_KNIFE", "NONCONDUCTIVE", "UNARMED_WEAPON" ]
   }
 ]
