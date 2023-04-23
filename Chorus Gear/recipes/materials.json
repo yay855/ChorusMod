@@ -34,5 +34,19 @@
     "components": [
       [ [ "scrap", 5 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "link_sheet",
+    "id_suffix": "fabrication",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "autolearn": true,
+    "time": "1 h",
+    "book_learn": [ [ "textbook_armwest", 2 ], [ "textbook_fabrication", 2 ], [ "recipe_melee", 2 ] ],
+    "using": [ [ "chainmail_standard", 1 ] ],
+    "components": [ [ [ "chain_link", 1000 ] ], [ [ "wire", 1 ] ] ]
   }
 ]

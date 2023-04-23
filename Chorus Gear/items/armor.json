@@ -33,7 +33,7 @@
     "price_postapoc": 10000,
     "material": [ "steel" ],
     "symbol": "[",
-    "looks_like": "touring_suit",
+    "looks_like": "armor_blarmor",
     "color": "light_gray",
     "covers": [ "torso", "arms", "legs", "feet", "hands" ],
     "coverage": 85,
@@ -54,7 +54,7 @@
     "price_postapoc": 12000,
     "material": [ "steel" ],
     "symbol": "[",
-    "looks_like": "touring_suit",
+    "looks_like": "armor_blarmor",
     "color": "light_gray",
     "covers": [ "torso", "arms", "legs", "feet", "hands" ],
     "coverage": 85,
@@ -226,5 +226,14 @@
       "CROWBAR"
     ],
     "flags": [ "VARSIZE", "WATER_FRIENDLY", "STURDY", "WAIST", "OVERSIZE" ]
+  },
+  {
+	  "copy-from": "chainmail_hood",
+	  "id": "chainmail_hood_faraday_chorus",
+	  "type": "ARMOR",
+	  "name": { "str": "faraday chainmail hood" },
+	  "description": "A customized chainmail hood designed to repel electricity.",
+	  "flags": [ "VARSIZE", "STURDY", "HELMET_COMPAT", "ELECTRIC_IMMUNE" ],
+	  "warmth": 2
   }
 ]
