@@ -175,7 +175,7 @@
     "time": "30 m",
     "autolearn": true,
     "book_learn": [ [ "textbook_weapeast", 3 ], [ "recipe_melee", 4 ] ],
-    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
     "using": [ [ "steel_standard", 2 ] ],
     "components": [ [ [ "2x4", 2 ], [ "bat", 1 ] ] ]
   }
