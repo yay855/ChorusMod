@@ -85,8 +85,18 @@
     "type": "GENERIC",
     "category": "weapons",
     "name": { "str": "trench knife", "str_pl": "trench knives" },
+    "weapon_category": [ "FIST_WEAPONS", "KNIVES" ],
     "bashing": 6,
     "cutting": 8,
     "flags": [ "DURABLE_MELEE", "STAB", "SHEATH_KNIFE", "NONCONDUCTIVE", "UNARMED_WEAPON" ]
+  },
+  {
+    "copy-from": "bio_claws_weapon",
+    "type": "GENERIC",
+    "category": "weapons",
+    "name": { "str_sp": "bionic claws" },
+    "to_hit": 3,
+    "bashing": 12,
+    "cutting": 24
   }
 ]
