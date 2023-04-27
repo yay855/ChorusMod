@@ -108,5 +108,18 @@
     "time": "1 m",
     "reversible": true,
     "components": [ [ [ "hand_repbow_chorus", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "i_staff_sling_chorus",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_BASHING",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "24 m",
+    "autolearn": true,
+    "book_learn": [ [ "textbook_weapwest", 1 ] ],
+    "using": [ [ "blacksmithing_standard", 2 ], [ "steel_tiny", 2 ] ],
+    "components": [ [ [ "staff_sling", 1 ] ] ]
   }
 ]

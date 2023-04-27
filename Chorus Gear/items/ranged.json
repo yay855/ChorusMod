@@ -97,5 +97,29 @@
   "clip_size": 10,
   "ranged_damage": { "damage_type": "stab", "amount": 30 },
   "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ]
+  },
+  {
+    "id": "i_staff_sling_chorus",
+    "copy-from": "sling_base",
+    "looks_like": "staff_sling",
+    "type": "GUN",
+    "color": "brown",
+    "name": { "str": "ironshod staff sling" },
+    "description": "A leather sling attached to a staff with iron tips on the end, easy to use and accurate.",
+    "price": 150,
+    "material": [ "wood", "leather", "iron" ],
+    "weapon_category": [ "QUARTERSTAVES" ],
+    "extend": { "flags": [ "BELTED", "DURABLE_MELEE", "NONCONDUCTIVE", "SHEATH_SPEAR", "ALWAYS_TWOHAND" ] },
+    "techniques": [ "WBLOCK_2", "RAPID", "SWEEP" ],
+    "ammo": "rock",
+    "weight": "2500 g",
+    "volume": "3 L",
+    "price_postapoc": 450,
+    "to_hit": 1,
+    "ranged_damage": { "damage_type": "bash", "amount": 12 },
+    "bashing": 26,
+    "range": 14,
+    "dispersion": 200,
+    "durability": 8
   }
 ]
