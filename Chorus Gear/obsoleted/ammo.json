@@ -7,6 +7,6 @@
   {
     "id": "sling_pebble_chorus",
     "type": "MIGRATION",
-    "replace": "small_sling_bullet"
+    "replace": "sling_bullet_small",
   }
 ]
