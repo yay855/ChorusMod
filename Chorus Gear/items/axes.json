@@ -1,0 +1,24 @@
+[
+  {
+    "id": "tomahawk_chorus",
+    "type": "GENERIC",
+    "category": "weapons",
+    "weapon_category": [ "HAND_AXES" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "name": { "str": "stone tomahawk" },
+    "description": "A one-handed combat hatchet typically made of stone or bone.  Isn't very good for chopping wood, but it makes a half decent butchering tool and weapon.",
+    "price": 2500,
+    "price_postapoc": 500,
+    "material": [ "stone", "wood" ],
+    "techniques": [ "WBLOCK_1" ],
+    "weight": "800 g",
+    "volume": "1 L",
+    "bashing": 9,
+    "cutting": 12,
+    "to_hit": 1,
+    "thrown_damage": [ { "damage_type": "bash", "amount": 10 }, { "damage_type": "cut", "amount": 14 } ],
+    "flags": [ "DURABLE_MELEE", "BELT_CLIP" ],
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 10 ] ]
+  }
+]

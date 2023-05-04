@@ -235,7 +235,7 @@
     "description": "A sturdy wooden bat with iron studs driven into it. Packs a punch.",
     "weight": "1133 g",
     "to_hit": 3,
-    "color": "brown",
+    "color": "dark_gray",
     "symbol": "/",
     "material": [ "wood", "iron" ],
     "techniques": [ "WBLOCK_1", "BRUTAL" ],
