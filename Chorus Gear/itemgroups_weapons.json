@@ -7,7 +7,8 @@
       [ "tonfa_metal_chorus", 10 ],
       [ "steel_nunchuk_chorus", 10 ],
       [ "flanged_mace_chorus", 10 ],
-      [ "wood_nunchuk_chorus", 10 ]
+      [ "wood_nunchuk_chorus", 10 ],
+      [ "tomahawk_steel_chorus", 10 ]
     ]
   },
   {
@@ -16,7 +17,8 @@
     "subtype": "distribution",
     "entries": [
       { "item": "rep_bulletbow_chorus", "prob": 1 },
-      { "item": "rep_hand_bulletbow_chorus", "prob": 1 }
+      { "item": "rep_hand_bulletbow_chorus", "prob": 1 },
+      { "item": "hand_repbow_chorus", "prob": 1 }
     ]
   },
   {

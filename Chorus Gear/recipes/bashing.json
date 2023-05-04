@@ -178,5 +178,23 @@
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
     "using": [ [ "steel_standard", 2 ] ],
     "components": [ [ [ "2x4", 2 ], [ "bat", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "stone_club_chorus",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "skills_required": [ "survival", 1 ],
+    "time": "10 m",
+    "reversible": true,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ 
+    [ [ "rock", 1 ] ], 
+    [ [ "stick", 1 ], [ "2x4", 1 ] ], 
+    [ [ "cordage_short", 2, "LIST" ], [ "filament", 100, "LIST" ], [ "rag", 1 ], [ "leather", 1 ], [ "fur", 1 ], [ "faux_fur", 1 ], [ "felt_patch", 1 ] ]
+    ]
   }
 ]
