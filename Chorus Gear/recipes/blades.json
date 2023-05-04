@@ -45,7 +45,7 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "fabrication",
-    "difficulty": 2,
+    "difficulty": 3,
     "time": "10 m",
     "reversible": true,
     "autolearn": true,
@@ -53,7 +53,7 @@
     "components": [ 
     [ [ "rock", 1 ], [ "ceramic_shard", 1 ], [ "sharp_rock", 1 ], [ "bone_sturdy", 1, "LIST" ] ], 
     [ [ "stick", 1 ], [ "2x4", 1 ] ], 
-    [ [ "cordage_short", 1, "LIST" ], [ "filament", 50, "LIST" ], [ "duct_tape", 15 ] ]
+    [ [ "cordage_short", 2, "LIST" ], [ "filament", 100, "LIST" ], [ "rag", 1 ], [ "leather", 1 ], [ "fur", 1 ], [ "faux_fur", 1 ], [ "felt_patch", 1 ] ]
     ]
   }
 ]
