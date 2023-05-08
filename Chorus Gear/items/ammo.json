@@ -19,7 +19,8 @@
     "dispersion": 185,
     "recoil": 0,
     "loudness": 25,
-    "effects": [ "NON-FOULING" ]
+    "effects": [ "NON-FOULING" ],
+    "dont_recover_one_in": 100
   },
     {
 	"copy-from": "nail",
@@ -36,6 +37,7 @@
     "description": "A ball of steel with some explosive packed inside of it. Not as good as traditional ammunition, but can pack a punch.",
     "material": [ "steel", "powder" ],
     "ammo_type": "pebble",
+    "looks_like": "bearing",
     "weight": "10 g",
     "volume": "250 ml",
     "damage": { "damage_type": "bullet", "amount": 21 },
