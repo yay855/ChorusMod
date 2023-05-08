@@ -1,0 +1,32 @@
+[
+  {
+    "type": "recipe",
+    "result": "arrowrest",
+    "id_suffix": "primitive",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "skills_required": [ [ "archery", 2 ] ],
+    "time": "30 m",
+    "autolearn": true,
+    "book_learn": [ [ "mag_archery", 2 ], [ "manual_archery", 1 ] ],
+    "using": [ [ "blacksmithing_standard", 1 ] ],
+    "components": [ [ [ "scrap", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "bow_stabilizer",
+    "id_suffix": "primitive",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "skills_required": [ [ "archery", 3 ] ],
+    "time": "30 m",
+    "autolearn": true,
+    "book_learn": [ [ "mag_archery", 3 ], [ "manual_archery", 2 ] ],
+    "using": [ [ "blacksmithing_standard", 1 ] ],
+    "components": [ [ [ "scrap", 1 ] ] ]
+  }
+]
