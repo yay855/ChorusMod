@@ -8,5 +8,20 @@
      "volume": "4 L",
 	 "bashing": 5,
      "cutting": 46
-   }
+   },
+   {
+    "id": "katar_chorus",
+    "type": "MIGRATION",
+    "replace": "katar"
+  },
+  {
+    "id": "spiked_boxing_chorus",
+    "type": "MIGRATION",
+    "replace": "spiked_boxing"
+  },
+  {
+    "id": "sai_chorus",
+    "type": "MIGRATION",
+    "replace": "sai_weapon"
+  }
 ]
