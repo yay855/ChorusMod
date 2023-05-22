@@ -1,9 +1,9 @@
 [
   {
+	"id": "sling",
     "copy-from": "sling",
-    "looks_like": "slingshot",
     "type": "GUN",
-    "name": { "ctxt": "weapon", "str": "sling" },
+    "name": { "str": "sling" },
     "ammo": [ "pebble", "rock" ]
   },
     {
