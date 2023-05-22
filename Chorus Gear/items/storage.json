@@ -19,5 +19,36 @@
     "storage": "10 L",
     "material_thickness": 2,
     "flags": [ "BELTED", "VARSIZE", "SKINTIGHT" ]
+  },
+  {
+    "id": "backpack_spear_chorus",
+    "type": "ARMOR",
+    "name": { "str": "spear pack" },
+    "description": "A backpack with a built in spear strap.",
+    "weight": "633 g",
+    "volume": "3 L",
+    "price_postapoc": 800,
+    "material": [ "leather" ],
+    "symbol": "[",
+    "looks_like": "backpack",
+    "color": "brown",
+    "covers": [ "torso" ],
+    "coverage": 25,
+    "rigid": false,
+    "encumbrance": 3,
+    "max_encumbrance": 15,
+    "storage": "15 L",
+    "warmth": 0,
+    "material_thickness": 2,
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Holster spear",
+      "holster_msg": "You holster your %s",
+      "max_volume": "3500 ml",
+      "multi": 1,
+      "draw_cost": 50,
+      "flags": [ "SHEATH_SPEAR" ]
+    },
+    "flags": [ "BELTED" ]
   }
 ]
