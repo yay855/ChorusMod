@@ -11,7 +11,7 @@
     "description": "A custom-made crossbow designed to fire ball bearings repeatedly, but you can fit nails into there too.",
     "price": 324000,
     "material": [ "steel" ],
-    "flags": [ "PRIMITIVE_RANGED_WEAPON", "CROSSBOW", "FIRE_TWOHAND", "RELOAD_ONE" ],
+    "flags": [ "PRIMITIVE_RANGED_WEAPON", "CROSSBOW", "RELOAD_ONE" ],
     "skill": "rifle",
     "ammo": [ "pebble", "nail" ],
     "weight": "3000 g",
