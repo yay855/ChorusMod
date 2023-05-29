@@ -1,8 +1,14 @@
 [
   {
+    "type": "construction_group",
+    "id": "charcoal_forge_clay",
+    "name": "Place Clay Charcoal Forge"
+  },
+  {
     "type": "construction",
     "id": "constr_forge_clay",
     "category": "FURN",
+    "group": "charcoal_forge_clay",
     "required_skills": [ [ "fabrication", 0 ] ],
     "time": "1 m",
     "components": [ [ [ "char_forge_clay", 1 ] ] ],

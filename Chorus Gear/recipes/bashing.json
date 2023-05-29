@@ -123,7 +123,7 @@
 	"time": "2 m",
 	"autolearn": true,
 	"reversible": true,
-    "components": [ [ [ "cordage_short", 2, "LIST" ] ], [ [ "rock", 2 ] ] ]
+  "components": [ [ [ "cordage_short", 2, "LIST" ], [ "rag", 2 ], [ "leather", 2 ], [ "fur", 2 ], [ "faux_fur", 2 ], [ "felt_patch", 2 ] ], [ [ "rock", 2 ] ] ]
   },
   {
     "type": "recipe",
