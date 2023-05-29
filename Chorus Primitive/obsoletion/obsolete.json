@@ -1,0 +1,31 @@
+[
+    {
+      "type": "obsolete_terrain",
+      "terrains": [ "f_forge_clay" ]
+    },
+    {
+      "type": "recipe",
+      "result": "char_forge_clay",
+      "obsolete": true
+    },
+    {
+      "id": "char_forge_clay",
+      "type": "TOOL",
+      "category": "tools",
+      "name": { "str": "clay charcoal forge" },
+      "description": "This is a portable, charcoal fired, metalworking forge.  If combined with the right tools, you could use this for metalworking.",
+      "weight": "8600 g",
+      "volume": "8 L",
+      "price": 20000,
+      "price_postapoc": 3000,
+      "to_hit": -2,
+      "bashing": 9,
+      "material": "clay",
+      "symbol": ";",
+      "color": "dark_gray",
+      "ammo": "charcoal",
+      "sub": "forge",
+      "max_charges": 500,
+      "flags": [ "ALLOWS_REMOTE_USE" ]
+    }
+]
