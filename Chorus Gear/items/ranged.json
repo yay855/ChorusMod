@@ -163,5 +163,42 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ]
+  },
+  {
+    "id": "needler_chorus",
+    "looks_like": "smg_9mm",
+    "type": "GUN",
+    "weapon_category": [ "PISTOLS", "PNEUMATIC" ],
+    "reload_noise_volume": 10,
+    "symbol": "(",
+    "color": "light_gray",
+    "name": { "str": "pneumatic needler" },
+    "description": "Dubbed the vampire killer, this is effectively a pressure-powered bolt thrower designed to launch short thin stakes of wood or steel out of a magazine.  It works about as well against zombies.",
+    "price": 324000,
+    "material": [ "steel" ],
+    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "skill": "pistol",
+    "ammo": "stake",
+    "weight": "950 g",
+    "volume": "1250 ml",
+    "price_postapoc": 6000,
+    "bashing": 13,
+    "to_hit": -1,
+    "range": 14,
+    "dispersion": 500,
+    "recoil": 200,
+    "durability": 7,
+    "magazine_well": "250 ml",
+    "magazines": [ [ "stake", [ "needler_mag_chorus" ] ] ],
+    "reload": 200,
+    "loudness": 16,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ]
   }
 ]

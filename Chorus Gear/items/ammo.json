@@ -46,5 +46,40 @@
     "loudness": 0,
     "count": 50,
     "effects": [ "NEVER_MISFIRES", "NON-FOULING", "COOKOFF", "EXPLOSIVE" ]
+  },
+  {
+    "id": "stake_wood_chorus",
+    "type": "AMMO",
+    "name": { "str": "wooden stake" },
+    "description": "A thin but strong spike of wood designed to be fired from a needler.  Not all that powerful, but easy to make.",
+    "weight": "4 g",
+    "volume": "250 ml",
+    "price": 150,
+    "price_postapoc": 10,
+    "material": [ "wood" ],
+    "symbol": "=",
+    "color": "yellow",
+    "looks_like": "nail",
+    "count": 24,
+    "stack_size": 24,
+    "ammo_type": "stake",
+    "range": 14,
+    "damage": { "damage_type": "stab", "amount": 15 },
+    "dispersion": 350,
+    "effects": [ "NON-FOULING" ]
+  },
+  {
+    "id": "stake_steel_chorus",
+    "copy-from": "stake_wood_chorus",
+    "type": "AMMO",
+    "name": { "str": "steel stake" },
+    "description": "A thin but strong spike of steel designed to be fired from a needler.  Stronger than a wooden stake, and more likely to survive impact.",
+    "weight": "6 g",
+    "price": 150,
+    "price_postapoc": 150,
+    "material": [ "steel" ],
+    "range": 18,
+    "damage": { "damage_type": "stab", "amount": 30, "armor_penetration": 15 },
+    "dont_recover_one_in": 10
   }
 ]

@@ -1,0 +1,21 @@
+[
+    {
+        "id": "needler_mag_chorus",
+        "looks_like": "mp5mag",
+        "type": "MAGAZINE",
+        "name": { "str": "needler magazine" },
+        "description": "A homemade magazine designed to store both the bolts for the needler and the compressed air to fire them.  Takes a long time to load thanks to the awkwardly small air pump.",
+        "weight": "105 g",
+        "volume": "350 ml",
+        "price": 9920,
+        "price_postapoc": 500,
+        "material": "steel",
+        "symbol": "#",
+        "color": "light_gray",
+        "ammo_type": "stake",
+        "capacity": 4,
+        "reliability": 7,
+        "reload_time": 1000,
+        "flags": [ "MAG_COMPACT" ]
+      }
+]

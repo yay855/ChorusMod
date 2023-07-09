@@ -137,5 +137,46 @@
     "tools": [ [ "mold_plastic" ] ],
     "using": [ [ "blacksmithing_standard", 4 ], [ "steel_standard", 1 ] ],
     "components": [ [ [ "hose", 2 ] ], [ [ "plastic_chunk", 5 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "needler_chorus",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "mechanics", 4 ],
+    "time": "3 h",
+    "autolearn": true,
+    "using": [ [ "welding_standard", 30 ] ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "hand_pump", 1 ] ],
+      [ [ "pipe", 1 ] ],
+      [ [ "duct_tape", 100 ], [ "superglue", 1 ] ],
+      [ [ "2x4", 1 ], [ "stick", 1 ] ],
+      [ [ "steel_chunk", 3 ], [ "scrap", 9 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "needler_chorus",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "id_suffix": "smithing",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "mechanics", 4 ],
+    "time": "3 h",
+    "autolearn": true,
+    "using": [ [ "blacksmithing_standard", 15 ] ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "hand_pump", 1 ] ],
+      [ [ "pipe", 1 ] ],
+      [ [ "duct_tape", 100 ], [ "superglue", 1 ] ],
+      [ [ "2x4", 1 ], [ "stick", 1 ] ],
+      [ [ "steel_chunk", 3 ], [ "scrap", 9 ] ]
+    ]
   }
 ]
