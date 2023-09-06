@@ -98,7 +98,7 @@
     "time": "3 h 30 m",
     "autolearn": true,
     "book_learn": [ [ "textbook_weapwest", 3 ], [ "recipe_melee", 4 ] ],
-    "using": [ [ "blacksmithing_standard", 12 ], [ "steel_standard", 3 ] ],
+    "using": [ [ "blacksmithing_intermediate", 12 ], [ "steel_standard", 3 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "components": [ [ [ "2x4", 3 ], [ "stick", 6 ] ], [ [ "fur", 3 ], [ "leather", 3 ] ] ]
   },
@@ -162,7 +162,7 @@
     "time": "3 h 30 m",
     "autolearn": true,
     "book_learn": [ [ "textbook_weapeast", 3 ], [ "recipe_melee", 4 ] ],
-    "using": [ [ "blacksmithing_standard", 12 ], [ "steel_standard", 1 ] ],
+    "using": [ [ "blacksmithing_intermediate", 12 ], [ "steel_standard", 1 ] ],
     "components": [ [ [ "chain", 1 ] ] ]
   },
   {
