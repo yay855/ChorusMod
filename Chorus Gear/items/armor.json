@@ -235,5 +235,37 @@
 	  "description": "A customized chainmail hood designed to repel electricity.",
 	  "flags": [ "VARSIZE", "STURDY", "HELMET_COMPAT", "ELECTRIC_IMMUNE" ],
 	  "warmth": 2
-  }
+  },
+  {
+    "copy-from": "backpack_hiking",
+    "id": "spearpack_large_chorus",
+    "name": "spear pack",
+    "type": "ARMOR",
+    "looks_like": "backpack_hiking",
+    "description": "A massive backpack designed to hold a spear.  Not easy to wear, but it can be worth it for some.",
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Holster spear",
+      "holster_msg": "You holster your %s.",
+      "max_volume": "3500 ml",
+      "draw_cost": 150,
+      "flags": [ "SHEATH_SPEAR" ]
+    }
+  },
+  {
+    "copy-from": "backpack",
+    "id": "spearpack_chorus",
+    "name": "spear pack",
+    "type": "ARMOR",
+    "looks_like": "backpack",
+    "description": "A backpack designed to hold a spear.",
+    "use_action": {
+      "type": "holster",
+       "holster_prompt": "Holster spear",
+       "holster_msg": "You holster your %s.",
+       "max_volume": "3500 ml",
+       "draw_cost": 150,
+       "flags": [ "SHEATH_SPEAR" ]
+    }
+  } 
 ]
