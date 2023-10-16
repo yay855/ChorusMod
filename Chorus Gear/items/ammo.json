@@ -26,6 +26,7 @@
 	  "copy-from": "nail",
     "id": "nail",
     "type": "AMMO",
+    "category": "AMMO",
     "name": { "str": "nail" }
   },
   {
@@ -86,6 +87,7 @@
 	  "copy-from": "combatnail",
     "id": "combatnail",
     "type": "AMMO",
+    "category": "AMMO",
     "name": { "str": "flechette" }
   }
 ]
