@@ -31,14 +31,14 @@
     "color": "cyan",
     "skill": "smg",
     "ammo": [ "pebble", "nail" ],
-    "ranged_damage": { "damage_type": "stab", "amount": 42 },
+    "ranged_damage": { "damage_type": "stab", "amount": 30 },
     "range": 10,
     "dispersion": 10,
     "durability": 10,
-    "clip_size": 18,
+    "clip_size": 20,
     "modes": [ [ "DEFAULT", "single shot", 1 ], [ "burst", "triple shot", 3  ], [ "AUTO", "auto", 6 ] ],
-    "reload": 50,
-    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
+    "reload": 80,
+    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
   },
   {
     "type": "GENERIC",
@@ -96,7 +96,7 @@
     "symbol": "{",
     "material": [ "superalloy" ],
     "volume": "750 ml",
-    "cutting": 50,
+    "cutting": 40,
     "use_action": "JACKHAMMER",
     "flags": [ "STAB", "NO_DROP", "NO_UNWIELD", "UNBREAKABLE_MELEE", "UNARMED_WEAPON", "TRADER_AVOID" ],
     "qualities": [ [ "AXE", 1 ], ["DIG", 3 ], [ "DRILL", 3 ] ]
