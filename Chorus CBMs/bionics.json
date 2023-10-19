@@ -2,14 +2,9 @@
   {
     "id": "bio_torsionratchet",
     "type": "bionic",
+    "copy-from": "bio_torsionratchet",
     "name": { "str": "Joint Torsion Ratchet" },
-    "description": "Your joints have been surgically equipped with torsion ratchets that slowly generate power when you move.  Whilst this is toggled, moving will require more effort, though more power will be generated.",
-    "occupied_bodyparts": [ [ "arm_l", 4 ], [ "arm_r", 4 ], [ "leg_l", 6 ], [ "leg_r", 6 ] ],
-    "included_bionics": [ "bio_joint_metabolics" ],
-    "fuel_options": [ "muscle" ],
-    "fuel_efficiency": 0.125,
-    "passive_fuel_efficiency": 0.00625,
-    "flags": [ "BIONIC_POWER_SOURCE", "BIONIC_NPC_USABLE", "BIONIC_TOGGLED" ]
+    "included_bionics": [ "bio_joint_metabolics" ]
   },
   {
     "id": "bio_joint_metabolics",
@@ -24,10 +19,8 @@
   },
     {
     "id": "bio_razors",
+    "copy-from": "bio_razors",
     "type": "bionic",
-    "name": { "str": "Fingertip Razors" },
-    "description": "You possess razor-sharp claws that extend from your fingernails with a flex, allowing you to precisely slice up foes and corpses.",
-    "occupied_bodyparts": [ [ "hand_l", 2 ], [ "hand_r", 2 ] ],
     "fake_item": "finger_razors",
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
   },
