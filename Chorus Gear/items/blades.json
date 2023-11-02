@@ -3,12 +3,25 @@
 	  "copy-from": "katar",
 	  "id": "katar_super_chorus",
 	  "type": "GENERIC",
-      "category": "weapons",
-      "name": { "str": "superalloy katar" },
-      "description": "A steel brace with a superalloy metal blade at the end hammered and sharpened into place.",
-      "cutting": 36,
-      "to_hit": 3,
-      "material": [ "superalloy" ],
-      "price_postapoc": 2000
+    "category": "weapons",
+    "name": { "str": "superalloy katar" },
+    "description": "A steel brace with a superalloy metal blade at the end hammered and sharpened into place.",
+    "cutting": 36,
+    "to_hit": 3,
+    "material": [ "superalloy" ],
+    "price_postapoc": 2000
+  },
+  {
+	  "copy-from": "bullwhip",
+	  "id": "steel_whip",
+	  "type": "GENERIC",
+    "category": "weapons",
+    "name": { "str": "steel whip" },
+    "description": "A whip made of a steel chain with small blades jutting out of it. The perfect weapon for slaying undead.",
+    "weight": "3680 g",
+    "cutting": 24,
+    "material": [ "steel" ],
+    "flags": [ "REACH_ATTACK", "REACH3", "WHIP", "NONCONDUCTIVE", "DURABLE_MELEE", "BELT_CLIP" ],
+    "price_postapoc": 20000
   }
 ]

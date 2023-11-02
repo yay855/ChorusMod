@@ -325,5 +325,29 @@
       [ [ "wire", 5 ] ],
       [ [ "cable", 10 ] ]
     ]
+  },
+  {
+    "result": "skirt_armor",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "30 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 15 ] ],
+    "components": [ [ [ "rag", 10 ] ] ]
+  },
+  {
+    "result": "skirt_armor_leather",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "30 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 15 ] ],
+    "components": [ [ [ "leather", 10 ] ] ]
   }
 ]

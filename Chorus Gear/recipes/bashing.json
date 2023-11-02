@@ -103,19 +103,6 @@
     "components": [ [ [ "2x4", 3 ], [ "stick", 6 ] ], [ [ "fur", 3 ], [ "leather", 3 ] ] ]
   },
   {
-	"result": "spiked_boxing_chorus",
-	"type": "recipe",
-	"category": "CC_WEAPON",
-	"subcategory": "CSC_WEAPON_BASHING",
-	"skill_used": "tailor",
-	"difficulty": 4,
-	"skills_required": [ "unarmed", 1 ],
-	"time": "20 m",
-	"autolearn": true,
-    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "rag", 8 ] ], [ [ "filament", 12, "LIST" ] ], [ [ "nail", 5 ] ] ]
-  },
-  {
 	"result": "stone_boxing_chorus",
 	"type": "recipe",
 	"category": "CC_WEAPON",

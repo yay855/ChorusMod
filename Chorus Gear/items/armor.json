@@ -267,5 +267,41 @@
        "draw_cost": 150,
        "flags": [ "SHEATH_SPEAR" ]
     }
-  } 
+  } ,
+  {
+    "id": "skirt_armor",
+    "type": "ARMOR",
+    "name": { "str_sp": "armored skirt" },
+    "description": "A knee-length skirt made of overlapping quilted pads, similar to those used by ancient Roman and Greek soldiers.  Not quite as protective as a gambeson, but it's far less hot.",
+    "weight": "600 g",
+    "volume": "2 L",
+    "price": 10000,
+    "price_postapoc": 100,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "skirt",
+    "color": "dark_gray",
+    "covers": [ "legs" ],
+    "coverage": 85,
+    "encumbrance": 10,
+    "warmth": 6,
+    "material_thickness": 5,
+    "valid_mods": [ "steel_padded", "alloy_padded" ],
+    "flags": [ "VARSIZE" ]
+  },
+  {
+    "id": "skirt_armor_leather",
+    "type": "ARMOR",
+    "name": { "str_sp": "armored leather skirt" },
+    "copy-from": "skirt_armor",
+    "description": "A knee-length skirt made of overlapping leather armor plates, similar to those used by ancient Roman and Greek soldiers.",
+    "weight": "800 g",
+    "volume": "2 L",
+    "price": 1000,
+    "price_postapoc": 150,
+    "material": [ "leather" ],
+    "looks_like": "skirt",
+    "encumbrance": 12,
+    "warmth": 8
+  }
 ]

@@ -49,7 +49,7 @@
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "fabrication",
     "difficulty": 6,
-    "time": "3 h",
+    "time": "1 h 30 m",
     "autolearn": true,
     "using": [ [ "blacksmithing_advanced", 4 ], [ "steel_standard", 1 ] ],
     "components": [ [ [ "2x4", 1 ], [ "stick", 2 ] ], [ [ "leather", 1 ], [ "fur", 1 ] ] ]
@@ -72,5 +72,17 @@
       [ [ "copper_scrap_equivalent", 25, "LIST" ] ],
       [ [ "cordage_short", 2, "LIST" ], [ "filament", 100, "LIST" ], [ "rag", 1 ], [ "leather", 1 ], [ "fur", 1 ], [ "faux_fur", 1 ], [ "felt_patch", 1 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "steel_whip",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "3 h",
+    "autolearn": true,
+    "using": [ [ "blacksmithing_advanced", 4 ], [ "steel_standard", 1 ] ],
+    "components": [ [ [ "2x4", 1 ], [ "stick", 2 ] ], [ [ "leather", 1 ], [ "fur", 1 ] ], [ [ "chain", 1 ] ] ]
   }
 ]
