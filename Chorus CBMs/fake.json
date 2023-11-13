@@ -38,7 +38,7 @@
     "clip_size": 20,
     "modes": [ [ "DEFAULT", "single shot", 1 ], [ "burst", "triple shot", 3  ], [ "AUTO", "auto", 6 ] ],
     "reload": 80,
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
   },
   {
     "type": "GENERIC",
@@ -74,14 +74,14 @@
     "durability": 10,
     "ammo": [ "9mm", "22", "45" ],
     "magazine_well": "250 ml",
-    "magazines": [ 
+    "magazines": [
     [ "9mm", [ "calicomag", "glockbigmag", "glockmag", "glock17_17", "glock17_22", "glock_drum_50rd", "glock_drum_100rd", "m9bigmag", "m9mag", "mp5bigmag", "mp5mag", "px4mag", "stenmag", "survivor9mm_mag", "tec9mag", "usp9mag", "uzimag", "p320mag_17rd_9x19mm", "bhp9mag_13rd", "bhp9mag_15rd", "p38mag", "ppq9mag_15rd", "ppq9mag_17rd", "hptc9mag_15rd", "cz75mag_12rd", "cz75mag_20rd", "cz75mag_26rd" ] ],
     [ "22", [ "a180mag", "ruger1022bigmag" ] ],
     [ "45", [ "mac10mag", "smg_45_mag", "tdi_mag", "thompson_bigmag", "thompson_drum", "thompson_mag", "thompson_makeshiftmag", "ump45mag", "ump45_makeshiftmag", "usp45mag", "ppq45mag", "glock_21mag", "glock_21mag26" ] ]
     ],
     "modes": [ [ "DEFAULT", "single shot", 1 ], [ "burst", "triple shot", 3  ], [ "AUTO", "auto", 6 ] ],
     "reload": 100,
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
   },
   {
     "type": "GENERIC",
@@ -124,6 +124,6 @@
     "clip_size": 6,
     "modes": [ [ "DEFAULT", "single shot", 1 ], [ "burst", "triple shot", 3  ] ],
     "reload": 50,
-    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
   }
 ]

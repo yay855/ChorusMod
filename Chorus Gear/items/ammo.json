@@ -19,7 +19,7 @@
     "dispersion": 185,
     "recoil": 0,
     "loudness": 25,
-    "effects": [ "NON-FOULING" ],
+    "effects": [ "NON_FOULING" ],
     "dont_recover_one_in": 100
   },
   {
@@ -46,7 +46,7 @@
     "dispersion": 10,
     "loudness": 0,
     "count": 50,
-    "effects": [ "NEVER_MISFIRES", "NON-FOULING", "COOKOFF", "EXPLOSIVE" ]
+    "effects": [ "NEVER_MISFIRES", "NON_FOULING", "COOKOFF", "EXPLOSIVE" ]
   },
   {
     "id": "stake_wood_chorus",
@@ -67,7 +67,7 @@
     "range": 14,
     "damage": { "damage_type": "stab", "amount": 15 },
     "dispersion": 350,
-    "effects": [ "NON-FOULING" ]
+    "effects": [ "NON_FOULING" ]
   },
   {
     "id": "stake_steel_chorus",
