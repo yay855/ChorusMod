@@ -21,7 +21,7 @@
     "clip_size": 18,
     "modes": [ [ "DEFAULT", "single shot", 1 ], [ "burst", "triple shot", 3  ], [ "AUTO", "auto", 6 ] ],
     "reload": 500,
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
   },
   {
     "id": "bio_nailgun_chorus",
