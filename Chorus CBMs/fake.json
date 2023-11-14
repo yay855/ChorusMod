@@ -38,7 +38,7 @@
     "clip_size": 20,
     "modes": [ [ "DEFAULT", "single shot", 1 ], [ "burst", "triple shot", 3  ], [ "AUTO", "auto", 6 ] ],
     "reload": 80,
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
   },
   {
     "type": "GENERIC",
@@ -81,7 +81,7 @@
     ],
     "modes": [ [ "DEFAULT", "single shot", 1 ], [ "burst", "triple shot", 3  ], [ "AUTO", "auto", 6 ] ],
     "reload": 100,
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
   },
   {
     "type": "GENERIC",
@@ -124,6 +124,6 @@
     "clip_size": 6,
     "modes": [ [ "DEFAULT", "single shot", 1 ], [ "burst", "triple shot", 3  ] ],
     "reload": 50,
-    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
   }
 ]
