@@ -18,7 +18,7 @@
     "material_thickness": 1,
     "use_action": {
       "type": "holster",
-      "holster_prompt": "holster club",
+      "holster_prompt": "holster weapon",
       "holster_msg": "You holster your %s",
       "min_volume": "100 ml",
       "max_volume": "2000 ml",
