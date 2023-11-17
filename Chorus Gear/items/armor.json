@@ -161,22 +161,22 @@
     "id": "leather_dress_chorus",
     "type": "ARMOR",
     "name": { "str": "padded dress", "str_pl": "armored dresses" },
-    "description": "A long, thick cotton dress with pockets reinforced with leather padding. Looks ridiculously poofy, but breathes surprisingly well.",
+    "description": "A long, thick dress with pockets and reinforced with leather padding. Looks ridiculously poofy, but breathes surprisingly well.",
     "weight": "680 g",
     "volume": "3500 ml",
     "price": 18000,
     "price_postapoc": 2000,
     "to_hit": -5,
-    "material": [ "cotton", "leather" ],
+    "material": [ "leather" ],
     "symbol": "[",
     "looks_like": "dress",
     "color": "red",
     "covers": [ "legs", "arms", "torso" ],
     "coverage": 95,
-    "encumbrance": 10,
+    "encumbrance": 20,
     "storage": "4 L",
     "warmth": 8,
-    "material_thickness": 6,
+    "material_thickness": 4,
     "flags": [ "VARSIZE", "STURDY", "FANCY", "POCKETS" ]
   },
   {
@@ -195,10 +195,10 @@
     "color": "blue",
     "covers": [ "legs", "arms", "torso" ],
     "coverage": 95,
-    "encumbrance": 15,
+    "encumbrance": 25,
     "storage": "4 L",
     "warmth": 10,
-    "material_thickness": 5,
+    "material_thickness": 4,
     "flags": [ "VARSIZE", "STURDY", "FANCY", "POCKETS" ]
   },
    {
@@ -235,38 +235,6 @@
 	  "description": "A customized chainmail hood designed to repel electricity.",
 	  "flags": [ "VARSIZE", "STURDY", "HELMET_COMPAT", "ELECTRIC_IMMUNE" ],
 	  "warmth": 2
-  },
-  {
-    "copy-from": "backpack_hiking",
-    "id": "spearpack_large_chorus",
-    "name": "spear pack",
-    "type": "ARMOR",
-    "looks_like": "backpack_hiking",
-    "description": "A massive backpack designed to hold a spear.  Not easy to wear, but it can be worth it for some.",
-    "use_action": {
-      "type": "holster",
-      "holster_prompt": "Holster spear",
-      "holster_msg": "You holster your %s.",
-      "max_volume": "3500 ml",
-      "draw_cost": 150,
-      "flags": [ "SHEATH_SPEAR" ]
-    }
-  },
-  {
-    "copy-from": "backpack",
-    "id": "spearpack_chorus",
-    "name": "spear pack",
-    "type": "ARMOR",
-    "looks_like": "backpack",
-    "description": "A backpack designed to hold a spear.",
-    "use_action": {
-      "type": "holster",
-       "holster_prompt": "Holster spear",
-       "holster_msg": "You holster your %s.",
-       "max_volume": "3500 ml",
-       "draw_cost": 150,
-       "flags": [ "SHEATH_SPEAR" ]
-    }
   },
   {
 	  "copy-from": "skirt_armor",

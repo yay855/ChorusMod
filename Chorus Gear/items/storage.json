@@ -21,34 +21,35 @@
     "flags": [ "BELTED", "VARSIZE", "SKINTIGHT" ]
   },
   {
-    "id": "backpack_spear_chorus",
+    "copy-from": "backpack_hiking",
+    "id": "spearpack_large_chorus",
+    "name": "hiking spear pack",
     "type": "ARMOR",
-    "name": { "str": "spear pack" },
-    "description": "A backpack with a built in spear strap.",
-    "weight": "633 g",
-    "volume": "3 L",
-    "price_postapoc": 800,
-    "material": [ "leather" ],
-    "symbol": "[",
-    "looks_like": "backpack",
-    "color": "brown",
-    "covers": [ "torso" ],
-    "coverage": 25,
-    "rigid": false,
-    "encumbrance": 3,
-    "max_encumbrance": 15,
-    "storage": "15 L",
-    "warmth": 0,
-    "material_thickness": 2,
+    "looks_like": "backpack_hiking",
+    "description": "A massive backpack designed to hold a spear.  Not easy to wear, but it can be worth it for some.",
     "use_action": {
       "type": "holster",
       "holster_prompt": "Holster spear",
-      "holster_msg": "You holster your %s",
+      "holster_msg": "You holster your %s.",
       "max_volume": "3500 ml",
-      "multi": 1,
-      "draw_cost": 50,
+      "draw_cost": 150,
       "flags": [ "SHEATH_SPEAR" ]
-    },
-    "flags": [ "BELTED" ]
+    }
+  },
+  {
+    "copy-from": "backpack",
+    "id": "spearpack_chorus",
+    "name": "spear pack",
+    "type": "ARMOR",
+    "looks_like": "backpack",
+    "description": "A backpack designed to hold a spear.",
+    "use_action": {
+      "type": "holster",
+       "holster_prompt": "Holster spear",
+       "holster_msg": "You holster your %s.",
+       "max_volume": "3500 ml",
+       "draw_cost": 150,
+       "flags": [ "SHEATH_SPEAR" ]
+    }
   }
 ]

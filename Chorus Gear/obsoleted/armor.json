@@ -1,0 +1,7 @@
+[
+    {
+        "id": "backpack_spear_chorus",
+        "type": "MIGRATION",
+        "replace": "spearpack_chorus"
+      }
+]
