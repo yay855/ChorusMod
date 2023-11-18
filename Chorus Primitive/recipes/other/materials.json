@@ -8,8 +8,7 @@
     "difficulty": 3,
     "time": "5 m",
     "autolearn": true,
-    "using": [ [ "earthenware_firing", 1 ] ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 20 ] ] ],
     "components": [ [ [ "material_iron", 2 ] ] ]
   },
   {
@@ -21,7 +20,7 @@
     "difficulty": 2,
     "time": "5 m",
     "autolearn": true,
-    "using": [ [ "earthenware_firing", 1 ] ],
+    "using": [ [ "surface_heat", -1 ] ],
     "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [ [ [ "material_copper", 10 ] ] ]
   },

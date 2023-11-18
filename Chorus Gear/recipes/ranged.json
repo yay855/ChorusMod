@@ -171,7 +171,7 @@
     "using": [ [ "blacksmithing_advanced", 15 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
-      [ [ "hand_pump", 1 ] ],
+      [ [ "well_pump", 1 ] ],
       [ [ "pipe", 1 ] ],
       [ [ "duct_tape", 100 ], [ "superglue", 1 ] ],
       [ [ "2x4", 1 ], [ "stick", 1 ] ],
