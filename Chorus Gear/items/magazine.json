@@ -13,7 +13,7 @@
         "symbol": "#",
         "color": "light_gray",
         "ammo_type": "stake",
-        "capacity": 4,
+        "capacity": 8,
         "reliability": 7,
         "reload_time": 1000,
         "flags": [ "MAG_COMPACT" ]
