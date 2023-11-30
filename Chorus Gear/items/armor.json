@@ -57,7 +57,7 @@
     "looks_like": "armor_blarmor",
     "color": "light_gray",
     "covers": [ "torso", "arms", "legs", "feet", "hands" ],
-    "coverage": 85,
+    "coverage": 100,
     "encumbrance": 9,
     "storage": "0 ml",
     "warmth": 2,
