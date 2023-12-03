@@ -23,5 +23,15 @@
     "id": "sai_chorus",
     "type": "MIGRATION",
     "replace": "sai_weapon"
+  },
+  {
+    "id": "flanged_mace_chorus",
+    "type": "MIGRATION",
+    "replace": "mace"
+  },
+  {
+    "type": "recipe",
+    "result": "flanged_mace_chorus",
+    "obsolete": true
   }
 ]

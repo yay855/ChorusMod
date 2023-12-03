@@ -15,6 +15,28 @@
   },
   {
     "type": "recipe",
+    "result": "clockworks",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "mechanics",
+    "skills_required": [ "fabrication", 3 ],
+    "difficulty": 4,
+    "time": "15 m",
+    "reversible": true,
+    "book_learn": [ [ "textbook_mechanics", 4 ], [ "manual_mechanics", 4 ], [ "textbook_fabrication", 4 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 1 },
+      { "id": "CUT_FINE", "level": 1 },
+      { "id": "DRILL", "level": 1 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
+    ],
+    "components": [
+      [ [ "scrap", 5 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
     "result": "link_sheet",
     "id_suffix": "fabrication",
     "category": "CC_OTHER",
