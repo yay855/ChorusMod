@@ -177,5 +177,32 @@
       [ [ "2x4", 1 ], [ "stick", 1 ] ],
       [ [ "steel_chunk", 3 ], [ "scrap", 9 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "pneumatic_revolver_chorus",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ "mechanics", 4 ],
+    "time": "3 h",
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "hand_pump", 1 ] ],
+      [ [ "pipe", 1 ] ],
+      [ [ "duct_tape", 100 ], [ "superglue", 1 ] ],
+      [ [ "2x4", 1 ], [ "stick", 1 ] ],
+      [ [ "steel_chunk", 3 ], [ "scrap", 9 ] ],
+      [
+        [ "light_plus_battery_cell", 1 ],
+        [ "light_battery_cell", 2 ],
+        [ "light_minus_battery_cell", 4 ]
+      ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "e_scrap", 1 ] ]
+    ]
   }
 ]

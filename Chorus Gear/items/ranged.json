@@ -23,7 +23,7 @@
     "range": 10,
     "dispersion": 50,
     "durability": 10,
-    "clip_size": 20,
+    "clip_size": 12,
     "reload": 120,
     "loudness": 3,
     "valid_mod_locations": [
@@ -37,7 +37,7 @@
       [ "underbarrel", 1 ]
     ]
   },
-    {
+  {
     "id": "rep_hand_bulletbow_chorus",
     "looks_like": "crossbow",
     "type": "GUN",
@@ -59,10 +59,10 @@
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bash", "amount": 15 },
     "range": 5,
-    "dispersion": 75,
-    "recoil": 50,
+    "dispersion": 125,
+    "recoil": 75,
     "durability": 10,
-    "clip_size": 16,
+    "clip_size": 6,
     "reload": 80,
     "loudness": 3,
     "valid_mod_locations": [
@@ -199,6 +199,46 @@
       [ "muzzle", 1 ],
       [ "sights", 1 ],
       [ "stock", 1 ]
+    ]
+  },
+  {
+    "id": "pneumatic_revolver_chorus",
+    "looks_like": "ruger_redhawk",
+    "type": "GUN",
+    "weapon_category": [ "PISTOLS", "PNEUMATIC" ],
+    "reload_noise_volume": 10,
+    "symbol": "(",
+    "color": "light_gray",
+    "name": { "str": "pneumatic revolver" },
+    "description": "A custom-made revolver that fires ball bearings using pneumatic pressure and a battery.  Reloading and cycling recharge the battery, which repressurizes the chamber.",
+    "price": 324000,
+    "material": [ "steel", "plastic" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "RELOAD_ONE" ],
+    "skill": "pistol",
+    "ammo": [ "pebble" ],
+    "weight": "1000 g",
+    "volume": "750 ml",
+    "price_postapoc": 4500,
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": { "damage_type": "bash", "amount": 25 },
+    "range": 8,
+    "dispersion": 100,
+    "recoil": 75,
+    "durability": 10,
+    "clip_size": 8,
+    "reload": 80,
+    "loudness": 3,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
     ]
   }
 ]
