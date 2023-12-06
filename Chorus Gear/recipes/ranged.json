@@ -150,7 +150,7 @@
     "using": [ [ "welding_standard", 30 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
-      [ [ "hand_pump", 1 ] ],
+      [ [ "well_pump", 1 ] ],
       [ [ "pipe", 1 ] ],
       [ [ "duct_tape", 100 ], [ "superglue", 1 ] ],
       [ [ "2x4", 1 ], [ "stick", 1 ] ],
@@ -191,7 +191,7 @@
     "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
-      [ [ "hand_pump", 1 ] ],
+      [ [ "well_pump", 1 ] ],
       [ [ "pipe", 1 ] ],
       [ [ "duct_tape", 100 ], [ "superglue", 1 ] ],
       [ [ "2x4", 1 ], [ "stick", 1 ] ],
