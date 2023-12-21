@@ -1,13 +1,6 @@
 [
-  {
-	"id": "sling",
-    "copy-from": "sling",
-    "type": "GUN",
-    "name": { "str": "sling" },
-    "ammo": [ "pebble", "rock" ]
-  },
     {
-	"id": "slingshot",
+	  "id": "slingshot",
     "copy-from": "slingshot",
     "type": "GUN",
     "name": { "str": "slingshot" },
@@ -21,7 +14,7 @@
     "ranged_damage": { "damage_type": "bash", "amount": 12 }
   },
     {
-	"id": "tonfa_wood",
+	  "id": "tonfa_wood",
     "copy-from": "tonfa_wood",
     "name": { "str": "wooden tonfa" },
     "type": "GENERIC",
@@ -34,7 +27,7 @@
     }
   },
     {
-	"id": "morningstar",
+	  "id": "morningstar",
     "type": "GENERIC",
     "category": "weapons",
     "copy-from": "morningstar",
@@ -79,24 +72,5 @@
 	"name": { "str": "powered quarterstaff", "str_pl": "powered quarterstaves" },
 	"techniques": [ "WBLOCK_2", "RAPID", "SWEEP" ],
 	"flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "SHEATH_SPEAR", "ALWAYS_TWOHAND", "REACH_ATTACK" ]
-  },
-  {
-    "copy-from": "knife_trench",
-    "type": "GENERIC",
-    "category": "weapons",
-    "name": { "str": "trench knife", "str_pl": "trench knives" },
-    "weapon_category": [ "FIST_WEAPONS", "KNIVES" ],
-    "bashing": 6,
-    "cutting": 8,
-    "flags": [ "DURABLE_MELEE", "STAB", "SHEATH_KNIFE", "NONCONDUCTIVE", "UNARMED_WEAPON" ]
-  },
-  {
-    "copy-from": "bio_claws_weapon",
-    "type": "GENERIC",
-    "category": "weapons",
-    "name": { "str_sp": "bionic claws" },
-    "to_hit": 3,
-    "bashing": 12,
-    "cutting": 24
   }
 ]

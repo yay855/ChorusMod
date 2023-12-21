@@ -23,5 +23,70 @@
     "material": [ "steel" ],
     "flags": [ "REACH_ATTACK", "REACH3", "WHIP", "NONCONDUCTIVE", "DURABLE_MELEE", "BELT_CLIP" ],
     "price_postapoc": 20000
+  },
+  {
+    "type": "TOOL",
+    "category": "weapons",
+    "id": "holo_blade_chorus",
+    "name": { "str": "hard light blade (intactive)" },
+    "weapon_category": [ "1H_SWORDS", "ENERGY_WEAPONS" ],
+    "description": "A prototype hard light weapon that can project an atom-thin sword.  It is currently turned off.",
+    "weight": "650 g",
+    "price_postapoc": 1000,
+    "color": "brown",
+    "symbol": "/",
+    "looks_like": "baton",
+    "material": [ "plastic", "steel" ],
+    "flags": [ "DURABLE_MELEE", "BELT_CLIP", "NONCONDUCTIVE", "STAB" ],
+    "volume": "250 ml",
+    "to_hit": 2,
+    "bashing": 10,
+    "charges_per_use": 1,
+    "magazine_well": "250 ml",
+    "ammo": "battery",
+        "use_action": {
+    "type": "transform",
+    "msg": "You press a button and the blade activates.",
+    "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The %s's batteries are dead." ,
+    "target": "holo_blade_active_chorus"
+    },
+    "magazines": [
+      [
+       "battery",
+        [
+         "light_battery_cell",
+         "light_minus_battery_cell",
+         "light_plus_battery_cell",
+         "light_atomic_battery_cell",
+         "light_minus_atomic_battery_cell",
+         "light_minus_disposable_cell",
+         "light_disposable_cell"
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "TOOL",
+    "category": "weapons",
+    "id": "holo_blade_active_chorus",
+    "copy-from": "holo_blade_chorus",
+    "name": { "str": "hard light blade (active)" },
+    "description": "A prototype hard light weapon that can project an atom-thin sword.  If this isn't a lightsaber, may Darth Vader strike you down.",
+    "price_postapoc": 0,
+    "color": "brown",
+    "symbol": "/",
+    "material": [ "plastic", "steel" ],
+    "looks_like": "longsword",
+    "techniques": [ "WBLOCK_1" ],
+    "cutting": 45,
+    "power_draw": 150000,
+    "revert_to": "holo_club_chorus",
+    "use_action": {
+      "type": "transform",
+      "msg": "You press a button and the club turns off.",
+      "target": "holo_club_chorus"
+        }
   }
 ]

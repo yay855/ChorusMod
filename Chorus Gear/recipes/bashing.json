@@ -169,5 +169,31 @@
     [ [ "stick", 1 ], [ "2x4", 1 ] ], 
     [ [ "cordage_short", 2, "LIST" ], [ "filament", 100, "LIST" ], [ "rag", 1 ], [ "leather", 1 ], [ "fur", 1 ], [ "faux_fur", 1 ], [ "felt_patch", 1 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_club_chorus",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_BASHING",
+    "skill_used": "electronics",
+    "skills_required": [ "fabrication", 5 ],
+    "difficulty": 5,
+    "time": "1 h 30 m",
+    "autolearn": true,
+    "book_learn": [
+      [ "textbook_robots", 4 ],
+      [ "mag_electronics", 3 ],
+      [ "textbook_electronics", 3 ]
+    ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [
+      [ [ "plastic_chunk", 5 ] ],
+      [ [ "superglue", 1 ] ],
+      [ [ "power_supply", 5 ] ],
+      [ [ "e_scrap", 3 ] ],
+      [ [ "scrap", 3 ] ]
+    ]
   }
 ]

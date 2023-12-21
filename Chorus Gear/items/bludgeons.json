@@ -228,5 +228,70 @@
     "flags": [ "DURABLE_MELEE", "BELT_CLIP" ],
     "volume": "600 ml",
     "bashing": 22
+  },
+  {
+    "type": "TOOL",
+    "category": "weapons",
+    "id": "holo_club_chorus",
+    "name": { "str": "hard light baton (intactive)" },
+    "weapon_category": [ "BATONS", "ENERGY_WEAPONS" ],
+    "description": "A prototype hard light weapon, its projection being little more than a rounded baton.  It is currently turned off.",
+    "weight": "650 g",
+    "price_postapoc": 1000,
+    "color": "brown",
+    "symbol": "/",
+    "looks_like": "baton",
+    "material": [ "plastic" ],
+    "flags": [ "DURABLE_MELEE", "BELT_CLIP", "NONCONDUCTIVE" ],
+    "volume": "250 ml",
+    "to_hit": 2,
+    "bashing": 10,
+    "charges_per_use": 1,
+    "magazine_well": "250 ml",
+    "ammo": "battery",
+        "use_action": {
+    "type": "transform",
+    "msg": "You press a button and the club activates.",
+    "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The %s's batteries are dead." ,
+    "target": "holo_club_active_chorus"
+    },
+    "magazines": [
+      [
+       "battery",
+        [
+         "light_battery_cell",
+         "light_minus_battery_cell",
+         "light_plus_battery_cell",
+         "light_atomic_battery_cell",
+         "light_minus_atomic_battery_cell",
+         "light_minus_disposable_cell",
+         "light_disposable_cell"
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "TOOL",
+    "category": "weapons",
+    "id": "holo_club_active_chorus",
+    "copy-from": "holo_club_chorus",
+    "name": { "str": "hard light baton (active)" },
+    "description": "A prototype hard light projector weapon, its projection being little more than a rounded baton.  It hits hard enough, but it's no lightsaber.",
+    "price_postapoc": 0,
+    "color": "brown",
+    "symbol": "/",
+    "material": [ "plastic" ],
+    "looks_like": "baton-extended",
+    "techniques": [ "WBLOCK_1" ],
+    "bashing": 40,
+    "power_draw": 100000,
+    "revert_to": "holo_club_chorus",
+    "use_action": {
+      "type": "transform",
+      "msg": "You press a button and the club turns off.",
+      "target": "holo_club_chorus"
+        }
   }
 ]
