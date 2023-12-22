@@ -30,6 +30,6 @@
     "material": [ "steel" ],
     "symbol": ";",
     "color": "light_gray",
-    "flags": [ "SAFECRACK" ]
+    "qualities": [ [ "LOCKPICK", 6 ] ]
   }
 ]
