@@ -28,5 +28,18 @@
     "book_learn": [ [ "mag_archery", 3 ], [ "manual_archery", 2 ] ],
     "using": [ [ "blacksmithing_standard", 1 ] ],
     "components": [ [ [ "scrap", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "makeshift_lens",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "electronics",
+    "difficulty": 6,
+    "time": "30 m",
+    "reversible": true,
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 15 ] ],
+    "components": [ [ [ "lens", 1 ] ], [ [ "lens", 1 ], [ "lens_small", 1 ] ] ]
   }
 ]
