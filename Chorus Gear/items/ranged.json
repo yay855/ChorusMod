@@ -227,7 +227,7 @@
     "recoil": 75,
     "durability": 10,
     "clip_size": 8,
-    "reload": 80,
+    "reload": 160,
     "loudness": 3,
     "valid_mod_locations": [
       [ "accessories", 2 ],
@@ -267,7 +267,7 @@
     "recoil": 60,
     "durability": 10,
     "clip_size": 18,
-    "reload": 80,
+    "reload": 160,
     "loudness": 3,
     "valid_mod_locations": [
       [ "accessories", 2 ],
