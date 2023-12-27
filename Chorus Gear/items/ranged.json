@@ -225,7 +225,7 @@
     "range": 8,
     "dispersion": 100,
     "recoil": 75,
-    "durability": 10,
+    "durability": 9,
     "clip_size": 8,
     "reload": 160,
     "loudness": 3,
@@ -260,12 +260,11 @@
     "volume": "1500 ml",
     "price_postapoc": 4500,
     "bashing": 8,
-    "to_hit": 0,
     "ranged_damage": { "damage_type": "bash", "amount": 25 },
     "range": 8,
     "dispersion": 80,
     "recoil": 60,
-    "durability": 10,
+    "durability": 9,
     "clip_size": 18,
     "reload": 160,
     "loudness": 3,
@@ -281,5 +280,25 @@
       [ "sights", 1 ],
       [ "sight", 1 ]
     ]
+  },
+  {
+    "id": "rock_launcher_chorus",
+    "copy-from": "launcher_base",
+    "type": "GUN",
+    "name": { "str": "rock launcher" },
+    "description": "Handmade using scrap and parts, this bulky device can store and launch spherical objects such as rocks, chunks of metal, and balls.",
+    "weight": "2267 g",
+    "volume": "1250 ml",
+    "price": "400 USD",
+    "price_postapoc": "750 cent",
+    "bashing": 6,
+    "material": "steel",
+    "ammo": "rock",
+    "ranged_damage": { "damage_type": "bash", "amount": 25 },
+    "dispersion": 270,
+    "durability": 9,
+    "clip_size": 8,
+    "reload": 160,
+    "loudness": 3
   }
 ]
