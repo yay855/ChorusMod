@@ -21,7 +21,6 @@
       [ [ "scrap", 5 ] ]
     ]
   },
-  [
     {
         "result": "rag",
         "type": "recipe",
@@ -36,5 +35,4 @@
         "using": [ [ "sewing_standard", 50 ] ],
         "components": [ [ [ "rag", 1 ] ] ]
       }
-]
 ]
