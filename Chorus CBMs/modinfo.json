@@ -7,7 +7,7 @@
     "maintainers": [ "ChorusSystem" ],
     "description": "Edits and additions to CBM content, mostly to personal preference and as a learning tool.",
     "category": "content",
-    "dependencies": [ "bn", "aftershock", "Chorus_Weapons" ],
+    "dependencies": [ "bn", "Chorus_Weapons" ],
     "obsolete": false
   }
 ]
