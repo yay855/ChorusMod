@@ -2,27 +2,12 @@
   {
     "type": "recipe",
     "result": "scrap",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "fabrication",
-    "difficulty": 3,
-    "time": "5 m",
-    "autolearn": true,
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 20 ] ] ],
-    "components": [ [ [ "material_iron", 2 ] ] ]
+    "obsolete": true
   },
   {
     "type": "recipe",
     "result": "copper",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "fabrication",
-    "difficulty": 2,
-    "time": "5 m",
-    "autolearn": true,
-    "using": [ [ "surface_heat", -1 ] ],
-    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
-    "components": [ [ [ "material_copper", 10 ] ] ]
+    "obsolete": true
   },
   {
     "type": "recipe",
