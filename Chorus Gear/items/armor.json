@@ -162,8 +162,8 @@
     "type": "ARMOR",
     "name": { "str": "padded dress", "str_pl": "armored dresses" },
     "description": "A long, thick dress with pockets and reinforced with leather padding. Looks ridiculously poofy, but breathes surprisingly well.",
-    "weight": "680 g",
-    "volume": "3500 ml",
+    "weight": "2108 g",
+    "volume": "9500 ml",
     "price": 18000,
     "price_postapoc": 2000,
     "to_hit": -5,
@@ -184,7 +184,7 @@
     "type": "ARMOR",
     "name": { "str": "armored dress", "str_pl": "armored dresses" },
     "description": "A custom-made dress designed to look as fashionable as possible while still being highly protective. Breathes surprisingly well.",
-    "weight": "680 g",
+    "weight": "2108 g",
     "volume": "3500 ml",
     "price": 18000,
     "price_postapoc": 10000,
@@ -247,5 +247,17 @@
     "price_postapoc": 175,
     "encumbrance": 8,
     "warmth": 8
+  },
+  {
+	  "copy-from": "leather_dress_chorus",
+	  "id": "pldress_chorus",
+	  "type": "ARMOR",
+	  "name": { "str": "plated leather dress" },
+	  "description": "A custom-made dress with leather padding and segmented iron plates attached across it.  It's heavy, but breathes easily.",
+    "warmth": 10,
+    "material": [ "leather", "iron" ],
+    "encumbrance": 24,
+    "weight": "4150 g",
+    "volume": "9 L"
   }
 ]

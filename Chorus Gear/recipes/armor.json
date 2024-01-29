@@ -246,5 +246,20 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 15 ] ],
     "components": [ [ [ "rag", 4 ] ], [ [ "kevlar_plate", 6 ] ] ]
+  },
+  {
+    "result": "pldress_chorus",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "skills_required": [ "tailor", 3 ],
+    "time": "28 m",
+    "book_learn": [ [ "textbook_tailor", 5 ], [ "tailor_portfolio", 5 ], [ "textbook_armwest", 4 ], [ "textbook_armschina", 4 ] ],
+    "autolearn": [ [ "fabrication", 4 ], [ "tailor", 5 ] ],
+    "using": [ [ "sewing_standard", 45 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
+    "components": [ [ [ "steel_tiny", 9, "LIST" ], [ "sheet_metal_small", 9 ] ], [ [ "leather_dress_chorus", 1 ] ] ]
   }
 ]
