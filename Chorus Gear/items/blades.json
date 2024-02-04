@@ -82,11 +82,11 @@
     "techniques": [ "WBLOCK_1" ],
     "cutting": 45,
     "power_draw": 150000,
-    "revert_to": "holo_club_chorus",
+    "revert_to": "holo_blade_chorus",
     "use_action": {
       "type": "transform",
       "msg": "You press a button and the club turns off.",
-      "target": "holo_club_chorus"
+      "target": "holo_blade_chorus"
         }
   }
 ]
