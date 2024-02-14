@@ -233,7 +233,7 @@
     "type": "TOOL",
     "category": "weapons",
     "id": "holo_club_chorus",
-    "name": { "str": "hard light baton (intactive)" },
+    "name": { "str": "hard light baton (inactive)" },
     "weapon_category": [ "BATONS", "ENERGY_WEAPONS" ],
     "description": "A prototype hard light weapon, its projection being little more than a rounded baton.  It is currently turned off.",
     "weight": "650 g",
