@@ -28,7 +28,7 @@
     "type": "TOOL",
     "category": "weapons",
     "id": "holo_blade_chorus",
-    "name": { "str": "hard light blade (intactive)" },
+    "name": { "str": "hard light blade (inactive)" },
     "weapon_category": [ "1H_SWORDS", "KNIVES", "ENERGY_WEAPONS" ],
     "description": "A prototype hard light weapon that can project an atom-thin blade of configurable length.  It is currently turned off.",
     "weight": "650 g",
