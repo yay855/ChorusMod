@@ -33,5 +33,20 @@
     "type": "recipe",
     "result": "flanged_mace_chorus",
     "obsolete": true
+  },
+  {
+    "id": "tomahawk_chorus",
+    "type": "MIGRATION",
+    "replace": "tomahawk_primitive"
+  },
+  {
+    "id": "tomahawk_copper_chorus",
+    "type": "MIGRATION",
+    "replace": "tomahawk_copper"
+  },
+  {
+    "id": "tomahawk_steel_chorus",
+    "type": "MIGRATION",
+    "replace": "hatchet"
   }
 ]
