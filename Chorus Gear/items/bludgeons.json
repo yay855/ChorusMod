@@ -283,10 +283,10 @@
     "color": "brown",
     "symbol": "/",
     "material": [ "plastic" ],
-    "looks_like": "baton-extended",
     "techniques": [ "WBLOCK_1" ],
-    "bashing": 40,
+    "bashing": 26,
     "power_draw": 100000,
+    "flags": [ "DURABLE_MELEE", "BELT_CLIP", "NONCONDUCTIVE", "LIGHT_40" ],
     "revert_to": "holo_club_chorus",
     "use_action": {
       "type": "transform",

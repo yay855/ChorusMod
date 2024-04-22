@@ -48,5 +48,20 @@
     "id": "tomahawk_steel_chorus",
     "type": "MIGRATION",
     "replace": "hatchet"
+  },
+  {
+    "id": "holo_blade_chorus",
+    "type": "MIGRATION",
+    "replace": "holo_club_chorus"
+  },
+  {
+    "id": "holo_blade_active_chorus",
+    "type": "MIGRATION",
+    "replace": "holo_club_active_chorus"
+  },
+  {
+    "type": "recipe",
+    "result": "holo_blade_chorus",
+    "obsolete": true
   }
 ]

@@ -1,0 +1,17 @@
+[
+    {
+      "type": "mod_tileset",
+      "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MshockXottoplus" ],
+      "tiles-new": [
+        {
+          "file": "mod_tileset/chorus_dp_normal.png",
+          "tiles": [
+            { "id": "holo_club_active_chorus", "fg": 1 },
+            { "id": "overlay_wielded_holo_club_active_chorus", "fg": 2 },
+            { "id": "leather_dress_chorus", "fg": 3 },
+            { "id": "overlay_worn_leather_dress_chorus", "fg": 4 }
+          ]
+        }
+      ]
+    }
+]  
