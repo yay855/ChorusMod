@@ -180,6 +180,7 @@
     "difficulty": 5,
     "time": "1 h 30 m",
     "autolearn": true,
+    "reversible": true,
     "book_learn": [
       [ "textbook_robots", 4 ],
       [ "mag_electronics", 3 ],
