@@ -13,7 +13,7 @@
     "volume": "200 ml",
     "cutting": 10,
     "flags": [ "STAB", "UNARMED_WEAPON", "NO_DROP", "NO_UNWIELD", "UNBREAKABLE_MELEE", "TRADER_AVOID" ],
-    "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 3 ], [ "BUTCHER", -1 ] ]
+    "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 3 ], [ "BUTCHER", 30 ] ]
   },
   {
     "id": "bio_railgun_gun_chorus",
