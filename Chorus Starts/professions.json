@@ -3,7 +3,7 @@
     "type": "profession",
     "id": "bat_burglar_chorus",
     "name": "Bat Burglar",
-    "description": " You were an infamous jewel thief before the end, famous for stealing things no one else could... and also for being a bat mutant. Here's hoping you can survive the cataclysm.",
+    "description": " You were an infamous jewel thief before the end, famous for stealing things no one else could... and also for being a bat mutant.  Here's hoping you can survive the cataclysm.",
     "points": 8,
     "CBMs": [
       "bio_torsionratchet",
@@ -41,8 +41,7 @@
           "socks",
           "boots",
           "backpack",
-          "wristwatch",
-          "tonfa_capped_chorus"
+          "wristwatch"
           ]
       },
       "male": [ "boxer_briefs" ],
@@ -57,7 +56,7 @@
     "points": 10,
     "CBMs": [
       "bn_bio_solar",
-      "bio_cable",
+      "bio_batteries",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII",
       "bio_tools",

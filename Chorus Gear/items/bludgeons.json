@@ -129,7 +129,7 @@
     "looks_like": "2h_flail_wood",
     "price": 300,
     "to_hit": 0,
-    "bashing": 20,
+    "bashing": 25,
     "material": [ "wood", "cotton" ],
     "symbol": "v",
     "color": "brown",
@@ -217,7 +217,7 @@
     "weapon_category": [ "CLUBS" ],
     "name": { "str": "stone club" },
     "description": "A primitive wooden club with a stone head.  Not as effective as a steel mace, but still packs a punch.",
-    "weight": "425 g",
+    "weight": "1850 g",
     "to_hit": 1,
     "price_postapoc": 50,
     "color": "brown",
@@ -226,8 +226,8 @@
     "material": [ "wood", "stone" ],
     "techniques": [ "WBLOCK_1", "BRUTAL" ],
     "flags": [ "DURABLE_MELEE", "BELT_CLIP" ],
-    "volume": "600 ml",
-    "bashing": 22
+    "volume": "1250 ml",
+    "bashing": 20
   },
   {
     "type": "TOOL",
