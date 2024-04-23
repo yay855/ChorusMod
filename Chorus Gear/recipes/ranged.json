@@ -27,7 +27,7 @@
     "autolearn": true,
     "reversible": true,
     "qualities": [ { "id": "SAW_W", "level": 1 }, { "id": "SCREW", "level": 1 } ], 
-    "components": [ [ [ "hose", 2 ] ], [ [ "plastic_chunk", 3 ] ],  [ [ "2x4", 1 ], [ "stick", 2 ] ], [ [ "spring", 1 ] ] ]
+    "components": [ [ [ "hose", 2 ] ], [ [ "plastic_chunk", 3 ] ],  [ [ "2x4", 1 ], [ "stick", 2 ] ], [ [ "spring", 1 ] ], [ [ "cordage_superior_short", 1, "LIST" ] ] ]
   },
   {
     "type": "recipe",
@@ -41,7 +41,7 @@
     "autolearn": true,
     "reversible": true,
     "qualities": [ { "id": "SAW_W", "level": 1 }, { "id": "SCREW", "level": 1 } ], 
-    "components": [ [ [ "hose", 2 ] ], [ [ "plastic_chunk", 2 ] ], [ [ "2x4", 1 ], [ "stick", 2 ] ], [ [ "spring", 1 ] ] ]
+    "components": [ [ [ "hose", 2 ] ], [ [ "plastic_chunk", 2 ] ], [ [ "2x4", 1 ], [ "stick", 2 ] ], [ [ "spring", 1 ] ], [ [ "cordage_superior_short", 1, "LIST" ] ] ]
   },
     {
     "type": "recipe",
@@ -92,7 +92,8 @@
       [ [ "cordage_superior_short", 1, "LIST" ] ],
       [ [ "spring", 1 ] ],
       [ [ "scrap", 4 ] ],
-      [ [ "nail", 10 ] ]
+      [ [ "nail", 10 ] ],
+      [ [ "cordage_superior_short", 1, "LIST" ] ]
     ]
   },
   {
@@ -133,7 +134,7 @@
     "reversible": true,
     "book_learn": [ [ "recipe_bows", 3 ], [ "manual_archery", 5 ], [ "book_archery", 4 ] ],
     "qualities": [ { "id": "SAW_W", "level": 1 }, { "id": "SCREW", "level": 1 } ], 
-    "components": [ [ [ "hose", 2 ] ], [ [ "plastic_chunk", 3 ] ], [ [ "2x4", 2 ], [ "stick", 4 ] ], [ [ "spring", 1 ] ] ]
+    "components": [ [ [ "hose", 2 ] ], [ [ "plastic_chunk", 3 ] ], [ [ "2x4", 2 ], [ "stick", 4 ] ], [ [ "spring", 1 ] ], [ [ "cordage_superior_short", 1, "LIST" ] ] ]
   },
   {
     "type": "recipe",
