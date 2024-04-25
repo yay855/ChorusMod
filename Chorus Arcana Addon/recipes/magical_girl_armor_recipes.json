@@ -11,7 +11,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "using": [ [ "sewing_standard", 32 ] ],
-    "components": [ [ [ "rag", 5 ] ], [ [ "essence_pure", 1 ], [ "arcana_essence_exclude_blood", 10, "LIST" ] ] ]
+    "components": [ [ [ "rag", 5 ] ], [ [ "arcana_essence_exclude_blood", 3, "LIST" ] ] ]
   },
   {
     "result": "mgirl_skirt_chorus",
@@ -25,7 +25,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "using": [ [ "sewing_standard", 32 ] ],
-    "components": [ [ [ "rag", 5 ] ], [ [ "essence_pure", 1 ], [ "arcana_essence_exclude_blood", 10, "LIST" ] ] ]
+    "components": [ [ [ "rag", 5 ] ], [  [ "arcana_essence_exclude_blood", 3, "LIST" ] ] ]
   },
   {
     "result": "mgirl_panties_chorus",
@@ -39,7 +39,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "using": [ [ "sewing_standard", 32 ] ],
-    "components": [ [ [ "rag", 2 ] ], [ [ "essence_pure", 1 ], [ "arcana_essence_exclude_blood", 10, "LIST" ] ] ]
+    "components": [ [ [ "rag", 2 ] ], [ [ "arcana_essence_exclude_blood", 3, "LIST" ] ] ]
   },
   {
     "result": "mgirl_bra_chorus",
@@ -53,7 +53,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "using": [ [ "sewing_standard", 32 ] ],
-    "components": [ [ [ "rag", 2 ] ], [ [ "essence_pure", 1 ], [ "arcana_essence_exclude_blood", 10, "LIST" ] ] ]
+    "components": [ [ [ "rag", 2 ] ], [ [ "arcana_essence_exclude_blood", 3, "LIST" ] ] ]
   },
   {
     "result": "mgirl_socks_chorus",
@@ -67,7 +67,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "using": [ [ "sewing_standard", 32 ] ],
-    "components": [ [ [ "rag", 5 ] ], [ [ "essence_pure", 1 ], [ "arcana_essence_exclude_blood", 10, "LIST" ] ] ]
+    "components": [ [ [ "rag", 5 ] ], [ [ "arcana_essence_exclude_blood", 3, "LIST" ] ] ]
   },
   {
     "result": "mgirl_boots_chorus",
@@ -81,7 +81,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "using": [ [ "sewing_standard", 32 ] ],
-    "components": [ [ [ "rag", 8 ] ], [ [ "essence_pure", 1 ], [ "arcana_essence_exclude_blood", 10, "LIST" ] ] ]
+    "components": [ [ [ "rag", 8 ] ], [ [ "arcana_essence_exclude_blood", 3, "LIST" ] ] ]
   },
   {
     "result": "mgirl_hat_chorus",
@@ -95,6 +95,6 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "using": [ [ "sewing_standard", 32 ] ],
-    "components": [ [ [ "rag", 5 ] ], [ [ "essence_pure", 1 ], [ "arcana_essence_exclude_blood", 10, "LIST" ] ] ]
+    "components": [ [ [ "rag", 5 ] ], [ [ "arcana_essence_exclude_blood", 3, "LIST" ] ] ]
   }
 ]
