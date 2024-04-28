@@ -74,20 +74,6 @@
       [ [ "chain", 1 ] ]
     ]
   },
-    {
-    "type": "recipe",
-    "result": "mace",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_BASHING",
-    "skill_used": "fabrication",
-    "difficulty": 4,
-    "time": "3 h",
-    "autolearn": true,
-    "book_learn": [ [ "textbook_weapwest", 3 ], [ "recipe_melee", 4 ] ],
-    "using": [ [ "blacksmithing_standard", 12 ], [ "steel_standard", 3 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "components": [ [ [ "2x4", 3 ], [ "stick", 6 ] ], [ [ "fur", 3 ], [ "leather", 3 ] ] ]
-  },
   {
 	"result": "stone_boxing_chorus",
 	"type": "recipe",
@@ -97,20 +83,6 @@
 	"autolearn": true,
 	"reversible": true,
   "components": [ [ [ "cordage_short", 2, "LIST" ], [ "rag", 2 ], [ "leather", 2 ], [ "fur", 2 ], [ "faux_fur", 2 ], [ "felt_patch", 2 ] ], [ [ "rock", 2 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "cestus",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_BASHING",
-    "skill_used": "fabrication",
-    "skills_required": [ "bashing", 1 ],
-    "difficulty": 2,
-    "time": "20 m",
-    "book_learn": [ [ "recipe_melee", 1 ], [ "textbook_weapeast", 7 ] ],
-    "autolearn": true,
-    "qualities": [ { "id": "HAMMER", "level": 1 } ],
-    "components": [ [ [ "leather", 4 ] ], [ [ "scrap", 8 ] ] ]
   },
   {
     "type": "recipe",

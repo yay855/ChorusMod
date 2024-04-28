@@ -38,15 +38,6 @@
     "cutting": 10
   },
   {
-    "type": "GENERIC",
-    "id": "cestus",
-    "category": "weapons",
-    "copy-from": "cestus",
-    "name": { "str": "cestus", "str_pl": "cestuses" },
-    "bashing": 7,
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "BELT_CLIP" ]
-  },
-  {
 	"type": "GENERIC",
 	"id": "q_staff",
 	"copy-from": "q_staff",
