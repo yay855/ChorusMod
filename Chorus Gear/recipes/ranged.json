@@ -79,7 +79,8 @@
     "difficulty": 6,
     "time": "30 m",
     "reversible": true,
-    "autolearn": [ [ "fabrication", 6 ] ],
+    "autolearn": true,
+    "skills_required": [ "mechanics", 4 ],
     "book_learn": [ [ "recipe_bows", 3 ], [ "manual_archery", 5 ], [ "book_archery", 4 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
