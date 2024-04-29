@@ -68,6 +68,7 @@
     "type": "TOOL",
     "name": { "str": "Lightning Blade (on)", "str_pl": "Electro Daggers (on)" },
     "description": "A one-handed sword with electrical wiring running along the blade, electrocuting your foes.  Be careful not to touch the blade.",
+    "to_hit": 3,
     "power_draw": 5000000,
     "revert_to": "elecsword_chorus",
     "use_action": [ { "menu_text": "Turn off", "type": "transform", "msg": "The %s powers off.", "target": "elecsword_chorus" } ]
@@ -115,6 +116,7 @@
     "type": "TOOL",
     "name": { "str": "Lightning Dagger (on)", "str_pl": "Electro Daggers (on)" },
     "description": "A one-handed sword with electrical wiring running along the blade, electrocuting your foes.  Be careful not to touch the blade.",
+    "to_hit": 3,
     "power_draw": 5000000,
     "revert_to": "elecknife_chorus",
     "use_action": [ { "menu_text": "Turn off", "type": "transform", "msg": "The %s powers off.", "target": "elecknife_chorus" } ]
