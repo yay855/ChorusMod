@@ -17,13 +17,6 @@
     "included": true,
     "flags": [ "BIONIC_POWER_SOURCE", "BIONIC_TOGGLED", "BIONIC_NPC_USABLE" ]
   },
-    {
-    "id": "bio_razors",
-    "copy-from": "bio_razors",
-    "type": "bionic",
-    "fake_item": "finger_razors",
-    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
-  },
   {
     "id": "bio_skates_chorus",
     "type": "bionic",

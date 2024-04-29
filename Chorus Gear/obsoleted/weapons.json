@@ -1,10 +1,10 @@
 [
-   {
+ {
     "id": "dual_katana_chorus",
     "type": "MIGRATION",
     "replace": "katana"
   },
-   {
+  {
     "id": "katar_chorus",
     "type": "MIGRATION",
     "replace": "katar"

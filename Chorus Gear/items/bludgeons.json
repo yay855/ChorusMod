@@ -296,7 +296,7 @@
   },
   {
     "type": "TOOL",
-    "copy-from": "jamadhar",
+    "copy-from": "impact_knuckle",
     "id": "elecfist_chorus",
     "name": { "str": "Lightning Fist (off)", "str_pl": "Lightning Fists (off)" },
     "description": "A heavy steel plating around your fist with electrical wiring running along the impact surface, allowing it to electrocute your foes when turned on.",

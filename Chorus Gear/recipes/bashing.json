@@ -188,7 +188,7 @@
       [ [ "adhesive", 1, "LIST" ] ], 
       [ [ "scrap", 5 ] ],
       [ [ "chunk_rubber", 5 ] ],
-      [ [ "jamadhar", 1 ] ] 
+      [ [ "impact_knuckle", 1 ] ] 
     ]
   }
 ]
