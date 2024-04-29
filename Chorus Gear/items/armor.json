@@ -209,6 +209,7 @@
     "weight": 3400,
     "volume": 16,
     "price": "500 USD",
+    "looks_like": "survivor_belt",
     "bashing": 1,
     "material": [ "leather", "iron" ],
     "symbol": "[",

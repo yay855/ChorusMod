@@ -5,5 +5,24 @@
     "time": "30 m",
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "plastic_chunk", 2 ] ], [ [ "cordage_superior", 1, "LIST" ] ], [ [ "glass_tinted", 1 ] ] ]
+  },
+  {
+    "result": "pldress_chorus",
+    "type": "uncraft",
+    "time": "30 m",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "scrap", 45 ] ], [ [ "leather_dress_chorus", 1 ] ] ]
+  },
+  {
+    "result": "survbelt_chorus",
+    "type": "uncraft",
+    "time": "10 m",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "survivor_belt", 1 ] ],
+      [ [ "e_tool", 1 ] ],
+      [ [ "crowbar", 1 ] ],
+      [ [ "scalpel", 1 ] ]
+    ]
   }
 ]
