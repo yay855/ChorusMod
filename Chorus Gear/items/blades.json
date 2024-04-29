@@ -107,7 +107,7 @@
       "type": "transform",
       "active": true,
       "msg": "You thumb the switch, the blade sparking to life.",
-      "target": "elecsword_chorus_on"
+      "target": "elecknife_chorus_on"
     }
   },
   {
