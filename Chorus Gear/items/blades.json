@@ -24,5 +24,99 @@
     "material": [ "steel" ],
     "flags": [ "REACH_ATTACK", "REACH3", "WHIP", "NONCONDUCTIVE", "BELT_CLIP" ],
     "price_postapoc": 1000
+  },
+  {
+    "type": "TOOL",
+    "copy-from": "broadsword",
+    "id": "elecsword_chorus",
+    "name": { "str": "Lightning Blade (off)", "str_pl": "Lightning Blades (off)" },
+    "description": "A one-handed sword with electrical wiring running along the blade, allowing it to electrocute your foes when turned on.",
+    "magazine_well": "500 ml",
+    "ammo": "battery",
+    "charges_per_use": 1,
+    "magazines": [
+      [
+        "battery",
+        [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      ]
+    ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ACTIVE",
+          "hit_you_effect": [
+            {
+              "id": "spell_electroblade_zap",
+              "message": "Sparks leap from your weapon.",
+              "npc_message": "Sparks leap from %1$s's weapon."
+            }
+          ]
+        }
+      ]
+    },
+    "use_action": {
+      "type": "transform",
+      "active": true,
+      "msg": "You thumb the switch, the blade sparking to life.",
+      "target": "elecsword_chorus_on"
+    }
+  },
+  {
+    "id": "elecsword_chorus_on",
+    "copy-from": "elecsword_chorus",
+    "type": "TOOL",
+    "name": { "str": "Lightning Blade (on)", "str_pl": "Electro Daggers (on)" },
+    "description": "A one-handed sword with electrical wiring running along the blade, electrocuting your foes.  Be careful not to touch the blade.",
+    "power_draw": 5000000,
+    "revert_to": "elecsword_chorus",
+    "use_action": [ { "menu_text": "Turn off", "type": "transform", "msg": "The %s powers off.", "target": "elecsword_chorus" } ]
+  },
+  {
+    "type": "TOOL",
+    "copy-from": "knife_combat",
+    "id": "elecknife_chorus",
+    "name": { "str": "Lightning Dagger (off)", "str_pl": "Lightning Daggers (off)" },
+    "description": "A dagger with electrical wiring running along the blade, allowing it to electrocute your foes when turned on.",
+    "magazine_well": "250 ml",
+    "ammo": "battery",
+    "charges_per_use": 1,
+    "magazines": [
+      [
+        "battery",
+        [ "light_battery_cell", "light_plus_battery_cell", "light_atomic_battery_cell", "light_disposable_cell", "light_minus_disposable_cell", "light_minus_battery_cell", "light_minus_atomic_battery_cell" ]
+      ]
+    ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ACTIVE",
+          "hit_you_effect": [
+            {
+              "id": "spell_electroblade_zap",
+              "message": "Sparks leap from your weapon.",
+              "npc_message": "Sparks leap from %1$s's weapon."
+            }
+          ]
+        }
+      ]
+    },
+    "use_action": {
+      "type": "transform",
+      "active": true,
+      "msg": "You thumb the switch, the blade sparking to life.",
+      "target": "elecsword_chorus_on"
+    }
+  },
+  {
+    "id": "elecknife_chorus_on",
+    "copy-from": "elecknife_chorus",
+    "type": "TOOL",
+    "name": { "str": "Lightning Dagger (on)", "str_pl": "Electro Daggers (on)" },
+    "description": "A one-handed sword with electrical wiring running along the blade, electrocuting your foes.  Be careful not to touch the blade.",
+    "power_draw": 5000000,
+    "revert_to": "elecknife_chorus",
+    "use_action": [ { "menu_text": "Turn off", "type": "transform", "msg": "The %s powers off.", "target": "elecknife_chorus" } ]
   }
 ]

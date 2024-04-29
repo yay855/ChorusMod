@@ -293,5 +293,53 @@
       "msg": "You press a button and the club turns off.",
       "target": "holo_club_chorus"
         }
+  },
+  {
+    "type": "TOOL",
+    "copy-from": "jamadhar",
+    "id": "elecfist_chorus",
+    "name": { "str": "Lightning Fist (off)", "str_pl": "Lightning Fists (off)" },
+    "description": "A heavy steel plating around your fist with electrical wiring running along the impact surface, allowing it to electrocute your foes when turned on.",
+    "extend": { "flags": [ "NONCONDUCTIVE" ] },
+    "magazine_well": "500 ml",
+    "ammo": "battery",
+    "charges_per_use": 1,
+    "magazines": [
+      [
+        "battery",
+        [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      ]
+    ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ACTIVE",
+          "hit_you_effect": [
+            {
+              "id": "spell_electroblade_zap",
+              "message": "Sparks leap from your weapon.",
+              "npc_message": "Sparks leap from %1$s's weapon."
+            }
+          ]
+        }
+      ]
+    },
+    "use_action": {
+      "type": "transform",
+      "active": true,
+      "msg": "You thumb the switch, the blade sparking to life.",
+      "target": "elecfist_chorus_on"
+    }
+  },
+  {
+    "id": "elecfist_chorus_on",
+    "copy-from": "elecfist_chorus",
+    "type": "TOOL",
+    "name": { "str": "Lightning Fist (on)", "str_pl": "Electro Fists (on)" },
+    "description": "A one-handed sword with electrical wiring running along the blade, electrocuting your foes.  Be careful not to touch the blade.",
+    "power_draw": 5000000,
+    "revert_to": "elecfist_chorus",
+    "use_action": [ { "menu_text": "Turn off", "type": "transform", "msg": "The %s powers off.", "target": "elecfist_chorus" } ]
   }
 ]
