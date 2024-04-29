@@ -214,7 +214,7 @@
     "time": "2 h",
     "autolearn": true,
     "using": [ [ "sewing_standard", 24 ] ],
-    "components": [ [ [ "kevlar_plate", 20 ] ], [ [ "rag", 10 ] ] ]
+    "components": [ [ [ "kevlar_plate", 20 ] ], [ [ "leather", 10 ] ] ]
   },
   {
     "result": "chainmail_hood_faraday_chorus",
@@ -245,7 +245,7 @@
     "time": "30 m",
     "autolearn": true,
     "using": [ [ "sewing_standard", 15 ] ],
-    "components": [ [ [ "rag", 4 ] ], [ [ "kevlar_plate", 12 ] ] ]
+    "components": [ [ [ "leather", 4 ] ], [ [ "kevlar_plate", 12 ] ] ]
   },
   {
     "result": "pldress_chorus",
