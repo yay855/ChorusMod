@@ -7,7 +7,7 @@
     "skill_used": "fabrication",
     "skills_required": [ "survival", 1 ],
     "difficulty": 2,
-    "time": "20 m",
+    "time": "45 m",
     "autolearn": true,
     "reversible": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
@@ -16,23 +16,6 @@
       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
       [ [ "cordage_short", 1, "LIST" ], [ "filament", 50, "LIST" ], [ "duct_tape", 15 ] ],
       [ [ "rock", 1 ], [ "ceramic_shard", 1 ], [ "sharp_rock", 1 ] ]
-    ]
-  },
-  {
-    "result": "sai_chorus",
-    "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_PIERCING",
-    "skill_used": "fabrication",
-    "difficulty": 6,
-    "time": "1 h 8 m",
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "textbook_weapeast", 5 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 3 } ],
-    "using": [ [ "blacksmithing_intermediate", 12 ], [ "steel_standard", 2 ] ],
-    "components": [
-      [ [ "fur", 2 ], [ "leather", 2 ] ]
     ]
   }
 ]

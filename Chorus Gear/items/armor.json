@@ -86,7 +86,7 @@
     "warmth": 5,
     "material_thickness": 2,
     "environmental_protection": 1,
-    "flags": [ "VARSIZE", "FANCY", "SKINTIGHT" ]
+    "flags": [ "VARSIZE", "FANCY", "SKINTIGHT", "COMPACT" ]
   },
     {
     "id": "corset_leather_pockets_chorus",
@@ -110,7 +110,7 @@
     "warmth": 25,
     "material_thickness": 2,
     "environmental_protection": 1,
-    "flags": [ "VARSIZE", "FANCY", "SKINTIGHT", "WATERPROOF" ]
+    "flags": [ "VARSIZE", "FANCY", "SKINTIGHT", "WATERPROOF", "COMPACT" ]
   },
     {
     "id": "corset_cloth_pockets_chorus",
@@ -134,7 +134,7 @@
     "warmth": 5,
     "material_thickness": 2,
     "environmental_protection": 1,
-    "flags": [ "VARSIZE", "FANCY", "SKINTIGHT" ]
+    "flags": [ "VARSIZE", "FANCY", "SKINTIGHT", "COMPACT" ]
   },
       {
     "id": "rubber_skintight_chorus",
@@ -155,7 +155,7 @@
     "warmth": 2,
     "material_thickness": 2,
     "environmental_protection": 8,
-    "flags": [ "VARSIZE", "STURDY", "FANCY", "SKINTIGHT", "WATER_FRIENDLY", "ELECTRIC_IMMUNE" ]
+    "flags": [ "VARSIZE", "STURDY", "FANCY", "SKINTIGHT", "WATER_FRIENDLY", "ELECTRIC_IMMUNE", "COMPACT" ]
   },
     {
     "id": "leather_dress_chorus",
@@ -182,23 +182,23 @@
   {
     "id": "armor_dress_chorus",
     "type": "ARMOR",
-    "name": { "str": "armored dress", "str_pl": "armored dresses" },
+    "name": { "str": "kevlar armored dress", "str_pl": "kevlar armored dresses" },
     "description": "A custom-made dress designed to look as fashionable as possible while still being highly protective. Breathes surprisingly well.",
     "weight": "2108 g",
     "volume": "3500 ml",
     "price": 18000,
     "price_postapoc": 10000,
     "to_hit": -5,
-    "material": [ "kevlar", "leather" ],
+    "material": [ "kevlar" ],
     "symbol": "[",
     "looks_like": "dress",
     "color": "blue",
     "covers": [ "legs", "arms", "torso" ],
     "coverage": 95,
-    "encumbrance": 25,
+    "encumbrance": 16,
     "storage": "4 L",
     "warmth": 10,
-    "material_thickness": 4,
+    "material_thickness": 6,
     "flags": [ "VARSIZE", "STURDY", "FANCY", "POCKETS" ]
   },
    {
@@ -244,9 +244,10 @@
 	  "name": { "str": "kevlar armored skirt" },
 	  "description": "An armored skirt made of leather with kevlar armoring expertly sewn into it.  It's not as protective as proper leg armor, but it's also far more tolerable to wear in the summer and far easier to move in.",
     "weight": "940 g",
-    "material": [ "cotton", "kevlar" ],
+    "material": [ "kevlar" ],
     "price_postapoc": 175,
-    "encumbrance": 8,
+    "encumbrance": 10,
+    "material_thickness": 6,
     "warmth": 8
   },
   {

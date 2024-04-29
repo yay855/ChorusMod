@@ -10,7 +10,7 @@
     "requirements": {
       "install": { "skills": [ [ "mechanics", 1 ] ], "time": "2 h" },
       "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "2 h" },
-      "repair": { "skills": [ [ "tailor", 6 ] ], "time": "2 h", "using": [ [ "filament", 100, "LIST" ] ] }
+      "repair": { "skills": [ [ "tailor", 6 ] ], "time": "1 h", "using": [ [ "sewing_standard", 100 ], [ "fabric_standard", 20 ] ] }
     },
     "durability": 20,
     "description": "A hot air balloon envelope.",

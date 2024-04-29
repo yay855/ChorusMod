@@ -21,7 +21,7 @@
     "time": "3 h",
     "autolearn": true,
     "using": [ [ "sewing_standard", 100 ] ],
-    "components": [ [ [ "fabric_hides_any", 37, "LIST" ] ], [ [ "cordage", 1, "LIST" ] ] ]
+    "components": [ [ [ "fabric_hides_any", 37, "LIST" ] ], [ [ "cordage", 1, "LIST" ] ],  [ [ "spearsling", 1 ] ]  ]
   },
   {
     "result": "spearpack_chorus",
@@ -34,6 +34,6 @@
     "book_learn": [ [ "textbook_tailor", 2 ], [ "manual_tailor", 2 ] ],
     "autolearn": true,
     "using": [ [ "sewing_standard", 20 ] ],
-    "components": [ [ [ "rag", 20 ], [ "leather", 20 ] ] ]
+    "components": [ [ [ "rag", 20 ], [ "leather", 20 ] ], [ [ "spearsling", 1 ] ] ]
   }
 ]

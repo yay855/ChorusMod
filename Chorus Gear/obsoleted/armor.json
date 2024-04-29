@@ -1,7 +1,17 @@
 [
-    {
-        "id": "backpack_spear_chorus",
-        "type": "MIGRATION",
-        "replace": "spearpack_chorus"
-      }
+  {
+    "id": "backpack_spear_chorus",
+    "type": "MIGRATION",
+    "replace": "spearpack_chorus"
+  },
+  {
+    "id": "spearsling_chorus",
+    "type": "MIGRATION",
+    "replace": "spearsling"
+  },
+  {
+    "type": "recipe",
+    "result": "spearsling_chorus",
+    "obsolete": true
+  }
 ]
