@@ -24,7 +24,7 @@
     }
   },
   {
-	"type": "GENERIC",
+	  "type": "GENERIC",
     "category": "weapons",
     "id": "tonfa_capped_chorus",
     "name": { "str": "steel-capped tonfa" },
@@ -39,7 +39,7 @@
     "looks_like": "tonfa_wood",
     "techniques": [ "WBLOCK_1", "BRUTAL" ],
     "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "BELT_CLIP" ],
-    "volume": "1500 ml",
+    "volume": "2 L",
     "bashing": 25,
         "use_action": {
     "type": "transform",
@@ -83,10 +83,10 @@
     "color": "dark_gray",
     "symbol": "/",
     "material": [ "steel" ],
-    "looks_like": "tonfa_wood",
+    "looks_like": "tonfa",
     "techniques": [ "WBLOCK_1", "BRUTAL" ],
     "flags": [ "DURABLE_MELEE", "BELT_CLIP" ],
-    "volume": "1500 ml",
+    "volume": "2 L",
     "bashing": 35,
     "use_action": {
     "type": "transform",
