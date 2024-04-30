@@ -58,5 +58,25 @@
     "type": "recipe",
     "result": "holo_blade_chorus",
     "obsolete": true
+  },
+  {
+    "id": "tonfa_wood_unarmed_chorus",
+    "type": "MIGRATION",
+    "replace": "tonfa_wood"
+  },
+  {
+    "id": "tonfa_capped_chorus_unarmed",
+    "type": "MIGRATION",
+    "replace": "kanabo_chorus"
+  },
+  {
+    "id": "tonfa_capped_chorus",
+    "type": "MIGRATION",
+    "replace": "kanabo_chorus"
+  },
+  {
+    "id": "tonfa_metal_chorus_unarmed",
+    "type": "MIGRATION",
+    "replace": "tonfa_metal"
   }
 ]

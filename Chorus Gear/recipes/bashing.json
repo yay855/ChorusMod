@@ -1,34 +1,6 @@
 [
   {
     "type": "recipe",
-    "result": "tonfa_wood",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_BASHING",
-    "skill_used": "fabrication",
-    "difficulty": 2,
-    "skills_required": [ "melee", 1 ],
-    "time": "30 m",
-    "autolearn": true,
-    "book_learn": [ [ "textbook_weapeast", 3 ] , [ "recipe_melee", 4 ] ],
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "2x4", 1 ], [ "stick", 2 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "tonfa",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_BASHING",
-    "skill_used": "fabrication",
-    "skills_required": [ "melee", 1 ],
-    "difficulty": 5,
-    "time": "30 m",
-    "autolearn": true,
-    "book_learn": [ [ "recipe_melee", 4 ] ],
-    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 10, "LIST" ] ] ],
-    "components": [ [ [ "plastic_chunk", 10 ] ] ]
-  },
-  {
-    "type": "recipe",
     "result": "tonfa_capped_chorus",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_BASHING",
