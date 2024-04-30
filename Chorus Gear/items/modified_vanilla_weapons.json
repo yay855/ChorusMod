@@ -13,20 +13,7 @@
     "name": { "str": "brace slingshot" },
     "ranged_damage": { "damage_type": "bash", "amount": 12 }
   },
-    {
-	  "id": "tonfa_wood",
-    "copy-from": "tonfa_wood",
-    "name": { "str": "wooden tonfa" },
-    "type": "GENERIC",
-    "bashing": 15,
-    "techniques": [ "WBLOCK_1", "BRUTAL" ],
-    "use_action": {
-    "type": "transform",
-    "msg": "You shift your grip on the tonfa.",
-    "target": "tonfa_wood_unarmed"
-    }
-  },
-    {
+  {
 	  "id": "morningstar",
     "type": "GENERIC",
     "category": "weapons",
