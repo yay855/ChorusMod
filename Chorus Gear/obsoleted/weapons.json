@@ -98,5 +98,15 @@
     "type": "recipe",
     "result": "pneumatic_shotgun_chorus",
     "obsolete": true
+  },
+  {
+    "id": "rep_xbow_modern_chorus",
+    "type": "MIGRATION",
+    "replace": "rep_crossbow"
+  },
+  {
+    "type": "recipe",
+    "result": "rep_xbow_modern_chorus",
+    "obsolete": true
   }
 ]
