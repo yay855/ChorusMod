@@ -55,7 +55,7 @@
     "autolearn": true,
     "reversible": true,
     "qualities": [ { "id": "CUT", "level": 1 } ], 
-    "using": [ [ "soldering_standard", 1 ], [ "steel_tiny", 1 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "steel_tiny", 1 ] ],
     "components": [ [ [ "plastic_chunk", 8 ] ], [ [ "e_scrap", 3 ] ] ]
   },
   {

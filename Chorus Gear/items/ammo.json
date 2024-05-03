@@ -20,7 +20,7 @@
     "recoil": 0,
     "loudness": 25,
     "effects": [ "NON_FOULING" ],
-    "dont_recover_one_in": 100
+    "dont_recover_one_in": 1000
   },
   {
 	  "copy-from": "nail",
@@ -67,7 +67,8 @@
     "range": 14,
     "damage": { "damage_type": "stab", "amount": 15 },
     "dispersion": 350,
-    "effects": [ "NON_FOULING" ]
+    "effects": [ "NON_FOULING" ],
+    "dont_recover_one_in": 300
   },
   {
     "id": "stake_steel_chorus",
@@ -81,7 +82,7 @@
     "material": [ "steel" ],
     "range": 18,
     "damage": { "damage_type": "stab", "amount": 30, "armor_penetration": 15 },
-    "dont_recover_one_in": 10
+    "dont_recover_one_in": 1000
   },
   {
 	  "copy-from": "combatnail",
