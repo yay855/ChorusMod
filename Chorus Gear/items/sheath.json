@@ -21,7 +21,7 @@
       "holster_prompt": "holster weapon",
       "holster_msg": "You holster your %s",
       "min_volume": "100 ml",
-      "max_volume": "2000 ml",
+      "max_volume": "3000 ml",
       "draw_cost": 3,
       "flags": [ "BELT_CLIP" ]
     },
