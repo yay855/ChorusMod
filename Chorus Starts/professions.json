@@ -3,79 +3,53 @@
     "type": "profession",
     "id": "bat_burglar_chorus",
     "name": "Bat Burglar",
-    "description": " You were an infamous jewel thief before the end, famous for stealing things no one else could... and also for being a bat mutant.  Here's hoping you can survive the cataclysm.",
-    "points": 8,
+    "description": " You were an infamous jewel thief before the end, famous for stealing things no one else could... and also for being a bat mutant.  Here's hoping your skills let survive the cataclysm.",
+    "points": 6,
     "CBMs": [
       "bio_torsionratchet",
       "bio_power_storage_mkII",
       "bio_tools",
       "bio_night_vision",
       "bio_lockpick",
-      "bio_fingerhack"
+      "bio_fingerhack",
+      "bio_infolink"
     ],
     "traits": [
     "WINGS_BAT",
     "FELINE_EARS",
-    "STYLISH",
-    "LIGHTSTEP",
-    "BEAUTIFUL",
     "LIGHTFUR",
-    "NAILS",
-    "TAIL_STUB",
-    "CRAFTY",
-    "FELINE_FLEXIBILITY"
-    ],
-    "skills": [
-      { "level": 2, "name": "firstaid" },
-      { "level": 2, "name": "melee" },
-      { "level": 2, "name": "dodge" },
-      { "level": 2, "name": "unarmed" },
-      { "level": 2, "name": "mechanics" }
+    "CLAWS",
+    "TAIL_STUB"
     ],
     "items": {
       "both": {
         "items": [
           "balclava",
           "lsurvivor_suit",
-          "gloves_fingerless",
+          "gloves_survivor_fingerless",
           "socks",
-          "boots",
-          "backpack",
-          "wristwatch"
+          "boots_lsurvivor",
+          "survivor_pack",
+          "unitard"
           ]
-      },
-      "male": [ "boxer_briefs" ],
-      "female": [ "unitard" ]
+      }
     }
   },
    {
     "type": "profession",
     "id": "robo_maid_chorus",
-    "name": "Cyborg Maid",
-    "description": "You were a cybernetically augmented personal assistant and maid working for a brilliant but eccentric scientist. The cataclysm struck not long after your training and surgery, but hopefully those will help you survive.",
-    "points": 10,
+    "name": "Bionic Maid",
+    "description": "You were a cybernetically augmented personal assistant and maid working for a brilliant but eccentric scientist. The cataclysm struck not long after your first day on the job, but hopefully those will help you survive.",
+    "points": 4,
     "CBMs": [
       "bn_bio_solar",
-      "bio_batteries",
-      "bio_power_storage_mkII",
       "bio_power_storage_mkII",
       "bio_tools",
       "bio_sunglasses",
       "bio_flashlight",
       "bio_infolink",
       "bio_ears",
-      "bio_purifier",
-      "bio_surgical_razor",
       "bio_ups"
-    ],
-    "skills": [
-      { "level": 1, "name": "firstaid" },
-      { "level": 2, "name": "cooking" },
-      { "level": 2, "name": "tailor" },
-      { "level": 1, "name": "mechanics" },
-      { "level": 1, "name": "electronics" },
-      { "level": 1, "name": "fabrication" },
-      { "level": 1, "name": "computer" }
     ],
     "items": {
       "both": {
@@ -84,11 +58,10 @@
           "maid_hat",
           "corset_cloth_pockets_chorus",
           "stockings",
-          "dress_shoes"
+          "dress_shoes",
+          "panties"
           ]
-      },
-      "male": [ "boxer_briefs" ],
-      "female": [ "panties" ]
+      }
     }
   },
      {
@@ -96,29 +69,17 @@
     "id": "robo_teen_chorus",
     "name": "Teenage Cyborg",
     "description": "Your mother was a scientist, and when she developed all kinds of neat toys, you wanted to have them all. Now she's gone, and you have to survive.",
-    "points": 10,
+    "points": 4,
     "CBMs": [
       "bio_batteries",
-      "bio_cable",
-      "bio_power_storage_mkII",
       "bio_power_storage_mkII",
       "bio_tools",
       "bio_sunglasses",
       "bio_flashlight",
       "bio_infolink",
-      "bio_ears",
-      "bio_purifier",
       "bio_memory",
       "bio_ups",
-      "bio_skates_chorus",
-      "bio_hydraulics",
-      "bio_fist_ranged_chorus"
-    ],
-    "skills": [
-      { "level": 1, "name": "melee" },
-      { "level": 1, "name": "dodge" },
-      { "level": 2, "name": "unarmed" },
-      { "level": 1, "name": "computer" }
+      "bio_skates_chorus"
     ],
     "items": {
       "both": {
@@ -136,9 +97,9 @@
     {
     "type": "profession",
     "id": "robo_paintball_chorus",
-    "name": "Cyber Paintball Professional",
+    "name": "Bionic Paintball Professional",
     "description": "You were one of the first pros at a new sport: cyber paintball, a form of paintball where the players were bionically agumented. You may no longer have the league, but with any luck, you'll still have your life.",
-    "points": 10,
+    "points": 6,
     "CBMs": [
       "bio_torsionratchet",
       "bio_power_storage_mkII",
@@ -146,8 +107,6 @@
       "bio_infolink",
       "bio_ears",
       "bio_skates_chorus",
-      "bio_dex_enhancer",
-      "bio_eye_enhancer",
       "bio_railgun_chorus"
     ],
     "skills": [
@@ -180,7 +139,6 @@
     "points": 8,
     "CBMs": [
       "bio_batteries",
-      "bio_metabolics",
       "bio_power_storage_mkII",
       "bio_flashlight",
       "bio_infolink",
@@ -215,21 +173,14 @@
     "id": "robo_ganster_chorus",
     "name": "Bionic Gang Enforcer",
     "description": "You were an enforcer for an organized crime group, outfitted with all sorts of bionics to keep you alive in the face of cops and enemy gangs. Hopefully they'll help you survive now that both are hungry for your brains.",
-    "points": 10,
+    "points": 6,
     "CBMs": [
       "bio_metabolics",
       "bio_power_storage",
-      "bio_armor_arms",
-      "bio_armor_head",
-      "bio_armor_legs",
-      "bio_armor_torso",
-      "bio_night_vision",
+      "bio_carbon",
       "bio_sunglasses",
-      "bio_ears",
       "bio_uncanny_dodge",
-      "bio_smg_chorus",
-      "bio_claws",
-      "bio_heat_absorb"
+      "bio_smg_chorus"
     ],
     "skills": [
       { "level": 2, "name": "gun" },
@@ -259,10 +210,9 @@
     "id": "robo_miner_chorus",
     "name": "Bionic Miner",
     "description": "You had been cybernetically augmented for your job, meant to survive working conditions no other human could. Now you just have to survive the undead.",
-    "points": 10,
+    "points": 8,
     "CBMs": [
-      "bn_bio_solar",
-      "bio_cable",
+      "bio_advreactor",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII",
       "bio_flashlight",
@@ -270,7 +220,6 @@
       "bio_sunglasses",
       "bio_ears",
       "bio_tools",
-      "bio_purifier",
       "bio_weight",
       "bio_ground_sonar",
       "bio_carbon",
@@ -300,12 +249,11 @@
     "id": "bio_crossbow_hunter_chorus",
     "name": "Bionic Survivalist",
     "description": "Ever since you were a child you loved the outdoors, and you eventually upgraded your body to suit your needs as a hunter and survivalist. Now the world has ended, but you're equipped with all you need.",
-    "points": 10,
+    "points": 8,
     "CBMs": [
       "bio_metabolics",
       "bio_crossbow_chorus",
       "bio_power_storage_mkII",
-      "bio_sunglasses",
       "bio_night_vision",
       "bio_ears",
       "bio_surgical_razor",
@@ -314,7 +262,6 @@
       "bio_carbon",
       "bio_recycler",
       "bio_lighter",
-      "bio_nanobots",
       "bio_scent_mask",
       "bio_targeting"
     ],
@@ -341,6 +288,37 @@
       },
       "male": [ "boxer_shorts" ],
       "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "bio_backpacker",
+    "name": "Bionic Backpacker",
+    "description": "You've traveled for a living, sightseeing here and there, and living off your parents' trust fund- and giving yourself sweet upgrades.  But now they're gone, and the only thing between you and death is the open road, your backpack, and your cybernetics.",
+    "points": 5,
+    "CBMs": [
+      "afs_bio_wind_turbine",
+      "bio_power_storage_mkII",
+      "bio_flashlight",
+      "bio_tools",
+      "bio_ups",
+      "bio_sunglasses",
+      "bio_lighter",
+      "bio_infolink"
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "backpack",
+          "jeans",
+          "sneakers",
+          "tshirt",
+          "knit_scarf",
+          "socks"
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "boy_shorts" ]
     }
   }
 ]
