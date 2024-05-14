@@ -46,7 +46,7 @@
     "dispersion": 10,
     "loudness": 0,
     "count": 50,
-    "effects": [ "NEVER_MISFIRES", "NON_FOULING", "COOKOFF", "EXPLOSIVE" ]
+    "effects": [ "NEVER_MISFIRES", "NON_FOULING", "COOKOFF" ]
   },
   {
     "id": "stake_wood_chorus",
