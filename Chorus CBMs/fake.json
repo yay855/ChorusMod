@@ -71,9 +71,10 @@
     "type": "GENERIC",
     "category": "weapons",
     "id": "bio_drill_weap_chorus",
+    "looks_like": "bio_blade_weapon",
     "name": { "str_sp": "Drill Hands" },
     "weapon_category": [ "BIONIC_WEAPONRY", "FIST_WEAPONS" ],
-    "description": "Your hands have been replaced with large drills, capable of boring through dirt, stone, metal, and flesh easily.",
+    "description": "Your hands have been replaced with folding and unfolding drills capable of boring through dirt, stone, metal, and flesh easily, as well as turning back into hands.",
     "to_hit": 1,
     "color": "light_gray",
     "symbol": "{",
@@ -82,7 +83,7 @@
     "cutting": 40,
     "use_action": "JACKHAMMER",
     "flags": [ "STAB", "NO_DROP", "NO_UNWIELD", "UNBREAKABLE_MELEE", "UNARMED_WEAPON", "TRADER_AVOID" ],
-    "qualities": [ [ "AXE", 1 ], ["DIG", 3 ], [ "DRILL", 3 ] ]
+    "qualities": [ ["DIG", 3 ], [ "DRILL", 3 ] ]
   },
   {
     "id": "bio_crossbow_gun_chorus",
