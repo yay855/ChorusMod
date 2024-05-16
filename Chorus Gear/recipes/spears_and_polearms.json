@@ -17,5 +17,28 @@
       [ [ "cordage_short", 1, "LIST" ], [ "filament", 50, "LIST" ], [ "duct_tape", 15 ] ],
       [ [ "rock", 1 ], [ "ceramic_shard", 1 ], [ "sharp_rock", 1 ] ]
     ]
+  },
+  {
+    "result": "drillspear_chorus_off",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_PIERCING",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "skills_required": [ "electronics", 5 ],
+    "time": "2 h",
+    "reversible": true,
+    "book_learn": [ [ "recipe_lab_elec", 3 ], [ "recipe_mil_augs", 3 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
+    "using": [ [ "soldering_standard", 200 ] ],
+    "components": [
+      [ [ "battery_ups", 1 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "cable", 100 ] ],
+      [ [ "e_scrap", 10 ] ],
+      [ [ "alloy_sheet", 2 ] ],
+      [ [ "hand_drill", 1 ] ]
+    ]
   }
 ]

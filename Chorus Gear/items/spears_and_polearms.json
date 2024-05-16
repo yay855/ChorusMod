@@ -19,5 +19,56 @@
     "techniques": [ "WBLOCK_1" ],
     "qualities": [ [ "COOK", 1 ] ],
     "flags": [ "SPEAR", "STAB", "DURABLE_MELEE", "REACH_ATTACK", "SHEATH_SPEAR" ]
+  },
+  {
+    "id": "drillspear_chorus_off",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "drill spear (off)", "str_pl": "drill spears (off)" },
+    "description": "A wide drill attached to a long pole.  It's surprisingly lightweight and easy to wield, as if it responds to your will, but it takes no energy but your own.",
+    "weight": "750 g",
+    "volume": "3 L",
+    "price": "100 kUSD",
+    "price_postapoc": "200 USD",
+    "material": [ "superalloy" ],
+    "symbol": "[",
+    "looks_like": "spear_steel",
+    "color": "light_gray",
+    "to_hit": 1,
+    "bashing": 6,
+    "cutting": 30,
+    "ammo": [ "battery" ],
+    "charges_per_use": 1,
+    "use_action": {
+      "menu_text": "Activate",
+      "type": "transform",
+      "target": "drillspear_chorus_on",
+      "msg": "You activate the drill.  Spin on!",
+      "need_charges": 1,
+      "need_charges_msg": "Your willpower (and ups) ran out of charge.",
+      "active": true
+    },
+    "flags": [ "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "SHEATH_SPEAR", "SPEAR", "REACH_ATTACK" ]
+  },
+  {
+    "id": "drillspear_chorus_on",
+    "type": "TOOL",
+    "copy-from": "drillspear_chorus_off",
+    "name": { "str": "drill spear (active)", "str_pl": "drill spears (active)" },
+    "description": "This drill glows green with your energy and manly willpower.  Spin on!",
+    "weight": "450 g",
+    "turns_per_charge": 10,
+    "cutting": 50,
+    "to_hit": 2,
+    "flags": [ "LIGHT_8", "NO_REPAIR", "SLOW_WIELD", "UNBREAKABLE_MELEE", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "SPEAR", "REACH_ATTACK" ],
+    "techniques": [ "WBLOCK_2", "IMPALE" ],
+    "revert_to": "drillspear_chorus_off",
+    "use_action": {
+      "menu_text": "Activate",
+      "type": "transform",
+      "target": "drillspear_chorus_off",
+      "msg": "The drill stops spinning, for now."
+    },
+    "magazine_well": "250 ml"
   }
 ]
