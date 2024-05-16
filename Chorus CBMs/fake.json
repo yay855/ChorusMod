@@ -71,7 +71,6 @@
     "type": "GENERIC",
     "category": "weapons",
     "id": "bio_drill_weap_chorus",
-    "looks_like": "cordless_drill",
     "name": { "str_sp": "Drill Hands" },
     "weapon_category": [ "BIONIC_WEAPONRY", "FIST_WEAPONS" ],
     "description": "Your hands have been replaced with large drills, capable of boring through dirt, stone, metal, and flesh easily.",
