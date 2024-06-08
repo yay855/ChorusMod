@@ -26,12 +26,5 @@
       "flags": [ "BELT_CLIP" ]
     },
     "flags": [ "WAIST", "OVERSIZE", "WATER_FRIENDLY", "COMPACT" ]
-  },
-  {
-	"copy-from": "spearsling",
-	"id": "spearsling_chorus",
-	"name": "spear sling (alternate)",
-	"type": "ARMOR",
-	"flags": [ "OUTER", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "WATER_FRIENDLY", "COMPACT" ]
-  } 
+  }
 ]
