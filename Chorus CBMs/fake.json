@@ -40,7 +40,7 @@
     "flags": [ "NO_DROP", "NO_UNWIELD", "UNBREAKABLE_MELEE", "UNARMED_WEAPON", "REACH_ATTACK", "REACH3", "TRADER_AVOID" ],
     "qualities": [ [ "HAMMER", 2 ] ]
   },
-    {
+  {
     "id": "bio_smg_gun_chorus",
     "looks_like": "uzi",
     "type": "GUN",
