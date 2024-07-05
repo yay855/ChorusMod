@@ -80,26 +80,6 @@
     "replace": "tonfa_metal_chorus"
   },
   {
-    "id": "pneumatic_rifle_chorus",
-    "type": "MIGRATION",
-    "replace": "tihar"
-  },
-  {
-    "type": "recipe",
-    "result": "pneumatic_rifle_chorus",
-    "obsolete": true
-  },
-  {
-    "id": "pneumatic_shotgun_chorus",
-    "type": "MIGRATION",
-    "replace": "tihar"
-  },
-  {
-    "type": "recipe",
-    "result": "pneumatic_shotgun_chorus",
-    "obsolete": true
-  },
-  {
     "id": "rep_xbow_modern_chorus",
     "type": "MIGRATION",
     "replace": "rep_crossbow"
