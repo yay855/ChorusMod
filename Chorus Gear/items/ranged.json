@@ -239,7 +239,7 @@
     "recoil": 120,
     "durability": 9,
     "clip_size": 16,
-    "reload": 240,
+    "reload": 300,
     "loudness": 3,
     "modes": [ [ "DEFAULT", "burst", 4 ] ],
     "valid_mod_locations": [
