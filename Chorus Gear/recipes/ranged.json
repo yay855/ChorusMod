@@ -273,5 +273,27 @@
       [ [ "amplifier", 2 ] ],
       [ [ "e_scrap", 1 ] ]
     ]
+  },
+  {
+    "result": "chorus_battery_rifle",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "electronics",
+    "difficulty": 6,
+    "time": "47 m",
+    "decomp_learn": 2,
+    "book_learn": [ [ "advanced_electronics", 6 ], [ "textbook_electronics", 6 ], [ "manual_electronics", 6 ], [ "recipe_surv", 5 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "GLARE", "level": 2 } ],
+    "tools": [ [ [ "soldering_iron", 60 ], [ "toolset", 10 ] ] ],
+    "components": [
+      [ [ "antenna", 1 ] ],
+      [ [ "lens", 1 ] ],
+      [ [ "lens", 1 ], [ "lens_small", 1 ] ],
+      [ [ "power_supply", 6 ] ],
+      [ [ "amplifier", 6 ] ],
+      [ [ "scrap", 6 ], [ "steel_chunk", 2 ] ],
+      [ [ "2x4", 1 ], [ "stick", 1 ] ]
+    ]
   }
 ]

@@ -294,5 +294,52 @@
       [ "sights", 1 ],
       [ "sight", 1 ]
     ]
+  },
+  {
+    "id": "chorus_battery_rifle",
+    "type": "GUN",
+    "color": "light_red",
+    "symbol": "{",
+    "looks_like": "laser_rifle",
+    "weapon_category": [ "RIFLES", "ENERGY_WEAPONS" ],
+    "name": { "str": "makeshift battery rifle" },
+    "description": "A simple energy rifle, using batteries from common power tools to power a low-yield laser.  Although it is not nearly as powerful as a properly manufactured laser rifle, its low yield renders it fairly power efficient.",
+    "price": "871 USD",
+    "price_postapoc": "40 USD",
+    "material": [ "steel", "wood" ],
+    "weight": "5360 g",
+    "volume": "3 L",
+    "bashing": 8,
+    "to_hit": -1,
+    "flags": [ "FIRE_20", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "ammo": [ "battery" ],
+    "magazine_well": "300 ml",
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ] ],
+    "magazines": [
+      [
+        "battery",
+        [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      ]
+    ],
+    "skill": "rifle",
+    "ranged_damage": { "damage_type": "heat", "amount": 12 },
+    "range": 15,
+    "dispersion": 100,
+    "recoil": 0,
+    "durability": 5,
+    "reload": 100,
+    "loudness": 14,
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "sling", 1 ],
+      [ "grip", 1 ],
+      [ "emitter", 1 ],
+      [ "lens", 1 ],
+      [ "barrel", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   }
 ]
