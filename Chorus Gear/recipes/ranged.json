@@ -283,7 +283,7 @@
     "difficulty": 6,
     "time": "47 m",
     "decomp_learn": 2,
-    "book_learn": [ [ "advanced_electronics", 6 ], [ "textbook_electronics", 6 ], [ "manual_electronics", 6 ], [ "recipe_surv", 5 ] ],
+    "book_learn": [ [ "advanced_electronics", 6 ], [ "textbook_electronics", 6 ], [ "manual_electronics", 6 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "GLARE", "level": 2 } ],
     "tools": [ [ [ "soldering_iron", 60 ], [ "toolset", 10 ] ] ],
     "components": [
