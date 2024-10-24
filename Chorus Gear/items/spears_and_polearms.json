@@ -37,7 +37,6 @@
     "to_hit": 1,
     "bashing": 6,
     "cutting": 30,
-    "ammo": [ "battery" ],
     "charges_per_use": 1,
     "use_action": {
       "menu_text": "Activate",
@@ -68,7 +67,6 @@
       "type": "transform",
       "target": "drillspear_chorus_off",
       "msg": "The drill stops spinning, for now."
-    },
-    "magazine_well": "250 ml"
+    }
   }
 ]
