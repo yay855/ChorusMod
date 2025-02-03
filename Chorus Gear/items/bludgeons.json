@@ -17,9 +17,9 @@
     "flags": [ "DURABLE_MELEE", "BELT_CLIP" ],
     "volume": "2 L",
     "bashing": 35
-  },  
+  },
   {
-	  "type": "GENERIC",
+    "type": "GENERIC",
     "id": "wood_nunchuk_chorus",
     "category": "weapons",
     "weapon_category": [ "FLAILS" ],
@@ -38,7 +38,7 @@
     "flags": [ "BELT_CLIP" ]
   },
   {
-	  "type": "GENERIC",
+    "type": "GENERIC",
     "id": "steel_nunchuk_chorus",
     "category": "weapons",
     "weapon_category": [ "FLAILS" ],
@@ -57,7 +57,7 @@
     "flags": [ "DURABLE_MELEE", "BELT_CLIP" ]
   },
   {
-	"type": "GENERIC",
+    "type": "GENERIC",
     "id": "stone_boxing_chorus",
     "category": "weapons",
     "weapon_category": [ "FIST_WEAPONS" ],
@@ -74,7 +74,7 @@
     "flags": [ "UNARMED_WEAPON", "BELT_CLIP" ]
   },
   {
-	"type": "GENERIC",
+    "type": "GENERIC",
     "id": "kusari-fundo_chorus",
     "category": "weapons",
     "weapon_category": [ "FLAILS", "WHIPS" ],
@@ -85,7 +85,7 @@
     "volume": "2 L",
     "price": 10000,
     "to_hit": 0,
-    "bashing": 45,
+    "bashing": 35,
     "material": [ "steel" ],
     "symbol": "v",
     "color": "black",
@@ -150,25 +150,25 @@
     "charges_per_use": 1,
     "magazine_well": "250 ml",
     "ammo": "battery",
-        "use_action": {
-    "type": "transform",
-    "msg": "You press a button and the club activates.",
-    "active": true,
+    "use_action": {
+      "type": "transform",
+      "msg": "You press a button and the club activates.",
+      "active": true,
       "need_charges": 1,
-      "need_charges_msg": "The %s's batteries are dead." ,
-    "target": "holo_club_active_chorus"
+      "need_charges_msg": "The %s's batteries are dead.",
+      "target": "holo_club_active_chorus"
     },
     "magazines": [
       [
-       "battery",
+        "battery",
         [
-         "light_battery_cell",
-         "light_minus_battery_cell",
-         "light_plus_battery_cell",
-         "light_atomic_battery_cell",
-         "light_minus_atomic_battery_cell",
-         "light_minus_disposable_cell",
-         "light_disposable_cell"
+          "light_battery_cell",
+          "light_minus_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell",
+          "light_minus_disposable_cell",
+          "light_disposable_cell"
         ]
       ]
     ]
@@ -189,11 +189,7 @@
     "power_draw": 100000,
     "flags": [ "DURABLE_MELEE", "BELT_CLIP", "NONCONDUCTIVE", "LIGHT_40" ],
     "revert_to": "holo_club_chorus",
-    "use_action": {
-      "type": "transform",
-      "msg": "You press a button and the club turns off.",
-      "target": "holo_club_chorus"
-        }
+    "use_action": { "type": "transform", "msg": "You press a button and the club turns off.", "target": "holo_club_chorus" }
   },
   {
     "type": "TOOL",
