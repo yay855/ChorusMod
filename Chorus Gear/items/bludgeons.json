@@ -67,6 +67,7 @@
     "volume": "250 ml",
     "price": 4500,
     "bashing": 3,
+    "cutting": 2,
     "material": [ "paper", "stone" ],
     "symbol": "b",
     "color": "red",
