@@ -14,23 +14,11 @@
     "ranged_damage": { "damage_type": "bash", "amount": 12 }
   },
   {
-    "id": "morningstar",
-    "type": "GENERIC",
-    "category": "weapons",
-    "copy-from": "morningstar",
-    "name": { "str": "morningstar" },
-    "to_hit": 0,
-    "techniques": [ "SWEEP", "BRUTAL" ],
-    "bashing": 40,
-    "cutting": 10
-  },
-  {
     "type": "GENERIC",
     "id": "q_staff",
     "copy-from": "q_staff",
     "category": "weapons",
     "name": { "str": "quarterstaff", "str_pl": "quarterstaves" },
-    "techniques": [ "WBLOCK_2", "RAPID", "SWEEP" ],
     "flags": [ "DURABLE_MELEE", "SHEATH_SPEAR", "ALWAYS_TWOHAND", "REACH_ATTACK" ]
   },
   {
@@ -39,7 +27,6 @@
     "copy-from": "i_staff",
     "category": "weapons",
     "name": { "str": "ironshod quarterstaff", "str_pl": "ironshod quarterstaves" },
-    "techniques": [ "WBLOCK_2", "RAPID", "SWEEP" ],
     "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "SHEATH_SPEAR", "ALWAYS_TWOHAND", "REACH_ATTACK" ]
   },
   {
@@ -48,7 +35,14 @@
     "copy-from": "shock_staff",
     "category": "weapons",
     "name": { "str": "powered quarterstaff", "str_pl": "powered quarterstaves" },
-    "techniques": [ "WBLOCK_2", "RAPID", "SWEEP" ],
     "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "SHEATH_SPEAR", "ALWAYS_TWOHAND", "REACH_ATTACK" ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "qstaff_extended",
+    "copy-from": "qstaff_extended",
+    "category": "weapons",
+    "name": { "str": "extendable quarterstaff (extended)", "str_pl": "extendable quarterstaves (extended)" },
+    "flags": [ "SHEATH_SPEAR", "ALWAYS_TWOHAND", "REACH_ATTACK" ]
   }
 ]

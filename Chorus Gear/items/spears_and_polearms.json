@@ -26,6 +26,7 @@
     "category": "weapons",
     "name": { "str": "drill spear (off)", "str_pl": "drill spears (off)" },
     "description": "A wide drill attached to a long pole.  It's surprisingly lightweight and easy to wield, as if it responds to your will, but it takes no energy but your own.",
+    "weapon_category": [ "SPEARS" ],
     "weight": "750 g",
     "volume": "1750 ml",
     "price": "100 kUSD",
@@ -59,7 +60,17 @@
     "turns_per_charge": 10,
     "cutting": 50,
     "to_hit": 2,
-    "flags": [ "LIGHT_8", "NO_REPAIR", "SLOW_WIELD", "UNBREAKABLE_MELEE", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "SPEAR", "REACH_ATTACK" ],
+    "flags": [
+      "LIGHT_8",
+      "NO_REPAIR",
+      "SLOW_WIELD",
+      "UNBREAKABLE_MELEE",
+      "USE_UPS",
+      "NO_UNLOAD",
+      "NO_RELOAD",
+      "SPEAR",
+      "REACH_ATTACK"
+    ],
     "techniques": [ "WBLOCK_2", "IMPALE" ],
     "revert_to": "drillspear_chorus_off",
     "use_action": {
