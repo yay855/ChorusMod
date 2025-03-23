@@ -9,7 +9,7 @@
     "time": "15 m",
     "using": [ [ "steel_tiny", 2 ] ],
     "autolearn": true,
-    "book_learn": [ [ "textbook_weapeast", 3 ] , [ "recipe_melee", 4 ] ],
+    "book_learn": [ [ "textbook_weapeast", 3 ], [ "recipe_melee", 4 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
     "components": [ [ [ "tonfa_wood", 1 ] ] ]
   },
@@ -23,7 +23,7 @@
     "skills_required": [ "melee", 1 ],
     "time": "1 h",
     "autolearn": true,
-    "book_learn": [ [ "textbook_weapeast", 3 ] , [ "recipe_melee", 4 ] ],
+    "book_learn": [ [ "textbook_weapeast", 3 ], [ "recipe_melee", 4 ] ],
     "using": [ [ "blacksmithing_standard", 12 ], [ "steel_standard", 3 ] ],
     "components": [ [ [ "fur", 2 ], [ "leather", 2 ] ] ]
   },
@@ -37,14 +37,10 @@
     "time": "30 m",
     "reversible": true,
     "autolearn": true,
-    "book_learn": [ [ "textbook_weapeast", 3 ] , [ "recipe_melee", 4 ] ],
-    "qualities": [
-      { "id": "CUT", "level": 1 }
-    ],
+    "book_learn": [ [ "textbook_weapeast", 3 ], [ "recipe_melee", 4 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "using": [ [ "cordage", 1 ] ],
-    "components": [
-      [ [ "2x4", 1 ], [ "stick", 2] ]
-    ]
+    "components": [ [ [ "2x4", 1 ], [ "stick", 2 ] ] ]
   },
   {
     "result": "steel_nunchuk_chorus",
@@ -56,21 +52,22 @@
     "time": "30 m",
     "reversible": false,
     "autolearn": true,
-    "book_learn": [ [ "textbook_weapeast", 3 ] , [ "recipe_melee", 4 ] ],
+    "book_learn": [ [ "textbook_weapeast", 3 ], [ "recipe_melee", 4 ] ],
     "using": [ [ "blacksmithing_standard", 12 ], [ "steel_standard", 3 ] ],
-    "components": [
-      [ [ "chain", 1 ] ]
-    ]
+    "components": [ [ [ "chain", 1 ] ] ]
   },
   {
-	  "result": "stone_boxing_chorus",
-	  "type": "recipe",
-	  "category": "CC_WEAPON",
-	  "subcategory": "CSC_WEAPON_BASHING",
-	  "time": "5 m",
-	  "autolearn": true,
-	  "reversible": true,
-    "components": [ [ [ "cordage_short", 2, "LIST" ], [ "rag", 2 ], [ "leather", 2 ], [ "fur", 2 ], [ "faux_fur", 2 ], [ "felt_patch", 2 ] ], [ [ "rock", 2 ] ] ]
+    "result": "stone_boxing_chorus",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_BASHING",
+    "time": "5 m",
+    "autolearn": true,
+    "reversible": true,
+    "components": [
+      [ [ "cordage_short", 2, "LIST" ], [ "rag", 2 ], [ "leather", 2 ], [ "fur", 2 ], [ "faux_fur", 2 ], [ "felt_patch", 2 ] ],
+      [ [ "rock", 2 ] ]
+    ]
   },
   {
     "type": "recipe",
@@ -124,10 +121,18 @@
     "reversible": true,
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ 
-    [ [ "rock", 1 ] ], 
-    [ [ "stick", 1 ], [ "2x4", 1 ] ], 
-    [ [ "cordage_short", 2, "LIST" ], [ "filament", 100, "LIST" ], [ "rag", 1 ], [ "leather", 1 ], [ "fur", 1 ], [ "faux_fur", 1 ], [ "felt_patch", 1 ] ]
+    "components": [
+      [ [ "rock", 1 ] ],
+      [ [ "stick", 1 ], [ "2x4", 1 ] ],
+      [
+        [ "cordage_short", 2, "LIST" ],
+        [ "filament", 100, "LIST" ],
+        [ "rag", 1 ],
+        [ "leather", 1 ],
+        [ "fur", 1 ],
+        [ "faux_fur", 1 ],
+        [ "felt_patch", 1 ]
+      ]
     ]
   },
   {
@@ -141,11 +146,7 @@
     "time": "1 h",
     "autolearn": true,
     "reversible": true,
-    "book_learn": [
-      [ "textbook_robots", 4 ],
-      [ "mag_electronics", 3 ],
-      [ "textbook_electronics", 3 ]
-    ],
+    "book_learn": [ [ "textbook_robots", 4 ], [ "mag_electronics", 3 ], [ "textbook_electronics", 3 ] ],
     "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
     "tools": [ [ [ "mold_plastic", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
@@ -170,13 +171,27 @@
     "book_learn": [ [ "recipe_caseless", 6 ], [ "recipe_lab_elec", 6 ] ],
     "using": [ [ "soldering_standard", 30 ] ],
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CUT", "level": 1 } ],
-    "components": [ 
-      [ [ "cable", 10 ] ], 
-      [ [ "power_supply", 2 ] ], 
-      [ [ "adhesive", 1, "LIST" ] ], 
+    "components": [
+      [ [ "cable", 10 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "adhesive", 1, "LIST" ] ],
       [ [ "scrap", 5 ] ],
       [ [ "chunk_rubber", 5 ] ],
-      [ [ "impact_knuckle", 1 ] ] 
+      [ [ "impact_knuckle", 1 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "spike_guantlets",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_BASHING",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ "unarmed", 1 ],
+    "time": "1 h",
+    "autolearn": true,
+    "book_learn": [ [ "textbook_weapwest", 3 ], [ "recipe_melee", 4 ] ],
+    "using": [ [ "blacksmithing_standard", 12 ], [ "steel_standard", 3 ] ],
+    "components": [ [ [ "fur", 2 ], [ "leather", 2 ] ] ]
   }
 ]
