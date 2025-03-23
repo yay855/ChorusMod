@@ -86,7 +86,7 @@
     "name": { "str": "spiked gauntlets" },
     "description": "A pair of steel armor plates and padding designed to wrap around your forearms and fists with spikes jutting out of it, allowing the user's bare fists to hammer their foes.  This style of weapon once was famously used by a prestigious family line's style of martial arts, but who knows if they survived the Cataclysm.",
     "weight": "750 g",
-    "volume": "575 L",
+    "volume": "575 ml",
     "price": "45 USD",
     "price_postapoc": "450 cent",
     "bashing": 10,
