@@ -48,7 +48,7 @@
       "need_charges_msg": "Your willpower (and ups) ran out of charge.",
       "active": true
     },
-    "flags": [ "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "SHEATH_SPEAR", "SPEAR", "REACH_ATTACK" ]
+    "flags": [ "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "SHEATH_SPEAR", "SPEAR", "STAB", "REACH_ATTACK" ]
   },
   {
     "id": "drillspear_chorus_on",
