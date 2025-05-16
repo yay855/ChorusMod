@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id": "rep_bulletbow_chorus",
     "looks_like": "crossbow",
     "type": "GUN",
@@ -65,40 +65,34 @@
     "clip_size": 4,
     "reload": 80,
     "loudness": 3,
-    "valid_mod_locations": [
-      [ "grip", 1 ],
-      [ "mechanism", 1 ],
-      [ "rail", 1 ],
-      [ "dampening", 1 ],
-      [ "sights", 1 ]
-    ]
+    "valid_mod_locations": [ [ "grip", 1 ], [ "mechanism", 1 ], [ "rail", 1 ], [ "dampening", 1 ], [ "sights", 1 ] ]
   },
   {
-  "id": "dual_hand_crossbow_chorus",
-  "copy-from": "hand_crossbow",
-  "name": "dual pistol crossbows",
-  "type": "GUN",
-  "volume": "1000 ml",
-  "clip_size": 2,
-  "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ]
+    "id": "dual_hand_crossbow_chorus",
+    "copy-from": "hand_crossbow",
+    "name": "dual pistol crossbows",
+    "type": "GUN",
+    "volume": "1000 ml",
+    "clip_size": 2,
+    "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ]
   },
   {
-  "id": "hand_repbow_chorus",
-  "copy-from": "hand_crossbow",
-  "name": "repeating pistol crossbow",
-  "type": "GUN",
-  "clip_size": 4,
-  "ranged_damage": { "damage_type": "stab", "amount": 30 }
+    "id": "hand_repbow_chorus",
+    "copy-from": "hand_crossbow",
+    "name": "repeating pistol crossbow",
+    "type": "GUN",
+    "clip_size": 4,
+    "ranged_damage": { "damage_type": "stab", "amount": 30 }
   },
   {
-  "id": "dual_hand_repbow_chorus",
-  "copy-from": "hand_crossbow",
-  "name": "dual repeating pistol crossbows",
-  "type": "GUN",
-  "volume": "1000 ml",
-  "clip_size": 8,
-  "ranged_damage": { "damage_type": "stab", "amount": 30 },
-  "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ]
+    "id": "dual_hand_repbow_chorus",
+    "copy-from": "hand_crossbow",
+    "name": "dual repeating pistol crossbows",
+    "type": "GUN",
+    "volume": "1000 ml",
+    "clip_size": 8,
+    "ranged_damage": { "damage_type": "stab", "amount": 30 },
+    "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ]
   },
   {
     "id": "i_staff_sling_chorus",
@@ -145,14 +139,7 @@
     "magazines": [ [ "stake", [ "needler_mag_chorus" ] ] ],
     "reload": 200,
     "loudness": 16,
-    "valid_mod_locations": [
-      [ "accessories", 2 ],
-      [ "grip", 1 ],
-      [ "mechanism", 4 ],
-      [ "muzzle", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ]
-    ]
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },
   {
     "id": "pneumatic_revolver_chorus",
@@ -329,6 +316,7 @@
     "durability": 5,
     "reload": 100,
     "loudness": 14,
+    "ammo_effects": [ "DRAW_LASER_BEAM" ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
       [ "sling", 1 ],
