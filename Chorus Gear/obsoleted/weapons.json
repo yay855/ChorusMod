@@ -1,5 +1,5 @@
 [
- {
+  {
     "id": "dual_katana_chorus",
     "type": "MIGRATION",
     "replace": "katana"
@@ -73,6 +73,11 @@
     "id": "tonfa_capped_chorus",
     "type": "MIGRATION",
     "replace": "kanabo_chorus"
+  },
+  {
+    "type": "recipe",
+    "result": "tonfa_capped",
+    "obsolete": true
   },
   {
     "id": "tonfa_metal_chorus_unarmed",

@@ -13,5 +13,26 @@
     "type": "recipe",
     "result": "spearsling_chorus",
     "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "club_holster",
+    "obsolete": true
+  },
+  {
+    "id": "club_holster",
+    "type": "MIGRATION",
+    "replace": "axe_ring"
+  },
+  {
+    "id": "survbelt_chorus",
+    "type": "MIGRATION",
+    "replace": "survivor_belt_notools",
+    "contents": [ "screwdriver_set", "wrench", "saw", "hacksaw", "hammer", "scalpel" ]
+  },
+  {
+    "type": "recipe",
+    "result": "survbelt_chorus",
+    "obsolete": true
   }
 ]

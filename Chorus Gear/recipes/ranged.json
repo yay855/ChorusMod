@@ -1,5 +1,5 @@
- [
-    {
+[
+  {
     "type": "recipe",
     "result": "wristrocket",
     "category": "CC_WEAPON",
@@ -10,7 +10,7 @@
     "time": "1 h 30 m",
     "autolearn": true,
     "reversible": true,
-    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SCREW", "level": 1 } ], 
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SCREW", "level": 1 } ],
     "tools": [ [ "mold_plastic" ] ],
     "using": [ [ "steel_tiny", 1 ] ],
     "components": [ [ [ "hose", 2 ] ], [ [ "plastic_chunk", 3 ] ] ]
@@ -26,8 +26,15 @@
     "time": "2 h",
     "autolearn": true,
     "reversible": true,
-    "qualities": [ { "id": "SAW_W", "level": 1 }, { "id": "SCREW", "level": 1 } ], 
-    "components": [ [ [ "hose", 2 ] ], [ [ "plastic_chunk", 3 ] ],  [ [ "2x4", 1 ], [ "stick", 2 ] ], [ [ "spring", 1 ] ], [ [ "cordage_superior_short", 1, "LIST" ] ] ]
+    "qualities": [ { "id": "SAW_W", "level": 1 }, { "id": "SANDING", "level": 1 }, { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "hose", 2 ] ],
+      [ [ "plastic_chunk", 3 ] ],
+      [ [ "2x4", 1 ], [ "stick", 2 ] ],
+      [ [ "spring", 1 ] ],
+      [ [ "varnish", 1, "LIST" ] ],
+      [ [ "cordage_superior_short", 1, "LIST" ] ]
+    ]
   },
   {
     "type": "recipe",
@@ -40,10 +47,17 @@
     "time": "1 h",
     "autolearn": true,
     "reversible": true,
-    "qualities": [ { "id": "SAW_W", "level": 1 }, { "id": "SCREW", "level": 1 } ], 
-    "components": [ [ [ "hose", 2 ] ], [ [ "plastic_chunk", 2 ] ], [ [ "2x4", 1 ], [ "stick", 2 ] ], [ [ "spring", 1 ] ], [ [ "cordage_superior_short", 1, "LIST" ] ] ]
+    "qualities": [ { "id": "SAW_W", "level": 1 }, { "id": "SANDING", "level": 1 }, { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "hose", 2 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "2x4", 1 ], [ "stick", 2 ] ],
+      [ [ "varnish", 1, "LIST" ] ],
+      [ [ "spring", 1 ] ],
+      [ [ "cordage_superior_short", 1, "LIST" ] ]
+    ]
   },
-    {
+  {
     "type": "recipe",
     "result": "nailgun",
     "category": "CC_WEAPON",
@@ -54,7 +68,7 @@
     "time": "1 h",
     "autolearn": true,
     "reversible": true,
-    "qualities": [ { "id": "CUT", "level": 1 } ], 
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "using": [ [ "soldering_standard", 10 ], [ "steel_tiny", 1 ] ],
     "components": [ [ [ "plastic_chunk", 8 ] ], [ [ "e_scrap", 3 ] ] ]
   },
@@ -86,10 +100,12 @@
       { "id": "CUT", "level": 1 },
       { "id": "HAMMER", "level": 2 },
       { "id": "SCREW", "level": 1 },
+      { "id": "SANDING", "level": 1 },
       { "id": "SAW_W", "level": 1 }
     ],
     "components": [
       [ [ "2x4", 2 ], [ "stick", 3 ] ],
+      [ [ "varnish", 1, "LIST" ] ],
       [ [ "cordage_superior_short", 1, "LIST" ] ],
       [ [ "spring", 1 ] ],
       [ [ "scrap", 4 ] ],
@@ -178,15 +194,13 @@
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "well_pump", 1 ] ],
+      [ [ "foot_crank", 1 ] ],
       [ [ "pipe", 1 ] ],
+      [ [ "hose", 1 ] ],
       [ [ "duct_tape", 100 ], [ "superglue", 1 ] ],
       [ [ "2x4", 1 ], [ "stick", 1 ] ],
       [ [ "steel_chunk", 3 ], [ "scrap", 9 ] ],
-      [
-        [ "light_plus_battery_cell", 1 ],
-        [ "light_battery_cell", 2 ],
-        [ "light_minus_battery_cell", 4 ]
-      ],
+      [ [ "light_plus_battery_cell", 1 ], [ "light_battery_cell", 2 ], [ "light_minus_battery_cell", 4 ] ],
       [ [ "amplifier", 2 ] ],
       [ [ "e_scrap", 1 ] ]
     ]
@@ -210,10 +224,7 @@
       [ [ "duct_tape", 100 ], [ "superglue", 1 ] ],
       [ [ "2x4", 1 ], [ "stick", 2 ] ],
       [ [ "steel_chunk", 6 ], [ "scrap", 18 ] ],
-      [
-        [ "medium_plus_battery_cell", 1 ],
-        [ "medium_battery_cell", 2 ]
-      ],
+      [ [ "medium_plus_battery_cell", 1 ], [ "medium_battery_cell", 2 ] ],
       [ [ "amplifier", 2 ] ],
       [ [ "e_scrap", 1 ] ]
     ]
@@ -234,14 +245,12 @@
     "components": [
       [ [ "well_pump", 1 ] ],
       [ [ "pipe", 4 ] ],
+      [ [ "hose", 1 ] ],
+      [ [ "foot_crank", 1 ] ],
       [ [ "duct_tape", 100 ], [ "superglue", 1 ] ],
       [ [ "2x4", 1 ], [ "stick", 2 ] ],
       [ [ "steel_chunk", 6 ], [ "scrap", 18 ] ],
-      [
-        [ "light_plus_battery_cell", 1 ],
-        [ "light_battery_cell", 2 ],
-        [ "light_minus_battery_cell", 4 ]
-      ],
+      [ [ "light_plus_battery_cell", 1 ], [ "light_battery_cell", 2 ], [ "light_minus_battery_cell", 4 ] ],
       [ [ "amplifier", 2 ] ],
       [ [ "e_scrap", 1 ] ]
     ]
@@ -261,15 +270,13 @@
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "well_pump", 1 ] ],
+      [ [ "hose", 1 ] ],
       [ [ "pipe", 1 ] ],
+      [ [ "foot_crank", 1 ] ],
       [ [ "duct_tape", 100 ], [ "superglue", 1 ] ],
       [ [ "2x4", 1 ], [ "stick", 2 ] ],
       [ [ "steel_chunk", 6 ], [ "scrap", 18 ] ],
-      [
-        [ "light_plus_battery_cell", 1 ],
-        [ "light_battery_cell", 2 ],
-        [ "light_minus_battery_cell", 4 ]
-      ],
+      [ [ "light_plus_battery_cell", 1 ], [ "light_battery_cell", 2 ], [ "light_minus_battery_cell", 4 ] ],
       [ [ "amplifier", 2 ] ],
       [ [ "e_scrap", 1 ] ]
     ]

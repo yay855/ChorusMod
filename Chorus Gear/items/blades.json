@@ -10,7 +10,7 @@
     "volume": "1250 ml",
     "cutting": 24,
     "material": [ "steel" ],
-    "flags": [ "REACH_ATTACK", "REACH3", "WHIP", "NONCONDUCTIVE", "BELT_CLIP" ],
+    "flags": [ "REACH_ATTACK", "REACH3", "WHIP", "BELT_CLIP" ],
     "price_postapoc": 1000
   },
   {
@@ -126,9 +126,9 @@
     "copy-from": "elecknife_chorus",
     "type": "TOOL",
     "name": { "str": "Lightning Dagger (on)", "str_pl": "Electro Daggers (on)" },
-    "description": "A one-handed sword with electrical wiring running along the blade, electrocuting your foes.  Be careful not to touch the blade.",
+    "description": "A long knife with electrical wiring running along the blade, electrocuting your foes.  Be careful not to touch the blade.",
     "to_hit": 3,
-    "power_draw": 5000000,
+    "power_draw": 2500000,
     "revert_to": "elecknife_chorus",
     "use_action": [ { "menu_text": "Turn off", "type": "transform", "msg": "The %s powers off.", "target": "elecknife_chorus" } ]
   }

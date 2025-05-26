@@ -10,7 +10,7 @@
     "material": [ "lead", "steel" ],
     "symbol": "=",
     "color": "dark_gray",
-    "looks_like": "9mm",
+    "looks_like": "combatnail",
     "count": 10,
     "stack_size": 10,
     "ammo_type": "nail",
@@ -23,7 +23,7 @@
     "dont_recover_one_in": 1000
   },
   {
-	  "copy-from": "nail",
+    "copy-from": "nail",
     "id": "nail",
     "type": "AMMO",
     "category": "AMMO",
@@ -35,7 +35,7 @@
     "symbol": "*",
     "color": "light_gray",
     "name": { "str": "sling bomb" },
-    "description": "A ball of steel with some explosive packed inside of it. Not as good as traditional ammunition, but can pack a punch.",
+    "description": "A hollow ball of steel with some explosive packed inside of it. Not as good as traditional ammunition, but can pack a punch.",
     "material": [ "steel", "powder" ],
     "ammo_type": "pebble",
     "looks_like": "bearing",
@@ -85,7 +85,7 @@
     "dont_recover_one_in": 1000
   },
   {
-	  "copy-from": "combatnail",
+    "copy-from": "combatnail",
     "id": "combatnail",
     "type": "AMMO",
     "category": "AMMO",
