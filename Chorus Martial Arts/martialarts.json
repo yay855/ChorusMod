@@ -1,5 +1,5 @@
- [
-   {
+[
+  {
     "type": "martial_art",
     "id": "style_ch_shocking",
     "name": { "str": "Peppercat's Claws" },
@@ -15,18 +15,23 @@
         "name": "Electrical Claws",
         "description": "Your energy runs through you, causing your attacks to become stronger with your ability to focus and making you move and dodge faster, but reducing your ability to block strikes.",
         "unarmed_allowed": true,
-        "flat_bonuses": [ { "stat": "block", "scale": -2 }, { "stat": "dodge", "scaling-stat": "dex", "scale": 0.75 }, 
-        { "stat": "speed", "scaling-stat": "dex", "scale": 0.75 }, { "stat": "armor", "type": "bash", "scale": -3.0 }, 
-      { "stat": "armor", "type": "cut", "scale": -3.0 }, { "stat": "armor", "type": "stab", "scale": -3.0 } ]
+        "flat_bonuses": [
+          { "stat": "block", "scale": -2 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.75 },
+          { "stat": "speed", "scaling-stat": "dex", "scale": 0.75 },
+          { "stat": "armor", "type": "bash", "scale": -3.0 },
+          { "stat": "armor", "type": "cut", "scale": -3.0 },
+          { "stat": "armor", "type": "stab", "scale": -3.0 }
+        ]
       },
       {
-		  "id": "buff_shock_armpen_static",
-		  "name": "Rending Claws",
-		  "description": "Your fingers have become able to part through armor and bone alike thanks to your inner focus.",
-		  "unarmed_allowed": true,
-		  "skill_requirements": [ { "name": "unarmed", "level": 4 } ],
-		  "flat_bonuses": [ { "stat": "arpen", "type": "bash", "scale": 10 }, { "stat": "arpen", "type": "cut", "scale": 10 } ]
-	  }
+        "id": "buff_shock_armpen_static",
+        "name": "Rending Claws",
+        "description": "Your fingers have become able to part through armor and bone alike thanks to your inner focus.",
+        "unarmed_allowed": true,
+        "skill_requirements": [ { "name": "unarmed", "level": 4 } ],
+        "flat_bonuses": [ { "stat": "arpen", "type": "bash", "scale": 10 }, { "stat": "arpen", "type": "cut", "scale": 10 } ]
+      }
     ],
     "ondodge_buffs": [
       {
@@ -53,21 +58,21 @@
     "techniques": [ "tec_shock_punch", "tec_shock_counter", "tec_shock_crit" ]
   },
   {
-	"type": "martial_art",
+    "type": "martial_art",
     "id": "style_ch_amazon",
     "name": { "str": "Amazonian Bludgeoning" },
-    "description": "A rather esoteric style of fighting said to be primarily practiced by a tribe of Chinese Amazons, Amazonian Bludgeoning is an extremely offensive style focused on hitting hard and charging your opponent at the cost of defense.",
+    "description": "A rather esoteric style of fighting said to be primarily practiced by a tribe of Chinese Amazons, Amazonian Bludgeoning is an extremely offensive style focused on hitting hard and charging your opponent.",
     "initiate": [ "You ready your weapon and prepare to lunge.", "%s readies their weapon." ],
-    "learn_difficulty": 4,
+    "learn_difficulty": 5,
     "primary_skill": "bashing",
-    "strictly_melee": true,
-    "static_buffs": [ 
-    {
+    "strictly_melee": false,
+    "static_buffs": [
+      {
         "id": "buff_blunt_static",
         "name": "Raging Strikes",
-        "description": "You dedicate your entire body to offense and charging forwards, refusing to stop until either you or your enemy is dead.",
-        "unarmed_allowed": false,
-        "flat_bonuses": [ { "stat": "dodge", "scaling-stat": "str", "scale": -0.5 }, { "stat": "damage", "type": "bash", "scale": 5.0 }, { "stat": "speed", "scale": 10.0 } ]
+        "description": "You dedicate your entire body to offense and speed, refusing to stop until either you or your enemy is dead.  You can feel your body surging with energy.",
+        "unarmed_allowed": true,
+        "flat_bonuses": [ { "stat": "damage", "type": "bash", "scale": 2.0 }, { "stat": "speed", "scale": 5.0 } ]
       }
     ],
     "onmove_buffs": [
@@ -75,13 +80,21 @@
         "id": "buff_blunt_onmove",
         "name": "Charge",
         "description": "You charge forwards, seeking to end the fight as quickly as possible.",
-        "unarmed_allowed": false,
+        "unarmed_allowed": true,
         "buff_duration": 3,
         "max_stacks": 3,
-        "flat_bonuses": [ { "stat": "dodge", "scaling-stat": "str", "scale": -0.5 }, { "stat": "damage", "type": "bash", "scale": 5.0 } ]
+        "flat_bonuses": [ { "stat": "dodge", "scaling-stat": "str", "scale": -0.5 }, { "stat": "damage", "type": "bash", "scale": 2.0 } ]
       }
     ],
-    "techniques": [ "BRUTAL" ],
+    "techniques": [
+      "BRUTAL",
+      "RAPID",
+      "tec_fencing_riposte",
+      "niten_feint",
+      "tec_medievalpole_break",
+      "tec_barbaran_disarm",
+      "tec_krav_maga_crit"
+    ],
     "weapon_category": [ "BATONS", "TONFAS", "CLUBS", "QUARTERSTAVES", "MACES", "MORNINGSTARS", "FLAILS", "1H_HAMMERS", "2H_HAMMERS" ]
   }
 ]

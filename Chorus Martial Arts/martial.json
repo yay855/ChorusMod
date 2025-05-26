@@ -9,5 +9,15 @@
     "price_postapoc": 10000,
     "description": "This isn't a book so much as a coin or medal, but it somehow speaks to you, instructing you in its ways.",
     "book_data": { "martial_art": "style_ch_shocking" }
+  },
+  {
+    "id": "manual_ch_amazon",
+    "copy-from": "book_martial",
+    "type": "GENERIC",
+    "color": "yellow",
+    "name": { "str_sp": "Ancient Chinese Amazonian Scroll" },
+    "price_postapoc": 10000,
+    "description": "This is a martial arts manual detailing what it claims to be a traditional Chinese Amazon fighting style involving clubs or maces and sheer offense.  It seems to talk a lot about channeling chi, but it also has several techniques you're pretty sure are stolen from other martial arts.",
+    "book_data": { "martial_art": "style_ch_amazon" }
   }
 ]
