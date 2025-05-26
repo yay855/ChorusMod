@@ -1,8 +1,8 @@
 [
-    {
+  {
     "type": "enchantment",
     "id": "CBM_WHEELS",
     "condition": "ACTIVE",
-    "ench_effects": [ { "effect": "cbm_wheel_effect", "intensity": 1 } ]
+    "values": [ { "value": "MOVE_COST", "multiply": -0.5 } ]
   }
 ]

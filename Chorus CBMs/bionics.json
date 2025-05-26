@@ -21,7 +21,7 @@
     "id": "bio_skates_chorus",
     "type": "bionic",
     "name": { "str": "Bionic Rollerskates" },
-    "description": "Your feet have been surgically removed and replaced with armored boots with pop-out motorized wheels, allowing you to move faster across all terrains while draining power.",
+    "description": "Your feet have been surgically modified with internal slots with pop-out motorized wheels, allowing you to move faster across all terrains while draining power.",
     "occupied_bodyparts": [ [ "foot_l", 2 ], [ "foot_r", 2 ] ],
     "enchantments": [ "CBM_WHEELS" ],
     "flags": [ "BIONIC_NPC_USABLE", "BIONIC_TOGGLED", "BIONIC_SHOCKPROOF" ],
@@ -43,13 +43,13 @@
     "id": "bio_fist_ranged_chorus",
     "type": "bionic",
     "name": { "str": "Extendo-Arms" },
-    "description": "Your arms have been replaced with highly modular mechanical equivalents capable of extending outwards to smack your foes with steel fists at the ends. They can't do much else from that distance, though.",
+    "description": "Your arms have been partially replaced with highly modular mechanical equivalents capable of extending outwards to smack your foes with steel fists at the ends. They can't do much else from that distance, though.",
     "occupied_bodyparts": [ [ "hand_l", 2 ], [ "hand_r", 2 ], [ "arm_l", 5 ], [ "arm_r", 5 ] ],
     "act_cost": "50 J",
     "fake_item": "bio_fist_weap_chorus",
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
   },
-      {
+  {
     "id": "bio_smg_chorus",
     "type": "bionic",
     "name": { "str": "Bionic Submachine Gun" },
@@ -63,7 +63,7 @@
     "id": "bio_drill_chorus",
     "type": "bionic",
     "name": { "str": "Bionic Drill Hands" },
-    "description": "Your hands have been replaced with a mechanical equivalent similar to modern prosthetics, but these particular cybernetics can merge together to create two large drills each, capable of tunneling through rock and soil easily.",
+    "description": "Your wrists now contain cybernetic collapsing drills capable of tunneling through rock, soil, metal, and flesh easily.",
     "occupied_bodyparts": [ [ "hand_l", 4 ], [ "hand_r", 4 ] ],
     "act_cost": "25 kJ",
     "fake_item": "bio_drill_weap_chorus",

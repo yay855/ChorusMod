@@ -11,13 +11,24 @@
     "reversible": true,
     "decomp_learn": 5,
     "book_learn": [ [ "recipe_augs", 6 ], [ "recipe_lab_elec", 6 ] ],
-    "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
+    "using": [ [ "soldering_standard", 50 ], [ "welding_standard", 25 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 }
+    ],
+    "tools": [ [ [ "autoclave", 5000 ], [ "fake_autoclave", -1 ] ] ],
     "components": [
-      [ [ "power_supply", 6 ], [ "UPS_off", 1 ] ],
-      [ [ "amplifier", 4 ] ],
       [ [ "nailgun", 1 ] ],
-      [ [ "burnt_out_bionic", 1 ], [ "processor", 2 ] ]
+      [ [ "canister_empty", 1 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "targeting_module", 1 ] ],
+      [ [ "motor_tiny", 1 ] ],
+      [ [ "cable", 2 ] ],
+      [ [ "burnt_out_bionic", 1 ] ],
+      [ [ "water", 8 ], [ "water_clean", 8 ] ],
+      [ [ "pouch_autoclave", 1 ] ]
     ]
   },
   {
@@ -32,13 +43,22 @@
     "reversible": true,
     "decomp_learn": 5,
     "book_learn": [ [ "recipe_augs", 6 ], [ "recipe_lab_elec", 6 ] ],
-    "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
+    "using": [ [ "soldering_standard", 50 ], [ "welding_standard", 25 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 }
+    ],
+    "tools": [ [ [ "autoclave", 5000 ], [ "fake_autoclave", -1 ] ] ],
     "components": [
-      [ [ "power_supply", 6 ], [ "UPS_off", 1 ] ],
-      [ [ "amplifier", 4 ] ],
-      [ [ "cordless_drill", 2 ] ],
-      [ [ "burnt_out_bionic", 1 ], [ "processor", 2 ] ]
+      [ [ "power_supply", 2 ] ],
+      [ [ "alloy_sheet", 4 ] ],
+      [ [ "motor_tiny", 2 ] ],
+      [ [ "cable", 2 ] ],
+      [ [ "burnt_out_bionic", 1 ] ],
+      [ [ "water", 8 ], [ "water_clean", 8 ] ],
+      [ [ "pouch_autoclave", 1 ] ]
     ]
   },
   {
@@ -53,13 +73,24 @@
     "reversible": true,
     "decomp_learn": 5,
     "book_learn": [ [ "recipe_augs", 6 ], [ "recipe_lab_elec", 6 ] ],
-    "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
+    "using": [ [ "soldering_standard", 50 ], [ "welding_standard", 25 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 }
+    ],
+    "tools": [ [ [ "autoclave", 5000 ], [ "fake_autoclave", -1 ] ] ],
     "components": [
-      [ [ "power_supply", 6 ], [ "UPS_off", 1 ] ],
-      [ [ "amplifier", 4 ] ],
-      [ [ "cordage_superior_short", 1, "LIST" ] ],
-      [ [ "burnt_out_bionic", 1 ], [ "processor", 2 ] ]
+      [ [ "carbon_fiber_filament", 100 ] ],
+      [ [ "canister_empty", 1 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "targeting_module", 1 ] ],
+      [ [ "motor_tiny", 1 ] ],
+      [ [ "cable", 2 ] ],
+      [ [ "burnt_out_bionic", 1 ] ],
+      [ [ "water", 8 ], [ "water_clean", 8 ] ],
+      [ [ "pouch_autoclave", 1 ] ]
     ]
   }
 ]
