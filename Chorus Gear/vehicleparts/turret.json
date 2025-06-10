@@ -1,0 +1,19 @@
+[
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "shardgun_t",
+    "name": "mounted shardgun",
+    "looks_like": "mounted_heavy_rail_rifle",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "chorus_shardgun",
+    "folded_volume": "2500 ml",
+    "breaks_into": [ { "item": "chorus_shardgun", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 10 ], [ "electronics", 10 ] ] },
+      "removal": { "skills": [ [ "mechanics", 6 ] ] }
+    }
+  }
+]

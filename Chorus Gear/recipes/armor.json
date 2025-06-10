@@ -11,7 +11,7 @@
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "wire", 2 ] ], [ [ "glass_tinted", 1 ] ] ]
   },
-    {
+  {
     "result": "fitover_sunglasses",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -23,7 +23,7 @@
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "wire", 2 ] ], [ [ "glass_tinted", 1 ] ] ]
   },
-    {
+  {
     "result": "fancy_sunglasses",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -35,7 +35,7 @@
     "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 15, "LIST" ] ] ],
     "components": [ [ [ "plastic_chunk", 2 ] ], [ [ "glass_tinted", 1 ] ] ]
   },
-   {
+  {
     "result": "tinted_goggles_chorus",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -45,17 +45,21 @@
     "time": "15 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "cordage_superior", 1, "LIST" ] ], [ [ "bottle_plastic", 1 ], [ "bottle_plastic_small", 2 ] ], [ [ "glass_tinted", 1 ] ] ]
+    "components": [
+      [ [ "cordage_superior", 1, "LIST" ] ],
+      [ [ "bottle_plastic", 1 ], [ "bottle_plastic_small", 2 ] ],
+      [ [ "glass_tinted", 1 ] ]
+    ]
   },
   {
-	"result": "mask_dust",
-	"type": "recipe",
-	"category": "CC_ARMOR",
-	"subcategory": "CSC_ARMOR_HEAD",
-	"skill_used": "tailor",
-	"difficulty": 2,
-	"time": "20 m",
-	"autolearn": true,
+    "result": "mask_dust",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": "20 m",
+    "autolearn": true,
     "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "rag", 3 ] ], [ [ "filament", 6, "LIST" ] ] ]
   },
@@ -72,11 +76,7 @@
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 6 ], [ "advanced_electronics", 6 ], [ "textbook_electronics", 6 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [
-      [ [ "chain_link", 10000 ] ],
-      [ [ "wire", 20 ] ],
-      [ [ "rag", 26 ] ]
-    ]
+    "components": [ [ [ "chain_link", 10000 ] ], [ [ "wire", 20 ] ], [ [ "rag", 26 ] ] ]
   },
   {
     "result": "chainmail_skin_faraday_chorus",
@@ -91,11 +91,7 @@
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 6 ], [ "advanced_electronics", 6 ], [ "textbook_electronics", 6 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [
-      [ [ "chainmail_skin_chorus", 1 ] ],
-      [ [ "wire", 10 ] ],
-      [ [ "cable", 20 ] ]
-    ]
+    "components": [ [ [ "chainmail_skin_chorus", 1 ] ], [ [ "wire", 10 ] ], [ [ "cable", 20 ] ] ]
   },
   {
     "result": "corset",
@@ -145,23 +141,19 @@
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "components": [ [ [ "filament", 40, "LIST" ] ], [ [ "rag", 10 ] ] ]
   },
-    {
+  {
     "result": "rubber_skintight_chorus",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
     "skill_used": "tailor",
     "skills_required": [ "fabrication", 4 ],
-    "difficulty": 5,
+    "difficulty": 7,
     "time": "2 h",
     "autolearn": true,
     "using": [ [ "sewing_standard", 40 ] ],
-    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 15, "LIST" ] ] ],
-    "components": [
-	[ [ "rag", 7 ] ],
-	[ [ "chunk_rubber", 20 ] ],
-	[ [ "plastic_chunk", 16 ] ]
-	]
+    "qualities": [ { "id": "SEW_CURVED", "level": 1 } ],
+    "components": [ [ [ "rag", 12 ] ], [ [ "neoprene", 20 ] ] ]
   },
   {
     "result": "roller_shoes_off",
@@ -174,11 +166,7 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 8 ] ],
     "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 15, "LIST" ] ] ],
-    "components": [
-	[ [ "rag", 5 ] ],
-	[ [ "chunk_rubber", 2 ] ],
-	[ [ "plastic_chunk", 2 ] ]
-	]
+    "components": [ [ [ "rag", 5 ] ], [ [ "chunk_rubber", 2 ] ], [ [ "plastic_chunk", 2 ] ] ]
   },
   {
     "result": "dress",
@@ -229,11 +217,7 @@
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 6 ], [ "advanced_electronics", 6 ], [ "textbook_electronics", 6 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [
-      [ [ "chainmail_hood", 1 ] ],
-      [ [ "wire", 5 ] ],
-      [ [ "cable", 10 ] ]
-    ]
+    "components": [ [ [ "chainmail_hood", 1 ] ], [ [ "wire", 5 ] ], [ [ "cable", 10 ] ] ]
   },
   {
     "result": "skirt_armor_kevlar",

@@ -18,7 +18,13 @@
       [ "textbook_gaswarfare", 3 ]
     ],
     "qualities": [ { "id": "WRENCH", "level": 1 } ],
-    "components": [ [ [ "goggles_ski", 1 ], [ "goggles_swim", 2 ] ], [ [ "mask_filter", 3 ] ], [ [ "hose", 1 ] ], [ [ "charcoal", 20 ] ], [ [ "e_scrap", 3 ] ] ]
+    "components": [
+      [ [ "goggles_ski", 1 ], [ "goggles_swim", 2 ] ],
+      [ [ "mask_filter", 3 ] ],
+      [ [ "hose", 1 ] ],
+      [ [ "charcoal", 20 ] ],
+      [ [ "e_scrap", 3 ] ]
+    ]
   },
   {
     "result": "mask_gas_half_elec_chorus",

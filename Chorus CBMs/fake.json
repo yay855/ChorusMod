@@ -1,10 +1,10 @@
 [
   {
     "id": "bio_railgun_gun_chorus",
-    "looks_like": "glock_19",
+    "looks_like": "bio_shotgun_arm",
     "type": "GUN",
-    "name": { "str": "bionic railgun" },
-    "description": "Bionic retracting railgun integrated with your arm.",
+    "name": { "str": "bionic shardgun" },
+    "description": "Bionic retracting shardgun integrated with your arm.",
     "volume": "103 ml",
     "reload_noise_volume": 3,
     "price": 0,
@@ -13,15 +13,14 @@
     "material": [ "superalloy", "plastic" ],
     "symbol": "(",
     "color": "cyan",
-    "skill": "smg",
-    "ammo": [ "pebble", "nail" ],
-    "ranged_damage": { "damage_type": "stab", "amount": 30 },
+    "skill": "shotgun",
+    "ammo": [ "slivers" ],
     "range": 10,
-    "dispersion": 10,
+    "dispersion": 100,
     "durability": 10,
-    "clip_size": 40,
-    "modes": [ [ "DEFAULT", "single shot", 1 ], [ "burst", "triple shot", 3 ], [ "AUTO", "auto", 6 ] ],
-    "reload": 80,
+    "clip_size": 10,
+    "modes": [ [ "DEFAULT", "single shot", 1 ], [ "AUTO", "auto", 5 ] ],
+    "reload": 350,
     "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
   },
   {
@@ -42,7 +41,7 @@
   },
   {
     "id": "bio_smg_gun_chorus",
-    "looks_like": "uzi",
+    "looks_like": "bio_shotgun_arm",
     "type": "GUN",
     "name": { "str": "bionic SMG" },
     "description": "Bionic retracting submachine gun integrated with your arm.",
@@ -54,12 +53,12 @@
     "symbol": "(",
     "color": "blue",
     "skill": "smg",
-    "dispersion": 140,
+    "dispersion": 100,
     "durability": 10,
     "clip_size": 40,
     "ammo": [ "9mm", "22", "45" ],
     "modes": [ [ "DEFAULT", "single shot", 1 ], [ "burst", "triple shot", 3 ], [ "AUTO", "auto", 6 ] ],
-    "reload": 100,
+    "reload": 200,
     "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
   },
   {
@@ -82,10 +81,10 @@
   },
   {
     "id": "bio_crossbow_gun_chorus",
-    "looks_like": "crossbow",
+    "looks_like": "bio_shotgun_arm",
     "type": "GUN",
     "name": { "str": "bionic bolt launcher" },
-    "description": "A bionic burst-fire retracting bolt launcher integrated with your arm.",
+    "description": "A bionic retracting bolt launcher integrated with your arm.",
     "reload_noise_volume": 5,
     "volume": "103 ml",
     "price": 0,
@@ -96,13 +95,13 @@
     "color": "cyan",
     "skill": "rifle",
     "ammo": [ "arrow", "bolt" ],
-    "ranged_damage": { "damage_type": "stab", "amount": 60 },
+    "ranged_damage": { "damage_type": "stab", "amount": 55 },
     "range": 30,
     "dispersion": 150,
     "durability": 10,
-    "clip_size": 12,
-    "modes": [ [ "DEFAULT", "single shot", 1 ], [ "burst", "triple shot", 3 ] ],
-    "reload": 50,
-    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
+    "clip_size": 4,
+    "modes": [ [ "DEFAULT", "single shot", 1 ] ],
+    "reload": 200,
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID" ]
   }
 ]

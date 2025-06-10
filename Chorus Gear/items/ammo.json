@@ -1,5 +1,17 @@
 [
   {
+    "id": "stake",
+    "name": "stakes",
+    "default": "stake_steel_chorus",
+    "type": "ammunition_type"
+  },
+  {
+    "id": "slivers",
+    "name": "slivers",
+    "default": "sliver_steel_chorus",
+    "type": "ammunition_type"
+  },
+  {
     "id": "sabot_chorus_lead",
     "type": "AMMO",
     "name": { "str": "lead electromagnetic sabot round", "str_pl": "lead electromagnetic sabot rounds" },
@@ -152,6 +164,24 @@
     "loudness": 0,
     "to_hit": -1,
     "dont_recover_one_in": 100,
+    "effects": [ "NEVER_MISFIRES", "NON_FOULING" ]
+  },
+  {
+    "type": "AMMO",
+    "id": "sliver_steel_chorus",
+    "symbol": "'",
+    "color": "light_gray",
+    "looks_like": "bearing",
+    "name": { "str": "shardgun feedstock" },
+    "description": "A handful of metal particulate designed for use in mass accelerator weaponry.",
+    "material": "steel",
+    "ammo_type": "slivers",
+    "weight": "15 g",
+    "volume": "15 ml",
+    "damage": { "damage_type": "bullet", "amount": 40, "armor_penetration": 30 },
+    "range": 15,
+    "dispersion": 10,
+    "loudness": 10,
     "effects": [ "NEVER_MISFIRES", "NON_FOULING" ]
   }
 ]

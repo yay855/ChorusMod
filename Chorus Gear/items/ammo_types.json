@@ -1,8 +1,0 @@
-[
-    {
-        "id": "stake",
-        "name": "stakes",
-        "default": "stake_steel_chorus",
-        "type": "ammunition_type"
-    }
-]

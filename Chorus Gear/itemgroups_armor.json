@@ -3,17 +3,13 @@
     "id": "clothing_outdoor_set",
     "type": "item_group",
     "subtype": "collection",
-    "entries": [
-      { "item": "leather_dress_chorus", "prob": 10 }
-    ]
+    "entries": [ { "item": "leather_dress_chorus", "prob": 10 } ]
   },
   {
     "id": "clothing_work_glasses",
     "type": "item_group",
     "subtype": "distribution",
-    "entries": [
-      { "item": "tinted_goggles_chorus", "prob": 10 }
-    ]
+    "entries": [ { "item": "tinted_goggles_chorus", "prob": 10 } ]
   },
   {
     "id": "hardware_clothing",
@@ -24,9 +20,7 @@
     "id": "donated_clothes",
     "type": "item_group",
     "subtype": "collection",
-    "entries": [
-      { "item": "leather_dress_chorus", "prob": 10 }
-    ]
+    "entries": [ { "item": "leather_dress_chorus", "prob": 10 } ]
   },
   {
     "id": "dress_shop",
@@ -36,11 +30,7 @@
   {
     "id": "female_underwear_top",
     "type": "item_group",
-    "items": [
-      ["corset_cloth_chorus", 5 ],
-      ["corset_leather_pockets_chorus", 5 ],
-      ["corset_cloth_pockets_chorus", 5 ]
-    ]
+    "items": [ [ "corset_cloth_chorus", 5 ], [ "corset_leather_pockets_chorus", 5 ], [ "corset_cloth_pockets_chorus", 5 ] ]
   },
   {
     "id": "allclothes",
@@ -68,8 +58,6 @@
     "id": "suits_unisex",
     "type": "item_group",
     "subtype": "distribution",
-    "entries": [
-      { "item": "rubber_skintight_chorus", "prob": 1 }
-    ]
+    "entries": [ { "item": "rubber_skintight_chorus", "prob": 1 } ]
   }
 ]

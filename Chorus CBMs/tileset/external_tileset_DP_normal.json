@@ -1,0 +1,14 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE" ],
+    "tiles-new": [
+      {
+        "file": "tileset/chorusCBM_dp_normal.png",
+        "tiles": [ { "id": "bio_drill_weap_chorus", "fg": 0 } ],
+        "sprite_width": 32,
+        "sprite_height": 32
+      }
+    ]
+  }
+]

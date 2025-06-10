@@ -28,7 +28,7 @@
     "id": "survbelt_chorus",
     "type": "MIGRATION",
     "replace": "survivor_belt_notools",
-    "contents": [ "screwdriver_set", "wrench", "saw", "hacksaw", "hammer", "scalpel" ]
+    "contents": [ "e_tool", "scalpel" ]
   },
   {
     "type": "recipe",

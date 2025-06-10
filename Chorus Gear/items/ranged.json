@@ -294,7 +294,7 @@
     "price": "871 USD",
     "price_postapoc": "40 USD",
     "material": [ "steel", "wood" ],
-    "weight": "5360 g",
+    "weight": "4360 g",
     "volume": "3 L",
     "bashing": 8,
     "to_hit": -1,
@@ -329,5 +329,31 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ]
+  },
+  {
+    "id": "chorus_shardgun",
+    "type": "GUN",
+    "copy-from": "rifle_magnetic",
+    "color": "light_gray",
+    "symbol": "p",
+    "name": { "str": "magnetic shardgun" },
+    "description": "This weapon is the result of years of research and your own efforts and learning, resulting in a magnetic shotgun that fires clusters of metal shards at high speeds.  Unfortunately, due to the nature of the ammunition, it cannot use magazines, it is somewhat slow to reload, and it is fairly heavy.",
+    "price": "1000 USD",
+    "material": [ "steel", "copper" ],
+    "weight": "7 kg",
+    "volume": "2 L",
+    "skill": "shotgun",
+    "bashing": 8,
+    "to_hit": -1,
+    "ammo": "slivers",
+    "clip_size": 25,
+    "dispersion": 100,
+    "range": 15,
+    "loudness": 20,
+    "ranged_damage": { "damage_type": "bullet", "amount": 15, "armor_penetration": 15 },
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
+    "durability": 5,
+    "ups_charges": 20,
+    "reload": 250
   }
 ]
