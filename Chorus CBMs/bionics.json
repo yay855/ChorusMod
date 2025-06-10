@@ -35,7 +35,7 @@
     "name": { "str": "Bionic Shardgun" },
     "description": "Concealed in your left arm is a railgun designed to fire clusters of metal particulate at massively accelerated speeds.  The smaller size means that it is slower to reload and less powerful.  Activate the bionic to fire and reload it.",
     "occupied_bodyparts": [ [ "arm_l", 10 ] ],
-    "act_cost": "20 kJ",
+    "act_cost": "25 kJ",
     "fake_item": "bio_railgun_gun_chorus",
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "NO_UNWIELD" ]
   },
@@ -55,7 +55,7 @@
     "name": { "str": "Bionic Submachine Gun" },
     "description": "Concealed in your left arm is a submachine gun designed to use a variety of handgun ammunition types. Activate the bionic to fire and reload it.",
     "occupied_bodyparts": [ [ "arm_l", 10 ] ],
-    "act_cost": "10 kJ",
+    "act_cost": "25 kJ",
     "fake_item": "bio_smg_gun_chorus",
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "NO_UNWIELD" ]
   },
