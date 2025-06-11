@@ -35,7 +35,7 @@
     "name": { "str": "Bionic Shardgun" },
     "description": "Concealed in your left arm is a railgun designed to fire clusters of metal particulate at massively accelerated speeds.  The smaller size means that it is slower to reload and less powerful, and requires a lot of bionic energy to activate.  Activate the bionic to fire and reload it.",
     "occupied_bodyparts": [ [ "arm_l", 10 ] ],
-    "act_cost": "200 kJ",
+    "act_cost": "100 kJ",
     "fake_item": "bio_railgun_gun_chorus",
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "NO_UNWIELD" ]
   },
