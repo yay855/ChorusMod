@@ -4,7 +4,7 @@
     "copy-from": "slingshot",
     "type": "GUN",
     "name": { "str": "slingshot" },
-    "ranged_damage": { "damage_type": "bash", "amount": 6 }
+    "ranged_damage": { "damage_type": "bash", "amount": 6 },
     "range": 13
   },
   {
@@ -12,7 +12,7 @@
     "copy-from": "wristrocket",
     "type": "GUN",
     "name": { "str": "brace slingshot" },
-    "ranged_damage": { "damage_type": "bash", "amount": 15 }
+    "ranged_damage": { "damage_type": "bash", "amount": 15 },
     "range": 20
   },
   {
