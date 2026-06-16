@@ -1,0 +1,12 @@
+[
+  {
+    "id": "material_iron",
+    "type": "MIGRATION",
+    "replace": "iron_ore"
+  },
+  {
+    "id": "material_copper",
+    "type": "MIGRATION",
+    "replace": "copper_ore"
+  }
+]

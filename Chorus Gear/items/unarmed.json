@@ -46,7 +46,6 @@
     "description": "A few rocks tied to your fists using string or cordage.  Not exactly the most graceful weapon, but it works.",
     "weight": "492 g",
     "volume": "250 ml",
-    "price": 4500,
     "bashing": 3,
     "cutting": 2,
     "material": [ "stone" ],
@@ -75,8 +74,7 @@
     "description": "A steel brace with a superalloy metal blade at the end hammered and sharpened into place.",
     "cutting": 36,
     "to_hit": 3,
-    "material": [ "superalloy" ],
-    "price_postapoc": 2000
+    "material": [ "superalloy" ]
   },
   {
     "type": "GENERIC",
